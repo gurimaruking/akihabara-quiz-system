@@ -1,106 +1,196 @@
-# ロボアニメクイズ大会システム
+# Akihabara Quiz System
+
+Multi-tournament interactive quiz system with hardware buzzer support
 
 ## 概要
-ロボスタディオンの宴会・イベント用クイズシステム
 
-## 機能
-- ⚡ 早押しクイズ（キーボード対応）
-- 🎨 シルエットクイズ（段階的ヒント表示）
-- 🎵 イントロクイズ（音声再生）
+秋葉原スタイルのマルチ大会対応クイズシステム。RP2040 Pico W ハードウェアブザー統合、3つの異なるテーマ大会、リアルタイム観客画面同期を特徴とします。
 
-## 使い方
+## 特徴
 
-### 起動方法
+### 🎯 3つのクイズ大会
+- **🤖 ロボットアニメクイズ大会** - 1995年以降のロボットアニメ (120問)
+- **😂 ネットミームクイズ大会** - インターネット文化とミーム (120問)
+- **📺 2000年代アニメクイズ大会** - 2000-2009年放送作品 (120問)
+
+### 🎮 クイズモード
+- **⚡ 早押しクイズ** - 段階的テキスト表示、難易度別得点 (10/20/30pt)
+- **🎨 シルエットクイズ** - 3段階ヒントシステム
+- **🎵 イントロクイズ** - YouTube動画再生対応
+
+### 🔧 ハードウェア統合
+- **RP2040 Pico W ブザーサポート** - 10個のアーケードボタン (GP3-GP12)
+- USB HID キーボードエミュレーション
+- CircuitPython ファームウェア
+
+### 🎨 ユーザーインターフェース
+- リアルタイム観客画面同期 (BroadcastChannel API)
+- プレイヤー名のクリック編集
+- 不正解プレイヤーの再ブザー防止
+- MP3効果音 (出題/ブザー/正解/不正解)
+- 動的大会タイトル表示
+
+## クイックスタート
+
+### 方法1: ダウンロード版 (推奨)
+1. `RoboAnimeQuiz.zip` をダウンロード
+2. 解凍
+3. `index.html` をブラウザで開く
+4. プレイヤー設定 → ゲーム開始 → 大会選択
+
+### 方法2: ローカルサーバー版
 ```bash
-cd /home/claude/robot_anime_quiz
-python3 -m http.server 8000
+cd akihabara-quiz-system
+python -m http.server 8000
 ```
-
 ブラウザで `http://localhost:8000` にアクセス
 
-### 操作方法
+## ハードウェアブザーセットアップ
 
-#### 司会者操作
+### 必要なもの
+- Raspberry Pi Pico W (RP2040)
+- アーケードボタン 10個
+- ジャンパーワイヤー
+
+### 配線
+```
+ボタン1  → GP3  → GND
+ボタン2  → GP4  → GND
+ボタン3  → GP5  → GND
+ボタン4  → GP6  → GND
+ボタン5  → GP7  → GND
+ボタン6  → GP8  → GND
+ボタン7  → GP9  → GND
+ボタン8  → GP10 → GND
+ボタン9  → GP11 → GND
+ボタン10 → GP12 → GND
+
+注: GP0, GP1 (UART0), GP2 (WiFi) は予約済み
+```
+
+### ファームウェアインストール
+1. CircuitPython 9.x を Pico W にインストール
+2. `adafruit_hid` ライブラリを `CIRCUITPY/lib/` にコピー
+3. `pico_buzzer/code.py` を `CIRCUITPY/code.py` にコピー
+4. Pico W を再接続
+
+## キーボード操作
+
+### ゲームマスター (GM)
+- **1-0**: プレイヤーブザー (1-9, 0=プレイヤー10)
 - **Enter**: 正解表示
-- **→（右矢印）**: 次の問題
-- **スペース**: ヒント表示（シルエット）/ イントロ再生
+- **→**: 次の問題
+- **Space**: ヒント表示 (シルエット) / イントロ再生
+- **O**: 正解判定
+- **X**: 不正解判定
+- **R**: ブザーリセット
 
-#### 参加者操作
-- **1〜6キー**: 早押しボタン（プレイヤー1〜6）
-
-#### 得点管理（テスト用）
-- **Shift + 1〜6**: 該当プレイヤーに10pt加算
+### プレイヤー
+- **1-0キー** (キーボードまたはPico Wブザー)
 
 ## ファイル構成
+
 ```
-robot_anime_quiz/
-├── index.html          # メインファイル
-├── data/
-│   └── questions.json  # 問題データベース
-├── images/             # シルエット画像（今後追加）
-└── audio/              # イントロ音声（今後追加）
+akihabara-quiz-system/
+├── index.html              # GM管理画面
+├── audience.html           # 観客表示画面
+├── questions.json          # 大会問題データ (360問)
+├── Sound/                  # 効果音
+│   ├── shutudai.mp3       # 出題音
+│   ├── katou.mp3          # ブザー音
+│   ├── seikai.mp3         # 正解音
+│   └── fuseikai.mp3       # 不正解音
+├── pico_buzzer/
+│   └── code.py            # Pico W ファームウェア
+├── RoboAnimeQuiz.zip      # 配布パッケージ
+└── README.md
 ```
 
-## 問題データの追加方法
+## 問題データ構造
 
-`data/questions.json` を編集して問題を追加できます。
-
-### 早押しクイズ
+### Tournament形式 (新)
 ```json
 {
-  "id": 11,
-  "question": "問題文",
-  "answer": "正解",
-  "difficulty": 1  // 1=初級, 2=中級, 3=上級
+  "tournaments": {
+    "robot_anime": {
+      "title": "チキチキ ロボスタディオン ロボットアニメクイズ大会!!",
+      "hayaoshi": [120問],
+      "silhouette": [...],
+      "intro": [...]
+    },
+    "net_meme": { ... },
+    "2000s_anime": { ... }
+  }
 }
 ```
 
-### シルエットクイズ
+### 早押し問題
 ```json
 {
-  "id": 6,
-  "robot_name": "ロボット名",
-  "hint1": "ヒント1",
-  "hint2": "ヒント2",
-  "hint3": "ヒント3",
-  "difficulty": 2
+  "id": 1,
+  "question": "「逃げちゃダメだ」が口癖の、新世紀エヴァンゲリオンの主人公は誰？",
+  "answer": "碇シンジ",
+  "difficulty": 1,
+  "points": 10
 }
 ```
 
-### イントロクイズ
+## 技術スタック
+
+- **フロントエンド**: Vanilla JavaScript, HTML5, CSS3
+- **通信**: BroadcastChannel API (GM ↔ 観客画面)
+- **ハードウェア**: CircuitPython, USB HID
+- **オーディオ**: HTML5 Audio API (MP3)
+- **ビデオ**: YouTube IFrame API
+
+## 後方互換性
+
+旧形式の`questions.json`も自動変換サポート:
 ```json
 {
-  "id": 6,
-  "anime_title": "アニメタイトル",
-  "song_title": "曲名",
-  "artist": "歌手名",
-  "hint": "ヒント",
-  "difficulty": 2
+  "hayaoshi": [...],
+  "silhouette": [...],
+  "intro": [...]
 }
 ```
-
-## 今後の拡張予定
-- [ ] 実際のシルエット画像生成
-- [ ] イントロ音声ファイル再生
-- [ ] ESP32早押しボタン対応
-- [ ] 効果音追加
-- [ ] スコア保存機能
-- [ ] 問題のシャッフル機能
-
-## カスタマイズ
-- プレイヤー名は `index.html` の `initPlayers()` 関数で変更可能
-- デザインは `<style>` タグ内で調整可能
-- 問題数は `questions.json` で自由に追加可能
+→ 自動的に `tournaments.robot_anime` に変換
 
 ## トラブルシューティング
 
-### 問題が表示されない
-- ブラウザの開発者ツール（F12）でエラーを確認
-- `questions.json` の形式が正しいか確認
+### Pico W ブザーが反応しない
+- GP0-GP2 を使用していないか確認 (予約済み)
+- CircuitPythonバージョンを確認 (9.x推奨)
+- `adafruit_hid` ライブラリがインストールされているか確認
 
-### キーが反応しない
-- ページがアクティブか確認（クリックしてフォーカス）
-- キーボードが正しく接続されているか確認
+### 観客画面が同期しない
+- 同じブラウザで開いているか確認
+- BroadcastChannel API サポートブラウザを使用 (Chrome, Edge, Firefox)
+
+### 音声が再生されない
+- `Sound/` フォルダにMP3ファイルがあるか確認
+- ブラウザの自動再生ポリシーを確認
+
+## カスタマイズ
+
+### 新しい大会を追加
+1. `questions.json` に新しいtournamentを追加
+2. `index.html` の tournament-screen に新しいボタンを追加
+3. アイコンとカラーをカスタマイズ
+
+### デザイン変更
+- CSS変数 (`:root`) でカラーテーマを調整
+- グラデーション、フォント、アニメーションをカスタマイズ
+
+## ライセンス
+
+MIT License
+
+## クレジット
+
+Created with ❤️ by Robostadion Team
+
+Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>
 
 ---
-Created by 村田一樹 @ Robostadion
+
+**Akihabara Quiz System** - Ultimate multi-tournament quiz experience with hardware integration
