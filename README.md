@@ -8,10 +8,11 @@ Multi-tournament interactive quiz system with hardware buzzer support
 
 ## 特徴
 
-### 🎯 3つのクイズ大会
+### 🎯 4つのクイズ大会
 - **🤖 ロボットアニメクイズ大会** - 1995年以降のロボットアニメ (120問)
 - **😂 ネットミームクイズ大会** - インターネット文化とミーム (120問)
-- **📺 2000年代アニメクイズ大会** - 2000-2009年放送作品 (120問)
+- **📺 2000年代以降アニメクイズ大会** - 2000年以降の名作アニメ (120問)
+- **🎬 2000年代以前アニメクイズ大会** - 昭和・平成初期の名作 (120問)
 
 ### 🎮 クイズモード
 - **⚡ 早押しクイズ** - 段階的テキスト表示、難易度別得点 (10/20/30pt)
@@ -94,7 +95,12 @@ python -m http.server 8000
 akihabara-quiz-system/
 ├── index.html              # GM管理画面
 ├── audience.html           # 観客表示画面
-├── questions.json          # 大会問題データ (360問)
+├── tournaments/            # 大会別問題データ
+│   ├── robot_anime.json   # ロボットアニメ (120問)
+│   ├── net_meme.json      # ネットミーム (120問)
+│   ├── modern_anime.json  # 2000年代以降 (120問)
+│   └── classic_anime.json # 2000年代以前 (120問)
+├── questions.json          # レガシー用（後方互換）
 ├── Sound/                  # 効果音
 │   ├── shutudai.mp3       # 出題音
 │   ├── katou.mp3          # ブザー音

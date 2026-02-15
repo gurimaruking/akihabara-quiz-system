@@ -220,6 +220,7 @@ button:disabled:active { transform: none; }
 .btn-tournament:nth-child(1) { background: linear-gradient(135deg, #ff2d55, #c2185b); }
 .btn-tournament:nth-child(2) { background: linear-gradient(135deg, #00d4ff, #0077b6); }
 .btn-tournament:nth-child(3) { background: linear-gradient(135deg, #ffd700, #e6a800); color: #1a1a35; }
+.btn-tournament:nth-child(4) { background: linear-gradient(135deg, #b24dff, #7b1fa2); }
 .tournament-text-content {
   display: flex;
   flex-direction: column;
@@ -820,11 +821,18 @@ button:disabled:active { transform: none; }
         <span class="tournament-sub">インターネット文化とミーム</span>
       </div>
     </button>
-    <button class="btn-tournament" data-tournament="2000s_anime">
+    <button class="btn-tournament" data-tournament="modern_anime">
       <span class="tournament-icon">📺</span>
       <div class="tournament-text-content">
-        <div>2000年代アニメクイズ大会</div>
-        <span class="tournament-sub">2000-2009年放送作品</span>
+        <div>2000年代以降アニメクイズ大会</div>
+        <span class="tournament-sub">2000年以降の名作アニメ</span>
+      </div>
+    </button>
+    <button class="btn-tournament" data-tournament="classic_anime">
+      <span class="tournament-icon">🎬</span>
+      <div class="tournament-text-content">
+        <div>2000年代以前アニメクイズ大会</div>
+        <span class="tournament-sub">昭和・平成初期の名作</span>
       </div>
     </button>
   </div>
@@ -1132,13 +1140,12 @@ button:disabled:active { transform: none; }
     });
 
   function updateModeCounts() {
-    // Update counts based on current tournament selection
-    if (!currentTournament || !tournamentData || !tournamentData[currentTournament]) return;
-    var tData = tournamentData[currentTournament];
+    // Update counts based on loaded tournament data
+    if (!questionsData) return;
     ["hayaoshi", "silhouette", "intro"].forEach(function(m) {
       var el = $("#count-" + m);
-      if (el && tData[m]) {
-        el.textContent = tData[m].length + " 問";
+      if (el && questionsData[m]) {
+        el.textContent = questionsData[m].length + " 問";
       }
     });
   }
@@ -1214,29 +1221,35 @@ button:disabled:active { transform: none; }
       var tournamentId = btn.getAttribute("data-tournament");
       currentTournament = tournamentId;
 
-      if (!tournamentData || !tournamentData[tournamentId]) {
-        alert("Tournament data not found: " + tournamentId);
-        return;
-      }
+      // Dynamically load tournament JSON file
+      fetch("tournaments/" + tournamentId + ".json")
+        .then(function(r) {
+          if (!r.ok) throw new Error("HTTP " + r.status);
+          return r.json();
+        })
+        .then(function(data) {
+          questionsData = data;
 
-      var tData = tournamentData[tournamentId];
-      questionsData = tData;  // Set questions for selected tournament
+          // Update title in header
+          var titleEl = $("#main-title");
+          if (titleEl && data.title) {
+            titleEl.textContent = data.title;
+            titleEl.style.display = "block";
+          }
 
-      // Update title in header
-      var titleEl = $("#main-title");
-      if (titleEl && tData.title) {
-        titleEl.textContent = tData.title;
-        titleEl.style.display = "block";
-      }
+          // Send tournament selection to audience
+          sendMsg("TOURNAMENT_SELECT", { title: data.title });
 
-      // Send tournament selection to audience
-      sendMsg("TOURNAMENT_SELECT", { title: tData.title });
+          // Update mode counts
+          updateModeCounts();
 
-      // Update mode counts
-      updateModeCounts();
-
-      // Go to mode selection
-      showScreen("mode-screen");
+          // Go to mode selection
+          showScreen("mode-screen");
+        })
+        .catch(function(err) {
+          alert("大会データの読み込みに失敗しました: " + tournamentId);
+          console.error(err);
+        });
     });
   });
 

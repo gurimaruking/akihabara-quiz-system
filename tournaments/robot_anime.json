@@ -1,0 +1,847 @@
+{
+  "title": "チキチキ ロボスタディオン ロボットアニメクイズ大会!!",
+  "hayaoshi": [
+    {
+      "id": 1,
+      "question": "「逃げちゃダメだ」が口癖の、新世紀エヴァンゲリオンの主人公は誰？",
+      "answer": "碇シンジ",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 2,
+      "question": "コードギアスで、主人公ルルーシュが名乗る仮面の反逆者の名前は？",
+      "answer": "ゼロ",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 3,
+      "question": "天元突破グレンラガンで、シモンとカミナが搭乗する顔型ロボットの名前は？",
+      "answer": "グレンラガン",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 4,
+      "question": "機動戦士ガンダムSEEDの主人公で、コーディネイターの少年は誰？",
+      "answer": "キラ・ヤマト",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 5,
+      "question": "マクロスFで、歌姫として人気を博すヒロインの名前は？",
+      "answer": "シェリル・ノーム",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 6,
+      "question": "新世紀エヴァンゲリオンで、綾波レイが搭乗するエヴァンゲリオンは何号機？",
+      "answer": "零号機",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 7,
+      "question": "交響詩篇エウレカセブンで、主人公レントンが恋をする少女の名前は？",
+      "answer": "エウレカ",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 8,
+      "question": "機動戦士ガンダム00で、武力介入を行う私設武装組織の名前は？",
+      "answer": "ソレスタルビーイング",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 9,
+      "question": "勇者王ガオガイガーで、主人公の少年ガイが叫ぶ合体時の掛け声は「ファイナル○○○○○」？",
+      "answer": "ファイナルフュージョン",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 10,
+      "question": "機動戦士ガンダム 鉄血のオルフェンズの主人公、三日月・オーガスが搭乗するガンダムの名前は？",
+      "answer": "ガンダム・バルバトス",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 11,
+      "question": "コードギアスで、ルルーシュが持つ「絶対遵守」の力の名前は何？",
+      "answer": "ギアス",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 12,
+      "question": "機動戦士ガンダムSEEDで、キラのライバルとなるザフト軍の赤服パイロットは誰？",
+      "answer": "アスラン・ザラ",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 13,
+      "question": "新世紀エヴァンゲリオンに登場する、人類の敵である謎の存在の総称は？",
+      "answer": "使徒",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 14,
+      "question": "ダーリン・イン・ザ・フランキスで、主人公ヒロのパートナーとなる少女の名前は？",
+      "answer": "ゼロツー",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 15,
+      "question": "天元突破グレンラガンで、「俺を誰だと思っていやがる！」が口癖の兄貴分キャラは誰？",
+      "answer": "カミナ",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 16,
+      "question": "フルメタル・パニック!の主人公で、女子高に潜入する傭兵の名前は？",
+      "answer": "相良宗介",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 17,
+      "question": "機動戦士ガンダム 水星の魔女の主人公である少女の名前は？",
+      "answer": "スレッタ・マーキュリー",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 18,
+      "question": "SSSS.GRIDMANで、主人公の響裕太が変身するヒーローの名前は？",
+      "answer": "グリッドマン",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 19,
+      "question": "新世紀エヴァンゲリオンに登場する、全てのエヴァを管理する組織の名前は？",
+      "answer": "NERV（ネルフ）",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 20,
+      "question": "コードギアスで、ルルーシュが搭乗するナイトメアフレームの名前は？",
+      "answer": "ガウェイン",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 21,
+      "question": "機動戦士ガンダムSEED DESTINYの主人公の名前は？",
+      "answer": "シン・アスカ",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 22,
+      "question": "∀ガンダムの主人公で、月の民でありながら地球で暮らす少年は誰？",
+      "answer": "ロラン・セアック",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 23,
+      "question": "新世紀エヴァンゲリオンで、惣流・アスカ・ラングレーが搭乗するエヴァは何号機？",
+      "answer": "弐号機",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 24,
+      "question": "マクロスFで、もう一人のヒロインであるS.M.S所属の少女は誰？",
+      "answer": "ランカ・リー",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 25,
+      "question": "機動戦士ガンダム00の主人公で、「俺がガンダムだ」の名言で知られるパイロットは？",
+      "answer": "刹那・F・セイエイ",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 26,
+      "question": "天元突破グレンラガンで、シモンが最初に発見した小型ロボットの名前は？",
+      "answer": "ラガン",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 27,
+      "question": "機動戦士ガンダムUCの主人公の名前は？",
+      "answer": "バナージ・リンクス",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 28,
+      "question": "エヴァンゲリオンの総司令官であり、シンジの父親の名前は？",
+      "answer": "碇ゲンドウ",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 29,
+      "question": "機動戦士ガンダム 水星の魔女で、スレッタが搭乗するガンダムの名前は？",
+      "answer": "エアリアル",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 30,
+      "question": "機動戦艦ナデシコの主人公で、料理が得意な元民間人パイロットは誰？",
+      "answer": "テンカワ・アキト",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 31,
+      "question": "機動戦士ガンダム00で、刹那が最初に搭乗するガンダムの名前は？",
+      "answer": "ガンダムエクシア",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 32,
+      "question": "エヴァンゲリオンで、渚カヲルが搭乗するエヴァンゲリオンは何号機？",
+      "answer": "Mark.06",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 33,
+      "question": "コードギアスで、C.C.が好きな食べ物は？",
+      "answer": "ピザ",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 34,
+      "question": "天元突破グレンラガンで、ヨーコが使用する武器の名前は？",
+      "answer": "ヨーコライフル",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 35,
+      "question": "機動戦士ガンダムSEEDで、フリーダムガンダムの武装に含まれる大型ビーム砲は？",
+      "answer": "プラズマ収束ビーム砲",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 36,
+      "question": "マクロスFで、主人公早乙女アルトが搭乗するバルキリーの型番は？",
+      "answer": "VF-25メサイア",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 37,
+      "question": "エウレカセブンで、エウレカとレントンの養子の一人、長男の名前は？",
+      "answer": "モーリス",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 38,
+      "question": "機動戦士ガンダム 鉄血のオルフェンズで、三日月が所属する組織の名前は？",
+      "answer": "鉄華団",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 39,
+      "question": "ダーリン・イン・ザ・フランキスで、ゼロツーが搭乗するフランクスの名前は？",
+      "answer": "ストレリチア",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 40,
+      "question": "機動戦士ガンダムUCに登場する、赤い彗星の再来と呼ばれるパイロットは？",
+      "answer": "フル・フロンタル",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 41,
+      "question": "SSSS.GRIDMANで、新条アカネが作り出す敵の総称は？",
+      "answer": "怪獣",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 42,
+      "question": "プラネット・ウィズで、主人公黒井宗矢が搭乗する巨大兵器の形状は？",
+      "answer": "猫型",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 43,
+      "question": "境界戦機で、主人公椎葉アモウが搭乗するAMAIMの名前は？",
+      "answer": "ケンブ",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 44,
+      "question": "エヴァンゲリオンで、マヤ・イブキの上司である赤木博士の名前は？",
+      "answer": "赤木リツコ",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 45,
+      "question": "機動戦士ガンダム00で、初代ロックオン・ストラトスの本名は？",
+      "answer": "ニール・ディランディ",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 46,
+      "question": "コードギアスで、枢木スザクが所属する組織は？",
+      "answer": "ブリタニア軍",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 47,
+      "question": "天元突破グレンラガンで、ニアの正体は何？",
+      "answer": "アンチスパイラルのメッセンジャー",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 48,
+      "question": "機動戦士ガンダムSEED DESTINYで、シン・アスカが最終的に搭乗するガンダムは？",
+      "answer": "デスティニーガンダム",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 49,
+      "question": "マクロスΔで、ワルキューレのリーダーを務める歌姫の名前は？",
+      "answer": "美雲・ギンヌメール",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 50,
+      "question": "交響詩篇エウレカセブンで、ホランドが艦長を務める艦の名前は？",
+      "answer": "月光号",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 51,
+      "question": "機動戦士ガンダム 水星の魔女で、スレッタの母親の名前は？",
+      "answer": "プロスペラ・マーキュリー",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 52,
+      "question": "ダーリン・イン・ザ・フランキスで、ヒロが所属する部隊の番号は？",
+      "answer": "第13都市部隊",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 53,
+      "question": "機動戦士ガンダム 鉄血のオルフェンズで、オルガ・イツカの名言は？",
+      "answer": "止まるんじゃねぇぞ",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 54,
+      "question": "SSSS.DYNAZENONで、主人公麻中蓬が搭乗するダイナゼノンの部位は？",
+      "answer": "ダイナソルジャー",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 55,
+      "question": "バック・アロウで、主人公アロウが使う武装の名前は？",
+      "answer": "ブリガンダイン",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 56,
+      "question": "エヴァンゲリオンで、第3の使徒の名前は？",
+      "answer": "サキエル",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 57,
+      "question": "機動戦士ガンダム00で、トランザムシステムの効果は？",
+      "answer": "機体性能を3倍に引き上げる",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 58,
+      "question": "コードギアスで、黒の騎士団の副司令を務めるキャラクターは？",
+      "answer": "扇要",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 59,
+      "question": "天元突破グレンラガンで、大グレン団の司令官を務めるキャラクターは？",
+      "answer": "ロシウ",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 60,
+      "question": "機動戦士ガンダムSEEDで、ストライクガンダムの換装システムの名称は？",
+      "answer": "ストライカーパック",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 61,
+      "question": "マクロスFで、ランカ・リーの兄の名前は？",
+      "answer": "オズマ・リー",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 62,
+      "question": "交響詩篇エウレカセブンで、LFOを操縦するために必要な粒子の名前は？",
+      "answer": "トラパー",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 63,
+      "question": "機動戦士ガンダムUCで、ユニコーンガンダムのデストロイモードの特徴は？",
+      "answer": "装甲が展開し赤く発光する",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 64,
+      "question": "SSSS.GRIDMANで、内海将の趣味は？",
+      "answer": "特撮",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 65,
+      "question": "プラネット・ウィズで、黒井宗矢の正体は？",
+      "answer": "宇宙人",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 66,
+      "question": "機動戦士ガンダム 水星の魔女で、スレッタの婚約者の名前は？",
+      "answer": "ミオリネ・レンブラン",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 67,
+      "question": "ダーリン・イン・ザ・フランキスで、イチゴのコードネームは？",
+      "answer": "015",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 68,
+      "question": "機動戦士ガンダム 鉄血のオルフェンズで、阿頼耶識システムを開発した勢力は？",
+      "answer": "ギャラルホルン",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 69,
+      "question": "ゲッターロボアークで、主人公拓馬が搭乗するゲッターの号機は？",
+      "answer": "ゲッター1",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 70,
+      "question": "エヴァンゲリオンで、加持リョウジが調査していた機密は？",
+      "answer": "セカンドインパクトの真実",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 71,
+      "question": "機動戦士ガンダム00で、イノベイターの真の目的を知るキャラクターは？",
+      "answer": "リボンズ・アルマーク",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 72,
+      "question": "エヴァンゲリオンで、ゼーレが推進する人類補完計画の最終目的は？",
+      "answer": "人類を単一の生命体に還元すること",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 73,
+      "question": "コードギアスR2で、ルルーシュが発動させた最後の作戦の名前は？",
+      "answer": "ゼロレクイエム",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 74,
+      "question": "天元突破グレンラガンで、螺旋力の本質は何か？",
+      "answer": "進化する力",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 75,
+      "question": "機動戦士ガンダムSEED DESTINYで、デュランダルが提唱した計画の名前は？",
+      "answer": "デスティニープラン",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 76,
+      "question": "マクロスFで、バジュラの女王となった人物の名前は？",
+      "answer": "ランシェ・メイ",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 77,
+      "question": "交響詩篇エウレカセブンで、スカブ・コーラルの正体は？",
+      "answer": "知的生命体",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 78,
+      "question": "機動戦士ガンダムUCで、ラプラスの箱の正体は？",
+      "answer": "宇宙世紀憲章の原本",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 79,
+      "question": "機動戦士ガンダム 水星の魔女で、ガンダムが禁忌とされる理由は？",
+      "answer": "パイロットの生命を代償とするから",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 80,
+      "question": "ダーリン・イン・ザ・フランキスで、APEの真の正体は？",
+      "answer": "不老不死の存在",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 81,
+      "question": "機動戦士ガンダム 鉄血のオルフェンズで、マクギリス・ファリドが追い求めたものは？",
+      "answer": "バエルとガンダム・フレームによる権力",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 82,
+      "question": "SSSS.GRIDMANで、新条アカネの正体は何？",
+      "answer": "神様",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 83,
+      "question": "プラネット・ウィズで、7人の戦士が守ろうとしたものは？",
+      "answer": "地球の封印",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 84,
+      "question": "境界戦機で、日本が分割統治されている国の数は？",
+      "answer": "4カ国",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 85,
+      "question": "ゲッターロボアークで、ゲッター線の究極の姿は？",
+      "answer": "ゲッターエンペラー",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 86,
+      "question": "エヴァンゲリオンで、リリスとアダムの違いは何か？",
+      "answer": "人類の起源と使徒の起源",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 87,
+      "question": "機動戦士ガンダム00で、ソレスタルビーイングを創設した人物は？",
+      "answer": "イオリア・シュヘンベルグ",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 88,
+      "question": "コードギアスで、シャルルが目指した神殺しの真の目的は？",
+      "answer": "嘘のない世界の創造",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 89,
+      "question": "天元突破グレンラガンで、超銀河ダイグレンの最終形態は？",
+      "answer": "天元突破グレンラガン",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 90,
+      "question": "機動戦士ガンダムSEEDで、ジェネシスの正式名称は？",
+      "answer": "Gamma Emission by Nuclear Explosion Stimulus",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 91,
+      "question": "マクロスΔで、ワルキューレの歌が持つ特殊な効果は？",
+      "answer": "ヴァール症候群の抑制",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 92,
+      "question": "交響詩篇エウレカセブンで、アネモネが搭乗するLFOの名前は？",
+      "answer": "ジ・エンド",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 93,
+      "question": "機動戦士ガンダムUCで、フル・フロンタルの真の正体は？",
+      "answer": "シャア・アズナブルの器",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 94,
+      "question": "機動戦士ガンダム 水星の魔女で、クワイエット・ゼロ計画の目的は？",
+      "answer": "データストームによる世界の管理",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 95,
+      "question": "ダーリン・イン・ザ・フランキスで、叫竜の正体は何？",
+      "answer": "かつての人類",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 96,
+      "question": "機動戦士ガンダム 鉄血のオルフェンズで、厄祭戦とは何か？",
+      "answer": "人類とモビルアーマーの戦争",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 97,
+      "question": "SSSS.DYNAZENONで、怪獣優生思想とは何か？",
+      "answer": "怪獣による人類の選別思想",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 98,
+      "question": "バック・アロウで、凱帝国とリンガリンド国の関係は？",
+      "answer": "同じ世界の表裏",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 99,
+      "question": "プラネット・ウィズで、ネビュラウェポンの真の目的は？",
+      "answer": "宇宙の平和維持",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 100,
+      "question": "エヴァンゲリオンで、サードインパクトの引き金となる条件は？",
+      "answer": "リリスとアダムの接触",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 101,
+      "question": "機動戦士ガンダム00で、ツインドライヴシステムの開発者は？",
+      "answer": "ビリー・カタギリ",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 102,
+      "question": "コードギアスで、ギアスを与える存在の正式名称は？",
+      "answer": "コードの継承者",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 103,
+      "question": "天元突破グレンラガンで、アンチスパイラルが螺旋族を恐れる理由は？",
+      "answer": "螺旋力の暴走によるスパイラルネメシス",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 104,
+      "question": "機動戦士ガンダムSEED DESTINYで、レイ・ザ・バレルの正体は？",
+      "answer": "ラウ・ル・クルーゼのクローン",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 105,
+      "question": "マクロスFで、フロンティア船団の真の目的は？",
+      "answer": "バジュラの母星への到達",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 106,
+      "question": "交響詩篇エウレカセブンで、アドロック・サーストンの死因は？",
+      "answer": "サマー・オブ・ラブでの自己犠牲",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 107,
+      "question": "機動戦士ガンダムUCで、ネオ・ジオングの特殊能力は？",
+      "answer": "サイコシャード",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 108,
+      "question": "機動戦士ガンダム 水星の魔女で、エアリアルの正体は？",
+      "answer": "エリクトの魂が宿ったガンダム",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 109,
+      "question": "ダーリン・イン・ザ・フランキスで、パラサイトが大人になれない理由は？",
+      "answer": "黄血球により早期老化するため",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 110,
+      "question": "機動戦士ガンダム 鉄血のオルフェンズで、ダインスレイヴの特徴は？",
+      "answer": "ナノラミネートアーマーを貫通する",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 111,
+      "question": "SSSS.GRIDMANで、アレクシス・ケリヴの目的は？",
+      "answer": "世界の破壊と再生の観察",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 112,
+      "question": "プラネット・ウィズで、竜の力を封印した理由は？",
+      "answer": "暴走による宇宙の破壊を防ぐため",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 113,
+      "question": "境界戦機で、ガイアの存在意義は？",
+      "answer": "世界の調停者",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 114,
+      "question": "ゲッターロボアークで、ゲッター線の起源は？",
+      "answer": "宇宙からの未知のエネルギー",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 115,
+      "question": "エヴァンゲリオンで、ロンギヌスの槍の真の用途は？",
+      "answer": "リリスの封印とサードインパクトの制御",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 116,
+      "question": "機動戦士ガンダム00で、刹那が到達した境地は？",
+      "answer": "純粋なイノベイター",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 117,
+      "question": "コードギアスで、ルルーシュのギアスが暴走した結果は？",
+      "answer": "常時発動状態になった",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 118,
+      "question": "天元突破グレンラガンで、超銀河グレンラガンのドリルの大きさは？",
+      "answer": "銀河サイズ",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 119,
+      "question": "機動戦士ガンダムSEED DESTINYで、キラがストライクフリーダムで目指したものは？",
+      "answer": "力による戦争の抑止",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 120,
+      "question": "マクロスFで、ランカの歌がバジュラに効く理由は？",
+      "answer": "母親がバジュラクイーンに感染していたため",
+      "difficulty": 3,
+      "points": 30
+    }
+  ],
+  "silhouette": [],
+  "intro": []
+}
