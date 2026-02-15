@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ロボアニメクイズ大会 - Audience</title>
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --red: #ff2d55;
+  --blue: #00d4ff;
+  --gold: #ffd700;
+  --green: #00e676;
+  --purple: #b24dff;
+  --orange: #ff8800;
+  --bg-dark: #0a0a1a;
+  --glass-bg: rgba(255,255,255,0.05);
+  --glass-border: rgba(255,255,255,0.1);
+  --font-jp: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', sans-serif;
+}
+
+html, body {
+  width: 100%; height: 100%;
+  overflow: hidden;
+  font-family: var(--font-jp);
+  color: #ffffff;
+  background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3e 50%, #0a1628 100%);
+}
+
+/* ── Ambient background ── */
+#ambient-bg {
+  position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  overflow: hidden;
+}
+#ambient-bg .orb {
+  position: absolute; border-radius: 50%; filter: blur(80px); opacity: 0.18;
+  animation: orbFloat 20s ease-in-out infinite alternate;
+}
+#ambient-bg .orb:nth-child(1) {
+  width: 500px; height: 500px; background: var(--red);
+  top: -10%; left: -5%; animation-duration: 22s;
+}
+#ambient-bg .orb:nth-child(2) {
+  width: 600px; height: 600px; background: var(--blue);
+  bottom: -15%; right: -10%; animation-duration: 26s; animation-delay: -5s;
+}
+#ambient-bg .orb:nth-child(3) {
+  width: 400px; height: 400px; background: var(--purple);
+  top: 40%; left: 50%; animation-duration: 18s; animation-delay: -10s;
+}
+@keyframes orbFloat {
+  0%   { transform: translate(0, 0) scale(1); }
+  33%  { transform: translate(40px, -30px) scale(1.1); }
+  66%  { transform: translate(-20px, 20px) scale(0.95); }
+  100% { transform: translate(30px, 10px) scale(1.05); }
+}
+
+/* ── Main layout ── */
+#app {
+  position: relative; z-index: 1;
+  display: flex; flex-direction: column;
+  width: 100%; height: 100%;
+}
+
+/* ── Header ── */
+#header {
+  flex-shrink: 0; padding: 1rem 2rem; text-align: center;
+  background: var(--glass-bg); backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--glass-border);
+}
+#header h1 {
+  font-size: clamp(1.8rem, 3.5vw, 3rem); font-weight: 900;
+  letter-spacing: 0.1em;
+  background: linear-gradient(90deg, var(--red), var(--gold), var(--blue));
+  background-size: 200% 100%;
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: headerShine 4s linear infinite;
+  text-shadow: none;
+  filter: drop-shadow(0 0 20px rgba(255,215,0,0.3));
+}
+@keyframes headerShine {
+  0%   { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+#mode-name {
+  font-size: clamp(0.9rem, 1.8vw, 1.4rem); margin-top: 0.3rem;
+  color: var(--blue); opacity: 0; transition: opacity 0.5s;
+  text-transform: uppercase; letter-spacing: 0.2em; font-weight: 700;
+}
+#mode-name.visible { opacity: 1; }
+
+/* ── Content area ── */
+#content {
+  flex: 1; display: flex; flex-direction: column;
+  justify-content: center; align-items: center;
+  padding: 2rem; overflow: hidden; position: relative;
+}
+
+/* ── Question area ── */
+#question-area {
+  width: 100%; max-width: 1200px; text-align: center;
+  opacity: 0; transform: translateX(100%);
+  transition: none;
+}
+#question-area.visible {
+  animation: slideIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+@keyframes slideIn {
+  0%   { opacity: 0; transform: translateX(100%); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+#question-number {
+  font-size: clamp(1rem, 2vw, 1.5rem); color: var(--blue);
+  margin-bottom: 0.5rem; font-weight: 700; letter-spacing: 0.15em;
+}
+#question-text {
+  font-size: clamp(2rem, 4vw, 4rem); font-weight: 800;
+  line-height: 1.4; padding: 1.5rem;
+  background: var(--glass-bg); backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border); border-radius: 16px;
+}
+
+/* ── YouTube container ── */
+#youtube-container {
+  display: none; width: 100%; max-width: 800px;
+  margin: 1.5rem auto; border-radius: 12px; overflow: hidden;
+  border: 2px solid var(--glass-border);
+  aspect-ratio: 16/9; position: relative;
+  background: #000;
+}
+#youtube-container.visible { display: block; }
+#yt-player { width: 100%; height: 100%; }
+
+/* ── Hints area ── */
+#hints-area {
+  display: none; width: 100%; max-width: 900px;
+  margin: 1.2rem auto; text-align: center;
+}
+#hints-area.visible { display: block; }
+.hint-item {
+  font-size: clamp(1.2rem, 2.5vw, 2rem); padding: 0.8rem 1.5rem;
+  margin: 0.5rem 0; border-radius: 10px;
+  background: var(--glass-bg); backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  opacity: 0; animation: hintFadeIn 0.6s ease forwards;
+}
+@keyframes hintFadeIn {
+  0%   { opacity: 0; transform: translateY(15px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Answer area ── */
+#answer-area {
+  width: 100%; max-width: 1000px; text-align: center;
+  margin-top: 1.5rem; opacity: 0; visibility: hidden;
+}
+#answer-area.visible {
+  visibility: visible;
+  animation: answerReveal 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+@keyframes answerReveal {
+  0%   { opacity: 0; transform: scale(0.5); filter: blur(10px); }
+  70%  { opacity: 1; transform: scale(1.1); filter: blur(0); }
+  100% { opacity: 1; transform: scale(1);   filter: blur(0); }
+}
+#answer-text {
+  font-size: clamp(2.5rem, 5vw, 5rem); font-weight: 900;
+  color: var(--gold);
+  text-shadow: 0 0 20px rgba(255,215,0,0.6), 0 0 40px rgba(255,215,0,0.3), 0 0 80px rgba(255,215,0,0.15);
+  padding: 1rem 2rem;
+}
+
+/* ── Scoreboard ── */
+#scoreboard {
+  flex-shrink: 0; padding: 1rem 2rem;
+  background: var(--glass-bg); backdrop-filter: blur(10px);
+  border-top: 1px solid var(--glass-border);
+}
+#scoreboard-grid {
+  display: grid; gap: 0.8rem;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px; margin: 0 auto;
+}
+.player-card {
+  background: rgba(255,255,255,0.04); border-radius: 12px;
+  padding: 0.8rem 1rem; text-align: center;
+  border: 2px solid rgba(255,255,255,0.08);
+  transition: all 0.3s ease; position: relative; overflow: hidden;
+}
+.player-card.active-buzzer {
+  border-color: var(--gold);
+  box-shadow: 0 0 20px rgba(255,215,0,0.4), inset 0 0 20px rgba(255,215,0,0.1);
+  animation: buzzerPulse 0.6s ease-in-out infinite alternate;
+}
+@keyframes buzzerPulse {
+  0%   { box-shadow: 0 0 20px rgba(255,215,0,0.4); }
+  100% { box-shadow: 0 0 35px rgba(255,215,0,0.7); }
+}
+.player-name {
+  font-size: clamp(0.8rem, 1.5vw, 1.1rem); font-weight: 700;
+  color: rgba(255,255,255,0.8); margin-bottom: 0.3rem;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.player-score {
+  font-size: clamp(1.4rem, 2.5vw, 2rem); font-weight: 900;
+  color: var(--blue); transition: transform 0.3s;
+}
+.player-score.pop {
+  animation: scorePop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+@keyframes scorePop {
+  0%   { transform: translateY(0) scale(1); }
+  40%  { transform: translateY(-20px) scale(1.3); color: var(--gold); }
+  100% { transform: translateY(0) scale(1); }
+}
+.score-float {
+  position: absolute; top: 10%; left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.1rem; font-weight: 900; color: var(--green);
+  pointer-events: none;
+  animation: floatUp 1s ease-out forwards;
+}
+@keyframes floatUp {
+  0%   { opacity: 1; transform: translateX(-50%) translateY(0); }
+  100% { opacity: 0; transform: translateX(-50%) translateY(-50px); }
+}
+
+/* ── Buzzer overlay ── */
+#buzzer-overlay {
+  position: fixed; inset: 0; z-index: 1000;
+  display: none; justify-content: center; align-items: center;
+  background: radial-gradient(circle at center, rgba(255,45,85,0.85) 0%, rgba(10,10,26,0.95) 70%);
+}
+#buzzer-overlay.visible {
+  display: flex;
+  animation: buzzerBurst 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+@keyframes buzzerBurst {
+  0%   { transform: scale(0); opacity: 0; }
+  60%  { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+#buzzer-player-name {
+  font-size: clamp(4rem, 10vw, 10rem); font-weight: 900;
+  text-align: center;
+  text-shadow: 0 0 30px rgba(255,45,85,0.8), 0 0 60px rgba(255,45,85,0.4);
+  animation: buzzerTextPulse 0.8s ease-in-out infinite alternate;
+}
+@keyframes buzzerTextPulse {
+  0%   { transform: scale(1); }
+  100% { transform: scale(1.05); text-shadow: 0 0 50px rgba(255,45,85,1), 0 0 100px rgba(255,45,85,0.6); }
+}
+
+/* ── Correct answer overlay ── */
+#correct-overlay {
+  position: fixed; inset: 0; z-index: 1001;
+  display: none; flex-direction: column;
+  justify-content: center; align-items: center;
+  background: radial-gradient(circle at center, rgba(0,230,118,0.9) 0%, rgba(10,10,26,0.95) 70%);
+}
+#correct-overlay.visible {
+  display: flex;
+  animation: correctBurst 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+@keyframes correctBurst {
+  0%   { transform: scale(0); opacity: 0; }
+  60%  { transform: scale(1.15); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+#correct-text {
+  font-size: clamp(5rem, 12vw, 12rem); font-weight: 900;
+  color: var(--gold);
+  text-shadow: 0 0 40px rgba(255,215,0,0.8), 0 0 80px rgba(255,215,0,0.4), 0 0 120px rgba(255,215,0,0.2);
+  animation: correctPulse 0.8s ease-in-out infinite alternate;
+}
+@keyframes correctPulse {
+  0%   { transform: scale(1); }
+  100% { transform: scale(1.08); text-shadow: 0 0 60px rgba(255,215,0,1), 0 0 120px rgba(255,215,0,0.6); }
+}
+#correct-player-name {
+  font-size: clamp(2rem, 5vw, 4rem); font-weight: 800;
+  color: #fff; margin-top: 1rem;
+  text-shadow: 0 0 20px rgba(255,255,255,0.5);
+}
+#correct-answer-text {
+  font-size: clamp(1.5rem, 3vw, 2.5rem); font-weight: 700;
+  color: var(--gold); margin-top: 1.5rem;
+  opacity: 0.9;
+}
+
+/* ── Red flash (incorrect) ── */
+#flash-overlay {
+  position: fixed; inset: 0; z-index: 998;
+  background: rgba(255,0,0,0.4); pointer-events: none;
+  opacity: 0;
+}
+#flash-overlay.flash {
+  animation: redFlash 0.5s ease-out;
+}
+@keyframes redFlash {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* ── Waiting screen ── */
+#waiting-screen {
+  position: fixed; inset: 0; z-index: 50;
+  display: flex; flex-direction: column;
+  justify-content: center; align-items: center;
+  background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3e 50%, #0a1628 100%);
+}
+#waiting-screen.hidden { display: none; }
+#waiting-text {
+  font-size: clamp(1.2rem, 2.5vw, 2rem); color: rgba(255,255,255,0.6);
+}
+.pulsing-dots::after {
+  content: ''; animation: dots 1.5s steps(4, end) infinite;
+}
+@keyframes dots {
+  0%   { content: ''; }
+  25%  { content: '.'; }
+  50%  { content: '..'; }
+  75%  { content: '...'; }
+}
+
+/* ── Activate overlay (autoplay policy) ── */
+#activate-overlay {
+  position: fixed; inset: 0; z-index: 2000;
+  display: flex; justify-content: center; align-items: center;
+  background: rgba(10,10,26,0.95); cursor: pointer;
+}
+#activate-overlay.hidden { display: none; }
+#activate-overlay span {
+  font-size: clamp(1.5rem, 3vw, 2.5rem); color: rgba(255,255,255,0.7);
+  text-align: center; padding: 2rem;
+  border: 2px dashed rgba(255,255,255,0.2); border-radius: 20px;
+  transition: all 0.3s;
+}
+#activate-overlay:hover span {
+  color: var(--blue); border-color: var(--blue);
+}
+
+/* ── Confetti canvas ── */
+#confetti-canvas {
+  position: fixed; inset: 0; z-index: 999;
+  pointer-events: none;
+}
+
+/* ── Results screen ── */
+#results-overlay {
+  position: fixed; inset: 0; z-index: 900;
+  display: none; flex-direction: column;
+  justify-content: center; align-items: center;
+  background: rgba(10,10,26,0.95); backdrop-filter: blur(20px);
+}
+#results-overlay.visible { display: flex; }
+#results-title {
+  font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 900;
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, var(--gold), var(--orange));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+#results-list {
+  width: 90%; max-width: 700px;
+}
+.result-row {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1rem 1.5rem; margin: 0.6rem 0; border-radius: 12px;
+  background: var(--glass-bg); border: 1px solid var(--glass-border);
+  opacity: 0; transform: translateY(30px);
+}
+.result-row.show {
+  animation: resultSlideIn 0.5s ease forwards;
+}
+@keyframes resultSlideIn {
+  to { opacity: 1; transform: translateY(0); }
+}
+.result-row:first-child {
+  border-color: var(--gold);
+  box-shadow: 0 0 20px rgba(255,215,0,0.2);
+}
+.result-rank {
+  font-size: 1.8rem; font-weight: 900; min-width: 3rem;
+}
+.result-row:nth-child(1) .result-rank { color: var(--gold); }
+.result-row:nth-child(2) .result-rank { color: #c0c0c0; }
+.result-row:nth-child(3) .result-rank { color: #cd7f32; }
+.result-name { font-size: 1.4rem; font-weight: 700; flex: 1; margin: 0 1rem; }
+.result-score { font-size: 1.6rem; font-weight: 900; color: var(--blue); }
+</style>
+</head>
+<body>
+
+<!-- Activate overlay for autoplay policy -->
+<div id="activate-overlay">
+  <span>画面をクリックしてアクティベート<br>Click to Activate</span>
+</div>
+
+<!-- Ambient background -->
+<div id="ambient-bg">
+  <div class="orb"></div>
+  <div class="orb"></div>
+  <div class="orb"></div>
+</div>
+
+<!-- Confetti canvas -->
+<canvas id="confetti-canvas"></canvas>
+
+<!-- Buzzer overlay -->
+<div id="buzzer-overlay">
+  <div id="buzzer-player-name"></div>
+</div>
+
+<!-- Correct answer overlay -->
+<div id="correct-overlay">
+  <div id="correct-text">🎉 正解!! 🎉</div>
+  <div id="correct-player-name"></div>
+  <div id="correct-answer-text"></div>
+</div>
+
+<!-- Red flash overlay -->
+<div id="flash-overlay"></div>
+
+<!-- Results overlay -->
+<div id="results-overlay">
+  <div id="results-title">最終結果</div>
+  <div id="results-list"></div>
+</div>
+
+<!-- Waiting screen -->
+<div id="waiting-screen">
+  <div style="text-align:center;">
+    <div style="font-size:clamp(2rem,5vw,4rem);font-weight:900;color:var(--gold);text-shadow:0 0 30px rgba(255,215,0,0.5);letter-spacing:0.15em;margin-bottom:0.5rem;">チキチキ</div>
+    <div style="font-size:clamp(2.5rem,6vw,5rem);font-weight:900;background:linear-gradient(90deg,var(--red),var(--gold),var(--blue));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:0.1em;margin-bottom:0.5rem;">ロボスタディオン</div>
+    <div style="font-size:clamp(1.8rem,4vw,3.5rem);font-weight:900;color:#fff;text-shadow:0 0 20px rgba(255,255,255,0.3);letter-spacing:0.15em;">ロボットアニメクイズ大会!!</div>
+  </div>
+  <div id="waiting-text" style="margin-top:2rem;">ゲームマスターの接続を待っています<span class="pulsing-dots"></span></div>
+</div>
+
+<!-- Main app -->
+<div id="app">
+  <div id="header">
+    <h1 id="main-title">クイズ大会</h1>
+    <div id="mode-name"></div>
+  </div>
+
+  <div id="content">
+    <div id="question-area">
+      <div id="question-number"></div>
+      <div id="question-text"></div>
+    </div>
+
+    <div id="youtube-container">
+      <div id="yt-player"></div>
+    </div>
+
+    <div id="hints-area"></div>
+
+    <div id="answer-area">
+      <div id="answer-text"></div>
+    </div>
+  </div>
+
+  <div id="scoreboard">
+    <div id="scoreboard-grid"></div>
+  </div>
+</div>
+
+<script>
+// ══════════════════════════════════════════════════════════════
+//  State
+// ══════════════════════════════════════════════════════════════
+const state = {
+  players: [],
+  currentMode: null,
+  currentQuestion: null,
+  buzzedPlayer: null,
+  activated: false,
+  ytReady: false,
+};
+
+let ytPlayer = null;
+
+// ══════════════════════════════════════════════════════════════
+//  DOM References
+// ══════════════════════════════════════════════════════════════
+const dom = {
+  activateOverlay:  document.getElementById('activate-overlay'),
+  waitingScreen:    document.getElementById('waiting-screen'),
+  mainTitle:        document.getElementById('main-title'),
+  modeName:         document.getElementById('mode-name'),
+  questionArea:     document.getElementById('question-area'),
+  questionNumber:   document.getElementById('question-number'),
+  questionText:     document.getElementById('question-text'),
+  youtubeContainer: document.getElementById('youtube-container'),
+  hintsArea:        document.getElementById('hints-area'),
+  answerArea:       document.getElementById('answer-area'),
+  answerText:       document.getElementById('answer-text'),
+  scoreboardGrid:   document.getElementById('scoreboard-grid'),
+  buzzerOverlay:    document.getElementById('buzzer-overlay'),
+  buzzerPlayerName: document.getElementById('buzzer-player-name'),
+  correctOverlay:    document.getElementById('correct-overlay'),
+  correctText:       document.getElementById('correct-text'),
+  correctPlayerName: document.getElementById('correct-player-name'),
+  correctAnswerText: document.getElementById('correct-answer-text'),
+  flashOverlay:     document.getElementById('flash-overlay'),
+  resultsOverlay:   document.getElementById('results-overlay'),
+  resultsList:      document.getElementById('results-list'),
+  confettiCanvas:   document.getElementById('confetti-canvas'),
+};
+
+// ══════════════════════════════════════════════════════════════
+//  Activate overlay (autoplay policy)
+// ══════════════════════════════════════════════════════════════
+dom.activateOverlay.addEventListener('click', () => {
+  state.activated = true;
+  dom.activateOverlay.classList.add('hidden');
+});
+
+// ══════════════════════════════════════════════════════════════
+//  YouTube IFrame API
+// ══════════════════════════════════════════════════════════════
+const ytTag = document.createElement('script');
+ytTag.src = 'https://www.youtube.com/iframe_api';
+document.head.appendChild(ytTag);
+
+window.onYouTubeIframeAPIReady = function () {
+  ytPlayer = new YT.Player('yt-player', {
+    width: '100%',
+    height: '100%',
+    playerVars: {
+      controls: 0,
+      disablekb: 1,
+      modestbranding: 1,
+      rel: 0,
+      playsinline: 1,
+      fs: 0,
+    },
+    events: {
+      onReady: () => { state.ytReady = true; },
+    },
+  });
+};
+
+function extractVideoId(url) {
+  if (!url) return null;
+  const m = url.match(/(?:v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
+  return m ? m[1] : null;
+}
+
+function loadYouTubeVideo(url, startSeconds, endSeconds) {
+  const id = extractVideoId(url);
+  if (!id || !ytPlayer || !state.ytReady) return;
+  const opts = { videoId: id };
+  if (startSeconds != null) opts.startSeconds = startSeconds;
+  if (endSeconds != null)   opts.endSeconds = endSeconds;
+  ytPlayer.loadVideoById(opts);
+}
+
+function controlYouTube(action) {
+  if (!ytPlayer || !state.ytReady) return;
+  switch (action) {
+    case 'play':  ytPlayer.playVideo();  break;
+    case 'pause': ytPlayer.pauseVideo(); break;
+    case 'stop':  ytPlayer.stopVideo();  break;
+  }
+}
+
+function pauseYouTubeIfPlaying() {
+  if (!ytPlayer || !state.ytReady) return;
+  try {
+    const s = ytPlayer.getPlayerState();
+    if (s === YT.PlayerState.PLAYING) ytPlayer.pauseVideo();
+  } catch (_) {}
+}
+
+// ══════════════════════════════════════════════════════════════
+//  Confetti System
+// ══════════════════════════════════════════════════════════════
+class ConfettiSystem {
+  constructor(canvas) {
+    this.canvas = canvas;
+    this.ctx = canvas.getContext('2d');
+    this.particles = [];
+    this.running = false;
+    this.colors = ['#ff2d55', '#00d4ff', '#ffd700', '#00e676', '#b24dff', '#ff8800'];
+    this.resize();
+    window.addEventListener('resize', () => this.resize());
+  }
+
+  resize() {
+    this.canvas.width = window.innerWidth;
+    this.canvas.height = window.innerHeight;
+  }
+
+  burst(count = 150) {
+    const cx = this.canvas.width / 2;
+    const cy = this.canvas.height * 0.3;
+    for (let i = 0; i < count; i++) {
+      const angle = Math.random() * Math.PI * 2;
+      const speed = 4 + Math.random() * 10;
+      this.particles.push({
+        x: cx,
+        y: cy,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed - 3,
+        w: 6 + Math.random() * 8,
+        h: 4 + Math.random() * 6,
+        rotation: Math.random() * Math.PI * 2,
+        rotSpeed: (Math.random() - 0.5) * 0.3,
+        color: this.colors[Math.floor(Math.random() * this.colors.length)],
+        life: 1,
+        decay: 0.006 + Math.random() * 0.008,
+      });
+    }
+    if (!this.running) {
+      this.running = true;
+      this.loop();
+    }
+  }
+
+  loop() {
+    const { ctx, canvas, particles } = this;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    for (let i = particles.length - 1; i >= 0; i--) {
+      const p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+      p.vy += 0.3; // gravity
+      p.rotation += p.rotSpeed;
+      p.life -= p.decay;
+      if (p.life <= 0) { particles.splice(i, 1); continue; }
+
+      ctx.save();
+      ctx.translate(p.x, p.y);
+      ctx.rotate(p.rotation);
+      ctx.globalAlpha = p.life;
+      ctx.fillStyle = p.color;
+      ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+      ctx.restore();
+    }
+
+    if (particles.length > 0) {
+      requestAnimationFrame(() => this.loop());
+    } else {
+      this.running = false;
+    }
+  }
+}
+
+const confetti = new ConfettiSystem(dom.confettiCanvas);
+
+// ══════════════════════════════════════════════════════════════
+//  Scoreboard helpers
+// ══════════════════════════════════════════════════════════════
+function buildScoreboard(players) {
+  state.players = players;
+  dom.scoreboardGrid.innerHTML = '';
+  const n = players.length;
+  let cols;
+  if (n <= 3)      cols = n;
+  else if (n <= 6) cols = 3;
+  else             cols = 4;
+  dom.scoreboardGrid.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
+
+  players.forEach((p) => {
+    const card = document.createElement('div');
+    card.className = 'player-card';
+    card.dataset.id = p.id;
+    card.innerHTML = `
+      <div class="player-name">${esc(p.name)}</div>
+      <div class="player-score" data-score-id="${p.id}">${p.score ?? 0}<span style="font-size:0.6em;opacity:0.6">pt</span></div>
+    `;
+    dom.scoreboardGrid.appendChild(card);
+  });
+}
+
+function updateScores(players) {
+  players.forEach((p) => {
+    const old = state.players.find(o => o.id === p.id);
+    const scoreEl = dom.scoreboardGrid.querySelector(`[data-score-id="${p.id}"]`);
+    if (!scoreEl) return;
+    const diff = (p.score ?? 0) - (old ? (old.score ?? 0) : 0);
+    scoreEl.innerHTML = `${p.score ?? 0}<span style="font-size:0.6em;opacity:0.6">pt</span>`;
+
+    if (diff !== 0) {
+      // pop animation
+      scoreEl.classList.remove('pop');
+      void scoreEl.offsetWidth; // reflow
+      scoreEl.classList.add('pop');
+
+      // float-up text
+      if (diff > 0) {
+        const card = scoreEl.closest('.player-card');
+        const floater = document.createElement('div');
+        floater.className = 'score-float';
+        floater.textContent = `+${diff}`;
+        card.appendChild(floater);
+        setTimeout(() => floater.remove(), 1100);
+      }
+    }
+  });
+  state.players = players;
+}
+
+function setActiveBuzzerPlayer(playerId) {
+  dom.scoreboardGrid.querySelectorAll('.player-card').forEach(card => {
+    card.classList.toggle('active-buzzer', card.dataset.id === String(playerId));
+  });
+}
+
+function clearActiveBuzzerPlayer() {
+  dom.scoreboardGrid.querySelectorAll('.player-card').forEach(card => {
+    card.classList.remove('active-buzzer');
+  });
+}
+
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s ?? '';
+  return d.innerHTML;
+}
+
+// ══════════════════════════════════════════════════════════════
+//  Display helpers
+// ══════════════════════════════════════════════════════════════
+function showQuestion(data) {
+  state.currentQuestion = data;
+
+  // Reset areas
+  dom.correctOverlay.classList.remove('visible');
+  dom.answerArea.classList.remove('visible');
+  dom.answerArea.style.opacity = '0';
+  dom.answerArea.style.visibility = 'hidden';
+  dom.hintsArea.classList.remove('visible');
+  dom.hintsArea.innerHTML = '';
+
+  // Stop any existing hayaoshi reveal
+  stopHayaoshiReveal();
+  hayaoshiFullText = '';
+  hayaoshiCharIndex = 0;
+
+  // Question
+  dom.questionNumber.textContent = data.number != null ? `Q${data.number}.` : '';
+  // For hayaoshi, show empty text (reveal will auto-start shortly)
+  if (state.currentMode === 'hayaoshi') {
+    dom.questionText.textContent = '';
+  } else {
+    dom.questionText.textContent = data.text || '';
+  }
+  dom.questionArea.classList.remove('visible');
+  void dom.questionArea.offsetWidth;
+  dom.questionArea.classList.add('visible');
+
+  // YouTube for intro mode
+  if (state.currentMode === 'intro' && data.youtube_url) {
+    dom.youtubeContainer.classList.add('visible');
+    loadYouTubeVideo(data.youtube_url, data.start_seconds, data.end_seconds);
+  } else {
+    dom.youtubeContainer.classList.remove('visible');
+  }
+
+  // Hints area for silhouette mode
+  if (state.currentMode === 'silhouette') {
+    dom.hintsArea.classList.add('visible');
+  }
+}
+
+function showAnswer(data) {
+  const text = data.answerHtml || data.text || data.answer || '';
+  dom.answerText.textContent = `★ ${text} ★`;
+  dom.answerArea.classList.remove('visible');
+  dom.answerArea.style.opacity = '';
+  dom.answerArea.style.visibility = '';
+  void dom.answerArea.offsetWidth;
+  dom.answerArea.classList.add('visible');
+}
+
+function showHint(data) {
+  const item = document.createElement('div');
+  item.className = 'hint-item';
+  item.textContent = data.text || data.hint || '';
+  dom.hintsArea.appendChild(item);
+  dom.hintsArea.classList.add('visible');
+}
+
+function showBuzzer(playerName) {
+  dom.buzzerPlayerName.textContent = playerName;
+  dom.buzzerOverlay.classList.add('visible');
+  pauseYouTubeIfPlaying();
+}
+
+function hideBuzzer() {
+  dom.buzzerOverlay.classList.remove('visible');
+  clearActiveBuzzerPlayer();
+}
+
+function flashRed() {
+  dom.flashOverlay.classList.remove('flash');
+  void dom.flashOverlay.offsetWidth;
+  dom.flashOverlay.classList.add('flash');
+}
+
+function showResults(players) {
+  const sorted = [...players].sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+  dom.resultsList.innerHTML = '';
+  sorted.forEach((p, i) => {
+    const row = document.createElement('div');
+    row.className = 'result-row';
+    row.innerHTML = `
+      <div class="result-rank">${i + 1}</div>
+      <div class="result-name">${esc(p.name)}</div>
+      <div class="result-score">${p.score ?? 0}pt</div>
+    `;
+    dom.resultsList.appendChild(row);
+    setTimeout(() => row.classList.add('show'), 200 + i * 250);
+  });
+  dom.resultsOverlay.classList.add('visible');
+  // Confetti for winner
+  setTimeout(() => confetti.burst(200), 600);
+}
+
+function resetAll() {
+  state.currentMode = null;
+  state.currentQuestion = null;
+  state.buzzedPlayer = null;
+  state.players = [];
+
+  dom.modeName.textContent = '';
+  dom.modeName.classList.remove('visible');
+  dom.questionArea.classList.remove('visible');
+  dom.questionArea.style.opacity = '0';
+  dom.questionArea.style.transform = 'translateX(100%)';
+  dom.answerArea.classList.remove('visible');
+  dom.answerArea.style.opacity = '0';
+  dom.answerArea.style.visibility = 'hidden';
+  dom.youtubeContainer.classList.remove('visible');
+  dom.hintsArea.classList.remove('visible');
+  dom.hintsArea.innerHTML = '';
+  dom.scoreboardGrid.innerHTML = '';
+  dom.buzzerOverlay.classList.remove('visible');
+  dom.correctOverlay.classList.remove('visible');
+  dom.resultsOverlay.classList.remove('visible');
+  dom.waitingScreen.classList.remove('hidden');
+
+  controlYouTube('stop');
+}
+
+function restoreState(data) {
+  if (data.players) {
+    buildScoreboard(data.players);
+    dom.waitingScreen.classList.add('hidden');
+  }
+  if (data.mode) {
+    state.currentMode = data.mode;
+    dom.modeName.textContent = data.modeName || data.mode;
+    dom.modeName.classList.add('visible');
+  }
+  if (data.questionData) {
+    showQuestion(data.questionData);
+  }
+  if (data.answerRevealed && (data.answerHtml || data.answer)) {
+    showAnswer({ answerHtml: data.answerHtml, answer: data.answer });
+  }
+  if (data.hints && data.hints.length) {
+    dom.hintsArea.classList.add('visible');
+    data.hints.forEach(h => {
+      const item = document.createElement('div');
+      item.className = 'hint-item';
+      item.style.animation = 'none';
+      item.style.opacity = '1';
+      item.textContent = h;
+      dom.hintsArea.appendChild(item);
+    });
+  }
+  const bz = data.buzzerState || data.buzzedPlayer;
+  if (bz) {
+    showBuzzer(bz.playerName || bz.name || '');
+    if (bz.playerId || bz.id) setActiveBuzzerPlayer(bz.playerId || bz.id);
+  }
+}
+
+// ══════════════════════════════════════════════════════════════
+//  Hayaoshi gradual text reveal (audience-side timer)
+// ══════════════════════════════════════════════════════════════
+let hayaoshiFullText = '';
+let hayaoshiCharIndex = 0;
+let hayaoshiRevealTimer = null;
+
+function startHayaoshiReveal(text) {
+  stopHayaoshiReveal();
+  hayaoshiFullText = text;
+  hayaoshiCharIndex = 0;
+  dom.questionText.textContent = '';
+  hayaoshiRevealTimer = setInterval(() => {
+    if (hayaoshiCharIndex < hayaoshiFullText.length) {
+      hayaoshiCharIndex++;
+      dom.questionText.textContent = hayaoshiFullText.substring(0, hayaoshiCharIndex);
+    } else {
+      stopHayaoshiReveal();
+    }
+  }, 120);
+}
+
+function pauseHayaoshiReveal() {
+  if (hayaoshiRevealTimer) {
+    clearInterval(hayaoshiRevealTimer);
+    hayaoshiRevealTimer = null;
+  }
+}
+
+function resumeHayaoshiReveal() {
+  if (hayaoshiCharIndex >= hayaoshiFullText.length) return;
+  if (hayaoshiRevealTimer) return; // already running
+  hayaoshiRevealTimer = setInterval(() => {
+    if (hayaoshiCharIndex < hayaoshiFullText.length) {
+      hayaoshiCharIndex++;
+      dom.questionText.textContent = hayaoshiFullText.substring(0, hayaoshiCharIndex);
+    } else {
+      stopHayaoshiReveal();
+    }
+  }, 120);
+}
+
+function revealFullHayaoshiText() {
+  stopHayaoshiReveal();
+  if (hayaoshiFullText) {
+    hayaoshiCharIndex = hayaoshiFullText.length;
+    dom.questionText.textContent = hayaoshiFullText;
+  }
+}
+
+function stopHayaoshiReveal() {
+  if (hayaoshiRevealTimer) {
+    clearInterval(hayaoshiRevealTimer);
+    hayaoshiRevealTimer = null;
+  }
+}
+
+// ══════════════════════════════════════════════════════════════
+//  BroadcastChannel
+// ══════════════════════════════════════════════════════════════
+const channel = new BroadcastChannel('quiz-sync');
+
+channel.postMessage({ type: 'AUDIENCE_READY', payload: {} });
+
+channel.onmessage = (event) => {
+  const msg = event.data;
+  if (!msg || !msg.type) return;
+  const payload = msg.payload || {};
+
+  switch (msg.type) {
+
+    case 'TOURNAMENT_SELECT':
+      // Update main title with tournament name
+      if (payload.title) {
+        dom.mainTitle.textContent = payload.title;
+      }
+      break;
+
+    case 'INIT':
+      buildScoreboard(payload.players || []);
+      dom.waitingScreen.classList.add('hidden');
+      break;
+
+    case 'MODE_SELECT':
+      state.currentMode = payload.mode || payload.id || null;
+      dom.modeName.textContent = payload.name || payload.mode || '';
+      dom.modeName.classList.add('visible');
+      // Reset content areas on mode change
+      dom.questionArea.classList.remove('visible');
+      dom.questionArea.style.opacity = '0';
+      dom.questionArea.style.transform = 'translateX(100%)';
+      dom.answerArea.classList.remove('visible');
+      dom.answerArea.style.opacity = '0';
+      dom.answerArea.style.visibility = 'hidden';
+      dom.hintsArea.classList.remove('visible');
+      dom.hintsArea.innerHTML = '';
+      dom.youtubeContainer.classList.remove('visible');
+      controlYouTube('stop');
+      break;
+
+    case 'LOAD_QUESTION':
+      showQuestion(payload.questionData || payload);
+      break;
+
+    case 'HAYAOSHI_START_REVEAL':
+      // Ensure question area is visible but text starts empty
+      if (!dom.questionArea.classList.contains('visible')) {
+        dom.questionArea.classList.remove('visible');
+        void dom.questionArea.offsetWidth;
+        dom.questionArea.classList.add('visible');
+      }
+      startHayaoshiReveal(payload.text || '');
+      break;
+
+    case 'HAYAOSHI_PAUSE_REVEAL':
+      pauseHayaoshiReveal();
+      break;
+
+    case 'HAYAOSHI_RESUME_REVEAL':
+      resumeHayaoshiReveal();
+      break;
+
+    case 'HAYAOSHI_FULL_REVEAL':
+      revealFullHayaoshiText();
+      break;
+
+    case 'SHOW_ANSWER':
+      showAnswer(payload);
+      break;
+
+    case 'SCORE_UPDATE':
+      updateScores(payload.players || []);
+      break;
+
+    case 'BUZZER_ACTIVE':
+      state.buzzedPlayer = payload;
+      showBuzzer(payload.name || payload.playerName || '');
+      if (payload.id || payload.playerId) {
+        setActiveBuzzerPlayer(payload.id || payload.playerId);
+      }
+      break;
+
+    case 'BUZZER_RESET':
+      hideBuzzer();
+      break;
+
+    case 'CORRECT_ANSWER':
+      // Hide buzzer overlay first
+      hideBuzzer();
+      // Show correct overlay with player name
+      dom.correctPlayerName.textContent = payload.playerName || '';
+      dom.correctAnswerText.textContent = payload.answerHtml ? '答え: ' + payload.answerHtml : '';
+      dom.correctOverlay.classList.add('visible');
+      confetti.burst(250);
+      // Auto-hide after 3 seconds
+      setTimeout(function() {
+        dom.correctOverlay.classList.remove('visible');
+      }, 3000);
+      break;
+
+    case 'INCORRECT_ANSWER':
+      hideBuzzer();
+      flashRed();
+      break;
+
+    case 'YOUTUBE_CONTROL':
+      controlYouTube(payload.action || payload);
+      break;
+
+    case 'SHOW_HINT':
+      showHint(payload);
+      break;
+
+    case 'SHOW_RESULTS':
+      showResults(payload.players || payload.rankings || []);
+      break;
+
+    case 'STATE_SYNC':
+      restoreState(payload);
+      break;
+
+    case 'RESET':
+      resetAll();
+      break;
+  }
+};
+</script>
+</body>
+</html>

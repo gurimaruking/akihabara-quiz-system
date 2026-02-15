@@ -1,0 +1,31 @@
+# Build scripts
+build_questions.py
+build_quiz.py
+download_hid.ps1
+generate_full_json.py
+merge_tournaments.py
+rebuild_from_original.py
+simple_merge.py
+
+# Backup and temporary files
+*_backup.json
+*_incomplete.json
+*_test.json
+*_complete.json
+*_part*.json
+2000s_anime_questions.json
+net_meme_questions.json
+robot_anime_complete.json
+robot_full_hayaoshi_part1.json
+
+# Dependencies
+adafruit_hid.zip
+adafruit_hid_extract/
+
+# Editor/IDE
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
