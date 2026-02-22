@@ -770,11 +770,30 @@ function showQuestion(data) {
   dom.questionArea.classList.add('visible');
 
   // YouTube for intro mode
-  if (state.currentMode === 'intro' && data.youtube_url) {
-    dom.youtubeContainer.classList.add('visible');
-    loadYouTubeVideo(data.youtube_url, data.start_seconds, data.end_seconds);
+  if (state.currentMode === 'intro') {
+    if (data.youtube_url) {
+      dom.youtubeContainer.classList.add('visible');
+      loadYouTubeVideo(data.youtube_url, data.start_seconds, data.end_seconds);
+    } else {
+      // No URL — show container with "no video" message
+      dom.youtubeContainer.classList.add('visible');
+      dom.youtubeContainer.querySelector('.yt-crop').style.display = 'none';
+      var noVid = dom.youtubeContainer.querySelector('.yt-no-video');
+      if (!noVid) {
+        noVid = document.createElement('div');
+        noVid.className = 'yt-no-video';
+        noVid.style.cssText = 'display:flex;align-items:center;justify-content:center;height:200px;color:#888;font-size:1.2rem;';
+        noVid.textContent = '🎵 YouTube未設定 — GMが曲を流してください';
+        dom.youtubeContainer.appendChild(noVid);
+      }
+      noVid.style.display = 'flex';
+    }
   } else {
     dom.youtubeContainer.classList.remove('visible');
+    var crop = dom.youtubeContainer.querySelector('.yt-crop');
+    if (crop) crop.style.display = '';
+    var noVid = dom.youtubeContainer.querySelector('.yt-no-video');
+    if (noVid) noVid.style.display = 'none';
   }
 
   // Hints area for silhouette mode

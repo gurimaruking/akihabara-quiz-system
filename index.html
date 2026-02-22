@@ -913,7 +913,8 @@ button:disabled:active { transform: none; }
   <div class="config-title">&#x1F3B5; イントロクイズ 設定</div>
   <div class="config-card">
     <div class="config-section">
-      <div class="config-section-title">出題数（難易度別）</div>
+      <div id="intro-url-info" style="text-align:center; color:#ffd700; font-size:13px; margin-bottom:8px;">YouTube URL設定済み: - / - 問</div>
+      <div class="config-section-title">出題数（難易度別）※YouTube URL有りのみ</div>
       <div class="difficulty-row">
         <span class="diff-label easy">★ 初級</span>
         <span class="diff-points">10pt</span>
@@ -1415,16 +1416,27 @@ button:disabled:active { transform: none; }
   // Intro Config
   // ===================================================================
   var introOrder = "sequential";
+  var introFilteredQuestions = [];
 
   function openIntroConfig() {
     if (!questionsData || !questionsData.intro || questionsData.intro.length === 0) {
       alert("イントロ問題データがありません");
       return;
     }
-    var allQ = questionsData.intro;
+    // Only include questions that have a YouTube URL set
+    var allQ = questionsData.intro.filter(function(q){ return q.youtube_url && q.youtube_url.length > 0; });
+    if (allQ.length === 0) {
+      alert("YouTube URLが設定されたイントロ問題がありません");
+      return;
+    }
+    introFilteredQuestions = allQ;
     var easyCount = allQ.filter(function(q){ return q.difficulty === 1; }).length;
     var medCount = allQ.filter(function(q){ return q.difficulty === 2; }).length;
     var hardCount = allQ.filter(function(q){ return q.difficulty === 3; }).length;
+    var totalWithUrl = allQ.length;
+    var totalAll = questionsData.intro.length;
+    document.getElementById("intro-url-info").textContent =
+      "YouTube URL設定済み: " + totalWithUrl + " / " + totalAll + " 問";
 
     var cfgEasy = document.getElementById("intro-cfg-easy");
     var cfgMed = document.getElementById("intro-cfg-medium");
@@ -1447,7 +1459,7 @@ button:disabled:active { transform: none; }
   }
 
   function startIntroFromConfig() {
-    var allQ = questionsData.intro;
+    var allQ = introFilteredQuestions || questionsData.intro;
     var easyN = parseInt(document.getElementById("intro-cfg-easy").value) || 0;
     var medN = parseInt(document.getElementById("intro-cfg-medium").value) || 0;
     var hardN = parseInt(document.getElementById("intro-cfg-hard").value) || 0;

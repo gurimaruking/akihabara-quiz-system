@@ -849,14 +849,14 @@
     {"id":3,"anime_title":"天元突破グレンラガン","song_title":"空色デイズ","artist":"中川翔子","hint":"ドリルで天を突くロボットアニメ","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=vVGa8I0Atcg","youtube_start":0,"youtube_end":30},
     {"id":4,"anime_title":"創聖のアクエリオン","song_title":"創聖のアクエリオン","artist":"AKINO","hint":"「あなたと合体したい」のCMで有名","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=coEicyvh4jU","youtube_start":0,"youtube_end":30},
     {"id":5,"anime_title":"マクロスFRONTIER","song_title":"ライオン","artist":"May'n/中島愛","hint":"歌姫が2人登場する宇宙ロボットアニメ","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=fGGTf044UPI","youtube_start":0,"youtube_end":30},
-    {"id":6,"anime_title":"機動戦士ガンダムSEED","song_title":"INVOKE","artist":"T.M.Revolution","hint":"コズミック・イラを舞台にしたガンダムシリーズ","difficulty":1,"points":10,"youtube_url":"","youtube_start":0,"youtube_end":30},
-    {"id":7,"anime_title":"交響詩篇エウレカセブン","song_title":"DAYS","artist":"FLOW","hint":"サーフボード型ロボットが空を飛ぶアニメ","difficulty":1,"points":10,"youtube_url":"","youtube_start":0,"youtube_end":30},
-    {"id":8,"anime_title":"機動戦士ガンダム00","song_title":"DAYBREAK'S BELL","artist":"L'Arc~en~Ciel","hint":"ソレスタルビーイングが登場するガンダム","difficulty":1,"points":10,"youtube_url":"","youtube_start":0,"youtube_end":30},
-    {"id":9,"anime_title":"機動戦士ガンダムSEED DESTINY","song_title":"ignited","artist":"T.M.Revolution","hint":"SEEDの続編ガンダム作品","difficulty":1,"points":10,"youtube_url":"","youtube_start":0,"youtube_end":30},
+    {"id":6,"anime_title":"機動戦士ガンダムSEED","song_title":"INVOKE","artist":"T.M.Revolution","hint":"コズミック・イラを舞台にしたガンダムシリーズ","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=hIatcIqT-G4","youtube_start":0,"youtube_end":30},
+    {"id":7,"anime_title":"交響詩篇エウレカセブン","song_title":"DAYS","artist":"FLOW","hint":"サーフボード型ロボットが空を飛ぶアニメ","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=TUdWeBBpx94","youtube_start":0,"youtube_end":30},
+    {"id":8,"anime_title":"機動戦士ガンダム00","song_title":"DAYBREAK'S BELL","artist":"L'Arc~en~Ciel","hint":"ソレスタルビーイングが登場するガンダム","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=iftIE7v-bfU","youtube_start":0,"youtube_end":30},
+    {"id":9,"anime_title":"機動戦士ガンダムSEED DESTINY","song_title":"ignited","artist":"T.M.Revolution","hint":"SEEDの続編ガンダム作品","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=icn2P4bCxOY","youtube_start":0,"youtube_end":30},
     {"id":10,"anime_title":"ダーリン・イン・ザ・フランキス","song_title":"KISS OF DEATH","artist":"中島美嘉","hint":"フランクスと呼ばれるロボットに男女ペアで乗るアニメ","difficulty":1,"points":10,"youtube_url":"","youtube_start":0,"youtube_end":30},
     {"id":11,"anime_title":"フルメタル・パニック!","song_title":"tomorrow","artist":"下川みくに","hint":"軍事組織ミスリルの傭兵が高校に潜入するロボットアニメ","difficulty":2,"points":20,"youtube_url":"","youtube_start":0,"youtube_end":30},
     {"id":12,"anime_title":"マクロスFRONTIER","song_title":"星間飛行","artist":"中島愛","hint":"ランカ・リーが歌う挿入歌","difficulty":2,"points":20,"youtube_url":"","youtube_start":0,"youtube_end":30},
-    {"id":13,"anime_title":"機動戦士ガンダム 鉄血のオルフェンズ","song_title":"Raise your flag","artist":"MAN WITH A MISSION","hint":"火星の少年兵が地球を目指すガンダム","difficulty":2,"points":20,"youtube_url":"","youtube_start":0,"youtube_end":30},
+    {"id":13,"anime_title":"機動戦士ガンダム 鉄血のオルフェンズ","song_title":"Raise your flag","artist":"MAN WITH A MISSION","hint":"火星の少年兵が地球を目指すガンダム","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=PiQpGzYMVos","youtube_start":0,"youtube_end":30},
     {"id":14,"anime_title":"コードギアス 反逆のルルーシュR2","song_title":"O2","artist":"ORANGE RANGE","hint":"コードギアス第2期のOP","difficulty":2,"points":20,"youtube_url":"","youtube_start":0,"youtube_end":30},
     {"id":15,"anime_title":"機動戦士ガンダム00 2nd Season","song_title":"儚くも永久のカナシ","artist":"UVERworld","hint":"ガンダム00の第2期OP","difficulty":2,"points":20,"youtube_url":"","youtube_start":0,"youtube_end":30},
     {"id":16,"anime_title":"革命機ヴァルヴレイヴ","song_title":"Preserved Roses","artist":"T.M.Revolution×水樹奈々","hint":"学園×ロボット×吸血鬼要素のアニメ","difficulty":2,"points":20,"youtube_url":"","youtube_start":0,"youtube_end":30},
@@ -872,7 +872,7 @@
     {"id":26,"anime_title":"トップをねらえ2!","song_title":"Groovin' Magic","artist":"ROUND TABLE feat. Nino","hint":"トップをねらえ!の続編OVA","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
     {"id":27,"anime_title":"機動戦士Zガンダム","song_title":"Ζ・刻をこえて","artist":"鮎川麻弥","hint":"カミーユが主人公のガンダムシリーズ第2作","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
     {"id":28,"anime_title":"超時空要塞マクロス","song_title":"愛・おぼえていますか","artist":"飯島真理","hint":"リン・ミンメイが歌うマクロス劇場版主題歌","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
-    {"id":29,"anime_title":"新機動戦記ガンダムW","song_title":"JUST COMMUNICATION","artist":"TWO-MIX","hint":"5人のガンダムパイロットが登場する作品","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
+    {"id":29,"anime_title":"新機動戦記ガンダムW","song_title":"JUST COMMUNICATION","artist":"TWO-MIX","hint":"5人のガンダムパイロットが登場する作品","difficulty":3,"points":30,"youtube_url":"https://www.youtube.com/watch?v=9RwxXS7G_Qc","youtube_start":0,"youtube_end":30},
     {"id":30,"anime_title":"機動戦士ガンダムF91","song_title":"ETERNAL WIND","artist":"森口博子","hint":"宇宙世紀0123年を舞台にしたガンダム映画","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30}
   ]
 }
