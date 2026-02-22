@@ -1239,6 +1239,8 @@ button:disabled:active { transform: none; }
 
           // Send tournament selection to audience
           sendMsg("TOURNAMENT_SELECT", { title: data.title });
+          // Update browser tab title
+          document.title = "GAME MASTER - " + (data.title || "クイズ大会");
 
           // Update mode counts
           updateModeCounts();
@@ -1436,7 +1438,7 @@ button:disabled:active { transform: none; }
       $("#answer-text").textContent = currentQ.robot_name;
       renderHints();
     } else if (currentMode === "intro") {
-      $("#question-text").textContent = "このアニメは何？";
+      $("#question-text").textContent = getIntroQuestionLabel();
       $("#answer-text").textContent = currentQ.anime_title;
       renderIntroInfo();
     }
@@ -1470,7 +1472,7 @@ button:disabled:active { transform: none; }
     } else if (currentMode === "intro") {
       return {
         id: currentQ.id,
-        text: "このアニメは何？",
+        text: getIntroQuestionLabel(),
         hint: currentQ.hint,
         difficulty: currentQ.difficulty,
         number: num,
@@ -1493,6 +1495,12 @@ button:disabled:active { transform: none; }
         'ヒント' + (i + 1) + ': ' + (revealed ? escapeHtml(h || "-") : "(未公開)") +
         '</div>';
     }).join("");
+  }
+
+  function getIntroQuestionLabel() {
+    var tid = currentTournament || "";
+    if (tid === "net_meme") return "この曲は何？";
+    return "このアニメは何？";
   }
 
   function renderIntroInfo() {

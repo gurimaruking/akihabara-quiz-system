@@ -956,9 +956,10 @@ channel.onmessage = (event) => {
   switch (msg.type) {
 
     case 'TOURNAMENT_SELECT':
-      // Update main title with tournament name
+      // Update main title and browser tab with tournament name
       if (payload.title) {
         dom.mainTitle.textContent = payload.title;
+        document.title = payload.title + ' - Audience';
       }
       break;
 
