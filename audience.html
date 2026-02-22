@@ -772,7 +772,7 @@ function showQuestion(data) {
 
 function showAnswer(data) {
   const text = data.answerHtml || data.text || data.answer || '';
-  dom.answerText.textContent = `★ ${text} ★`;
+  dom.answerText.innerHTML = `★ ${text} ★`;
   dom.answerArea.classList.remove('visible');
   dom.answerArea.style.opacity = '';
   dom.answerArea.style.visibility = '';
@@ -1035,7 +1035,7 @@ channel.onmessage = (event) => {
       hideBuzzer();
       // Show correct overlay with player name
       dom.correctPlayerName.textContent = payload.playerName || '';
-      dom.correctAnswerText.textContent = payload.answerHtml ? '答え: ' + payload.answerHtml : '';
+      dom.correctAnswerText.innerHTML = payload.answerHtml ? '答え: ' + payload.answerHtml : '';
       dom.correctOverlay.classList.add('visible');
       confetti.burst(250);
       // Auto-hide after 3 seconds
