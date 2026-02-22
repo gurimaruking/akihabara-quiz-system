@@ -123,5 +123,36 @@
     {"id":120,"question":"1967年に放送された日本初のカラーテレビアニメで、ジャングル大帝の主人公ライオンの名前は何でしょう？","answer":"レオ","difficulty":3,"points":30}
   ],
   "silhouette": [],
-  "intro": []
+  "intro": [
+    {"id": 1, "anime_title": "ドラゴンボールZ", "song_title": "CHA-LA HEAD-CHA-LA", "artist": "影山ヒロノブ", "hint": "1989年放送の伝説的バトルアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=Xr3KVXaKGjo", "youtube_start": 0, "youtube_end": 30},
+    {"id": 2, "anime_title": "美少女戦士セーラームーン", "song_title": "ムーンライト伝説", "artist": "DALI", "hint": "1992年放送の変身ヒロインアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=6KYk5a93OC8", "youtube_start": 0, "youtube_end": 30},
+    {"id": 3, "anime_title": "SLAM DUNK", "song_title": "君が好きだと叫びたい", "artist": "BAAD", "hint": "1993年放送のバスケットボールアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=JzurtO4yHrM", "youtube_start": 0, "youtube_end": 30},
+    {"id": 4, "anime_title": "るろうに剣心", "song_title": "そばかす", "artist": "JUDY AND MARY", "hint": "1996年放送の幕末剣客アニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=ewphY7jULL0", "youtube_start": 0, "youtube_end": 30},
+    {"id": 5, "anime_title": "幽☆遊☆白書", "song_title": "微笑みの爆弾", "artist": "馬渡松子", "hint": "1992年放送の霊界探偵バトルアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=TlENd4mP9Gs", "youtube_start": 0, "youtube_end": 30},
+    {"id": 6, "anime_title": "シティーハンター", "song_title": "Get Wild", "artist": "TM NETWORK", "hint": "1987年放送の新宿のスイーパーアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=r107W1YXrSM", "youtube_start": 0, "youtube_end": 30},
+    {"id": 7, "anime_title": "聖闘士星矢", "song_title": "ペガサス幻想", "artist": "MAKE-UP", "hint": "1986年放送の聖衣を纏う少年バトルアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=Bu533OKYHyc", "youtube_start": 0, "youtube_end": 30},
+    {"id": 8, "anime_title": "ポケットモンスター", "song_title": "めざせポケモンマスター", "artist": "松本梨香", "hint": "1997年放送のモンスター収集冒険アニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=E_BsL8_cFnE", "youtube_start": 0, "youtube_end": 30},
+    {"id": 9, "anime_title": "ONE PIECE", "song_title": "ウィーアー!", "artist": "きただにひろし", "hint": "1999年放送の海賊冒険アニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=r7n-L5B0bBw", "youtube_start": 0, "youtube_end": 30},
+    {"id": 10, "anime_title": "SLAM DUNK", "song_title": "世界が終るまでは…", "artist": "WANDS", "hint": "1993年放送のバスケアニメのED", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=1Bk9YpwWEsg", "youtube_start": 0, "youtube_end": 30},
+    {"id": 11, "anime_title": "ドラゴンボールGT", "song_title": "DAN DAN 心魅かれてく", "artist": "FIELD OF VIEW", "hint": "1996年放送のドラゴンボール続編", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=f7Z3b_vSjS8", "youtube_start": 0, "youtube_end": 30},
+    {"id": 12, "anime_title": "デジモンアドベンチャー", "song_title": "Butter-Fly", "artist": "和田光司", "hint": "1999年放送のデジタルモンスター冒険アニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=PeSVLxLFjwA", "youtube_start": 0, "youtube_end": 30},
+    {"id": 13, "anime_title": "新世紀エヴァンゲリオン", "song_title": "残酷な天使のテーゼ", "artist": "高橋洋子", "hint": "1995年放送の社会現象ロボットアニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=o6wtDPVkKqI", "youtube_start": 0, "youtube_end": 30},
+    {"id": 14, "anime_title": "カウボーイビバップ", "song_title": "Tank!", "artist": "シートベルツ", "hint": "1998年放送の宇宙賞金稼ぎアニメ", "difficulty": 2, "points": 20, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
+    {"id": 15, "anime_title": "名探偵コナン", "song_title": "胸がドキドキ", "artist": "ザ・ハイロウズ", "hint": "1996年放送の推理アニメ初代OP", "difficulty": 2, "points": 20, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
+    {"id": 16, "anime_title": "北斗の拳", "song_title": "愛をとりもどせ!!", "artist": "クリスタルキング", "hint": "1984年放送の世紀末格闘アニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=HHAR5o_M8PA", "youtube_start": 0, "youtube_end": 30},
+    {"id": 17, "anime_title": "機動戦士ガンダム", "song_title": "翔べ! ガンダム", "artist": "池田鴻", "hint": "1979年放送のリアルロボットアニメの原点", "difficulty": 2, "points": 20, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
+    {"id": 18, "anime_title": "うる星やつら", "song_title": "ラムのラブソング", "artist": "松谷祐子", "hint": "1981年放送の高橋留美子ラブコメアニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=MBEgw_kfhzc", "youtube_start": 0, "youtube_end": 30},
+    {"id": 19, "anime_title": "タッチ", "song_title": "タッチ", "artist": "岩崎良美", "hint": "1985年放送のあだち充野球恋愛アニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=WW6OgFqTNfg", "youtube_start": 0, "youtube_end": 30},
+    {"id": 20, "anime_title": "キャプテン翼", "song_title": "燃えてヒーロー", "artist": "竹本孝之", "hint": "1983年放送のサッカー少年アニメ", "difficulty": 2, "points": 20, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
+    {"id": 21, "anime_title": "宇宙戦艦ヤマト", "song_title": "宇宙戦艦ヤマト", "artist": "ささきいさお", "hint": "1974年放送の宇宙SFアニメの金字塔", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
+    {"id": 22, "anime_title": "銀河鉄道999", "song_title": "銀河鉄道999", "artist": "ゴダイゴ", "hint": "1978年放送の松本零士宇宙旅行アニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
+    {"id": 23, "anime_title": "ルパン三世", "song_title": "ルパン三世のテーマ", "artist": "大野雄二", "hint": "1977年放送の怪盗アクションアニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
+    {"id": 24, "anime_title": "鉄腕アトム", "song_title": "鉄腕アトム", "artist": "上高田少年合唱団", "hint": "1963年放送の日本初のTVアニメシリーズ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
+    {"id": 25, "anime_title": "マジンガーZ", "song_title": "マジンガーZ", "artist": "水木一郎", "hint": "1972年放送のスーパーロボットアニメの元祖", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
+    {"id": 26, "anime_title": "あしたのジョー", "song_title": "あしたのジョー", "artist": "尾藤イサオ", "hint": "1970年放送のボクシングアニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
+    {"id": 27, "anime_title": "めぞん一刻", "song_title": "悲しみよこんにちは", "artist": "斉藤由貴", "hint": "1986年放送の高橋留美子ラブコメアニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
+    {"id": 28, "anime_title": "超時空要塞マクロス", "song_title": "愛・おぼえていますか", "artist": "飯島真理", "hint": "1982年放送の歌と戦闘機ロボットアニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
+    {"id": 29, "anime_title": "機動警察パトレイバー", "song_title": "そのままの君でいて", "artist": "仁藤優子", "hint": "1989年放送のリアルロボット警察アニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
+    {"id": 30, "anime_title": "天空の城ラピュタ", "song_title": "君をのせて", "artist": "井上あずみ", "hint": "1986年公開のスタジオジブリ冒険映画", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30}
+  ]
 }

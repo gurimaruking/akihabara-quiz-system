@@ -1508,7 +1508,11 @@ button:disabled:active { transform: none; }
     if (!currentQ) return "";
     if (currentMode === "hayaoshi") return currentQ.answer;
     if (currentMode === "silhouette") return currentQ.robot_name;
-    if (currentMode === "intro") return currentQ.anime_title;
+    if (currentMode === "intro") {
+      var ans = currentQ.anime_title;
+      if (currentQ.song_title) ans += '<br><span style="font-size:0.7em;opacity:0.8;">\u266A ' + escapeHtml(currentQ.song_title) + ' / ' + escapeHtml(currentQ.artist || '') + '</span>';
+      return ans;
+    }
     return "";
   }
 
@@ -1580,8 +1584,12 @@ button:disabled:active { transform: none; }
     buzzerPlayerId = null;
     updateBuzzerUI();
     sendMsg("BUZZER_RESET", {});
-    // Resume gradual reveal from where it stopped
-    resumeRevealToAudience();
+    // Resume: hayaoshi=text reveal, intro=YouTube playback
+    if (currentMode === "intro") {
+      ytPlay();
+    } else {
+      resumeRevealToAudience();
+    }
   }
 
   function updateBuzzerUI() {

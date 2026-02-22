@@ -123,5 +123,36 @@
     {"id": 120, "question": "「パンツマン」というキャラクターが登場する掲示板はどこ？", "answer": "ふたば☆ちゃんねる", "difficulty": 3, "points": 30}
   ],
   "silhouette": [],
-  "intro": []
+  "intro": [
+    {"id":1,"anime_title":"Nyan Cat","song_title":"Nyan Cat","artist":"daniwellP","hint":"虹を出しながら飛ぶネコのループ動画","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=QH2-TGUlwu4","youtube_start":0,"youtube_end":30},
+    {"id":2,"anime_title":"リックロール","song_title":"Never Gonna Give You Up","artist":"Rick Astley","hint":"URLを踏むと流れる究極のネタ曲","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=dQw4w9WgXcQ","youtube_start":0,"youtube_end":30},
+    {"id":3,"anime_title":"Gangnam Style","song_title":"江南スタイル","artist":"PSY","hint":"馬ダンスで世界を席巻した韓国の曲","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=9bZkp7q19f0","youtube_start":0,"youtube_end":30},
+    {"id":4,"anime_title":"PPAP","song_title":"Pen-Pineapple-Apple-Pen","artist":"ピコ太郎","hint":"ペンとパイナップルとアップルの曲","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=0E00Zuayv9Q","youtube_start":0,"youtube_end":30},
+    {"id":5,"anime_title":"Baby Shark","song_title":"Baby Shark","artist":"Pinkfong","hint":"世界で最も再生された子供向けの曲","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=XqZsoesa55w","youtube_start":0,"youtube_end":30},
+    {"id":6,"anime_title":"Numa Numa","song_title":"Dragostea Din Tei","artist":"O-Zone","hint":"モルドバ出身のグループによるユーロダンス曲","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=YnopHCL1Jk8","youtube_start":0,"youtube_end":30},
+    {"id":7,"anime_title":"Crazy Frog","song_title":"Axel F","artist":"Crazy Frog","hint":"青いカエルのキャラが踊るアニメーション","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=k85mRPqvMbE","youtube_start":0,"youtube_end":30},
+    {"id":8,"anime_title":"Tunak Tunak Tun","song_title":"Tunak Tunak Tun","artist":"Daler Mehndi","hint":"インドのミュージシャンが分身する有名MV","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=vTIIMJ9tUc8","youtube_start":0,"youtube_end":30},
+    {"id":9,"anime_title":"Take On Me","song_title":"Take On Me","artist":"a-ha","hint":"鉛筆画アニメーションのMVが有名なノルウェーの曲","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=djV11Xbc914","youtube_start":0,"youtube_end":30},
+    {"id":10,"anime_title":"All Star","song_title":"All Star","artist":"Smash Mouth","hint":"シュレックの冒頭で有名になった曲","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=L_jWHffIx5E","youtube_start":0,"youtube_end":30},
+    {"id":11,"anime_title":"東方Project","song_title":"Bad Apple!! feat. nomico","artist":"Alstroemeria Records","hint":"影絵PVで大人気の東方アレンジ曲","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=FtutLA63Cp8","youtube_start":0,"youtube_end":30},
+    {"id":12,"anime_title":"千本桜","song_title":"千本桜","artist":"黒うさP feat. 初音ミク","hint":"ボカロ代表曲の一つ、和風ロック","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=K_xTet06SUo","youtube_start":0,"youtube_end":30},
+    {"id":13,"anime_title":"U.S.A.","song_title":"U.S.A.","artist":"DA PUMP","hint":"「いいねダンス」で2018年に大流行","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=sr--GVIoluU","youtube_start":0,"youtube_end":30},
+    {"id":14,"anime_title":"逃げるは恥だが役に立つ","song_title":"恋","artist":"星野源","hint":"恋ダンスで社会現象になったドラマ主題歌","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=jhOVibLEDhA","youtube_start":0,"youtube_end":30},
+    {"id":15,"anime_title":"Coffin Dance","song_title":"Astronomia","artist":"Vicetone & Tony Igy","hint":"ガーナの棺桶ダンスミームで使われた曲","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=iLBBRuVDOo4","youtube_start":0,"youtube_end":30},
+    {"id":16,"anime_title":"Shooting Stars","song_title":"Shooting Stars","artist":"Bag Raiders","hint":"人や物が宇宙に飛んでいくミームBGM","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=feA64wXhbjo","youtube_start":0,"youtube_end":30},
+    {"id":17,"anime_title":"We Are Number One","song_title":"We Are Number One","artist":"LazyTown","hint":"アイスランドの子供番組から生まれたミーム","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=PfYnvDL0Qcw","youtube_start":0,"youtube_end":30},
+    {"id":18,"anime_title":"Let It Go (アナと雪の女王)","song_title":"Let It Go","artist":"Idina Menzel","hint":"ディズニー映画から世界的ミームになった曲","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=L0MK7qz13bU","youtube_start":0,"youtube_end":30},
+    {"id":19,"anime_title":"Undertale","song_title":"MEGALOVANIA","artist":"Toby Fox","hint":"サンズ戦のBGMとして有名なゲーム音楽","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=wDgQdr8ZkTw","youtube_start":0,"youtube_end":30},
+    {"id":20,"anime_title":"Darude - Sandstorm","song_title":"Sandstorm","artist":"Darude","hint":"「曲名は？」→「Darude - Sandstorm」のミーム","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=y6120QOlsfU","youtube_start":0,"youtube_end":30},
+    {"id":21,"anime_title":"けものフレンズ","song_title":"ようこそジャパリパークへ","artist":"どうぶつビスケッツ×PPP","hint":"「すごーい！」「たのしー！」で話題になったアニメOP","difficulty":2,"points":20,"youtube_url":"","youtube_start":0,"youtube_end":30},
+    {"id":22,"anime_title":"Caramelldansen","song_title":"Caramelldansen","artist":"Caramell","hint":"ぽっぴっぽダンスの元ネタ、スウェーデンの曲","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
+    {"id":23,"anime_title":"Ievan Polkka","song_title":"Ievan Polkka","artist":"Loituma","hint":"ネギ回しミームの元ネタ、フィンランドの民謡","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
+    {"id":24,"anime_title":"Running in the 90's","song_title":"Running in the 90's","artist":"Max Coveri","hint":"頭文字Dと共に流行ったユーロビート曲","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
+    {"id":25,"anime_title":"マツケンサンバ","song_title":"マツケンサンバII","artist":"松平健","hint":"時代劇俳優が金ピカ衣装で踊る曲","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
+    {"id":26,"anime_title":"おジャ魔女どれみ","song_title":"おジャ魔女カーニバル!!","artist":"MAHO堂","hint":"「ピーリカピリララ」の呪文で有名な魔女っ子アニメ","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
+    {"id":27,"anime_title":"初音ミク","song_title":"みくみくにしてあげる♪","artist":"ika","hint":"初音ミク初期の代表曲、ニコ動で大流行","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
+    {"id":28,"anime_title":"ニコニコ動画","song_title":"ニコニコ動画流星群","artist":"しも","hint":"100曲以上のメドレー、ニコ動文化の象徴","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
+    {"id":29,"anime_title":"レッツゴー!陰陽師","song_title":"レッツゴー!陰陽師","artist":"矢部野彦麿&琴姫","hint":"ニコニコ動画黎明期の伝説的動画","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
+    {"id":30,"anime_title":"ウマ娘 プリティーダービー","song_title":"うまぴょい伝説","artist":"ウマ娘","hint":"競走馬を擬人化したゲームの中毒ソング","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30}
+  ]
 }
