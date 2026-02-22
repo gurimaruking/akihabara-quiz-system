@@ -127,11 +127,21 @@ html, body {
   display: none; width: 100%; max-width: 800px;
   margin: 1.5rem auto; border-radius: 12px; overflow: hidden;
   border: 2px solid var(--glass-border);
-  aspect-ratio: 16/9; position: relative;
+  position: relative;
   background: #000;
 }
 #youtube-container.visible { display: block; }
-#yt-player { width: 100%; height: 100%; }
+/* Crop top/bottom of YouTube iframe to hide title bar and controls overlay */
+#youtube-container .yt-crop {
+  position: relative; width: 100%; padding-bottom: 56.25%; /* 16:9 */
+  overflow: hidden;
+}
+#youtube-container .yt-crop iframe,
+#youtube-container .yt-crop > div {
+  position: absolute;
+  top: -60px; left: 0; width: 100%;
+  height: calc(100% + 120px);
+}
 
 /* ── Hints area ── */
 #hints-area {
@@ -454,7 +464,7 @@ html, body {
     </div>
 
     <div id="youtube-container">
-      <div id="yt-player"></div>
+      <div class="yt-crop"><div id="yt-player"></div></div>
     </div>
 
     <div id="hints-area"></div>
@@ -538,6 +548,8 @@ window.onYouTubeIframeAPIReady = function () {
       rel: 0,
       playsinline: 1,
       fs: 0,
+      iv_load_policy: 3,
+      showinfo: 0,
     },
     events: {
       onReady: () => { state.ytReady = true; },
@@ -557,7 +569,8 @@ function loadYouTubeVideo(url, startSeconds, endSeconds) {
   const opts = { videoId: id };
   if (startSeconds != null) opts.startSeconds = startSeconds;
   if (endSeconds != null)   opts.endSeconds = endSeconds;
-  ytPlayer.loadVideoById(opts);
+  // cue (don't auto-play) so GM controls when music starts
+  ytPlayer.cueVideoById(opts);
 }
 
 function controlYouTube(action) {

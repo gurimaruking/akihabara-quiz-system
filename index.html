@@ -908,6 +908,46 @@ button:disabled:active { transform: none; }
   </div>
 </div>
 
+<!-- ======================== INTRO CONFIG SCREEN ======================== -->
+<div id="intro-config-screen" class="screen">
+  <div class="config-title">&#x1F3B5; イントロクイズ 設定</div>
+  <div class="config-card">
+    <div class="config-section">
+      <div class="config-section-title">出題数（難易度別）</div>
+      <div class="difficulty-row">
+        <span class="diff-label easy">★ 初級</span>
+        <span class="diff-points">10pt</span>
+        <input type="number" id="intro-cfg-easy" min="0" max="10" value="10">
+        <span class="diff-available" id="intro-cfg-easy-max">/ 10問</span>
+      </div>
+      <div class="difficulty-row">
+        <span class="diff-label medium">★★ 中級</span>
+        <span class="diff-points">20pt</span>
+        <input type="number" id="intro-cfg-medium" min="0" max="10" value="10">
+        <span class="diff-available" id="intro-cfg-medium-max">/ 10問</span>
+      </div>
+      <div class="difficulty-row">
+        <span class="diff-label hard">★★★ 上級</span>
+        <span class="diff-points">30pt</span>
+        <input type="number" id="intro-cfg-hard" min="0" max="10" value="10">
+        <span class="diff-available" id="intro-cfg-hard-max">/ 10問</span>
+      </div>
+      <div class="config-total">合計: <span id="intro-cfg-total">30</span> 問</div>
+    </div>
+    <div class="config-section">
+      <div class="config-section-title">出題順序</div>
+      <div class="order-options">
+        <div class="order-option selected" data-order="sequential" id="intro-opt-sequential">📋 順番通り</div>
+        <div class="order-option" data-order="random" id="intro-opt-random">🎲 ランダム</div>
+      </div>
+    </div>
+  </div>
+  <div class="config-actions">
+    <button class="btn-config-back" id="intro-btn-config-back">← モード選択</button>
+    <button class="btn-config-start" id="intro-btn-config-start">クイズ開始!</button>
+  </div>
+</div>
+
 <!-- ======================== QUIZ CONTROL SCREEN ======================== -->
 <div id="quiz-screen" class="screen">
   <div class="top-bar">
@@ -1275,6 +1315,10 @@ button:disabled:active { transform: none; }
       openHayaoshiConfig();
       return;
     }
+    if (mode === "intro") {
+      openIntroConfig();
+      return;
+    }
     launchQuizMode(mode);
   }
 
@@ -1366,6 +1410,92 @@ button:disabled:active { transform: none; }
     showScreen("mode-screen");
   });
   document.getElementById("btn-config-start").addEventListener("click", startHayaoshiFromConfig);
+
+  // ===================================================================
+  // Intro Config
+  // ===================================================================
+  var introOrder = "sequential";
+
+  function openIntroConfig() {
+    if (!questionsData || !questionsData.intro || questionsData.intro.length === 0) {
+      alert("イントロ問題データがありません");
+      return;
+    }
+    var allQ = questionsData.intro;
+    var easyCount = allQ.filter(function(q){ return q.difficulty === 1; }).length;
+    var medCount = allQ.filter(function(q){ return q.difficulty === 2; }).length;
+    var hardCount = allQ.filter(function(q){ return q.difficulty === 3; }).length;
+
+    var cfgEasy = document.getElementById("intro-cfg-easy");
+    var cfgMed = document.getElementById("intro-cfg-medium");
+    var cfgHard = document.getElementById("intro-cfg-hard");
+    cfgEasy.max = easyCount;  cfgEasy.value = Math.min(parseInt(cfgEasy.value) || easyCount, easyCount);
+    cfgMed.max = medCount;    cfgMed.value = Math.min(parseInt(cfgMed.value) || medCount, medCount);
+    cfgHard.max = hardCount;  cfgHard.value = Math.min(parseInt(cfgHard.value) || hardCount, hardCount);
+    document.getElementById("intro-cfg-easy-max").textContent = "/ " + easyCount + "問";
+    document.getElementById("intro-cfg-medium-max").textContent = "/ " + medCount + "問";
+    document.getElementById("intro-cfg-hard-max").textContent = "/ " + hardCount + "問";
+    updateIntroConfigTotal();
+    showScreen("intro-config-screen");
+  }
+
+  function updateIntroConfigTotal() {
+    var e = parseInt(document.getElementById("intro-cfg-easy").value) || 0;
+    var m = parseInt(document.getElementById("intro-cfg-medium").value) || 0;
+    var h = parseInt(document.getElementById("intro-cfg-hard").value) || 0;
+    document.getElementById("intro-cfg-total").textContent = (e + m + h);
+  }
+
+  function startIntroFromConfig() {
+    var allQ = questionsData.intro;
+    var easyN = parseInt(document.getElementById("intro-cfg-easy").value) || 0;
+    var medN = parseInt(document.getElementById("intro-cfg-medium").value) || 0;
+    var hardN = parseInt(document.getElementById("intro-cfg-hard").value) || 0;
+
+    if (easyN + medN + hardN === 0) {
+      alert("出題数を1問以上に設定してください");
+      return;
+    }
+
+    var easyPool = allQ.filter(function(q){ return q.difficulty === 1; });
+    var medPool = allQ.filter(function(q){ return q.difficulty === 2; });
+    var hardPool = allQ.filter(function(q){ return q.difficulty === 3; });
+
+    if (introOrder === "random") {
+      shuffleArray(easyPool);
+      shuffleArray(medPool);
+      shuffleArray(hardPool);
+    }
+
+    var selected = easyPool.slice(0, easyN).concat(medPool.slice(0, medN)).concat(hardPool.slice(0, hardN));
+
+    if (introOrder === "random") {
+      shuffleArray(selected);
+    }
+
+    launchQuizModeWithQuestions("intro", selected);
+  }
+
+  // Intro config event listeners
+  document.getElementById("intro-cfg-easy").addEventListener("input", updateIntroConfigTotal);
+  document.getElementById("intro-cfg-medium").addEventListener("input", updateIntroConfigTotal);
+  document.getElementById("intro-cfg-hard").addEventListener("input", updateIntroConfigTotal);
+
+  document.getElementById("intro-opt-sequential").addEventListener("click", function() {
+    introOrder = "sequential";
+    document.getElementById("intro-opt-sequential").classList.add("selected");
+    document.getElementById("intro-opt-random").classList.remove("selected");
+  });
+  document.getElementById("intro-opt-random").addEventListener("click", function() {
+    introOrder = "random";
+    document.getElementById("intro-opt-random").classList.add("selected");
+    document.getElementById("intro-opt-sequential").classList.remove("selected");
+  });
+
+  document.getElementById("intro-btn-config-back").addEventListener("click", function() {
+    showScreen("mode-screen");
+  });
+  document.getElementById("intro-btn-config-start").addEventListener("click", startIntroFromConfig);
 
   function launchQuizModeWithQuestions(mode, questions) {
     currentMode = mode;
