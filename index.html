@@ -1002,6 +1002,7 @@ button:disabled:active { transform: none; }
       <button class="btn-hint" id="btn-hint" style="display:none;">ヒント表示 [Space]</button>
       <button class="btn-yt" id="btn-yt-play" style="display:none;">&#9654; 再生</button>
       <button class="btn-yt" id="btn-yt-pause" style="display:none;">&#10074;&#10074; 一時停止</button>
+      <button class="btn-yt" id="btn-yt-video-toggle" style="display:none;">&#128249; 映像OFF</button>
     </div>
 
     <!-- Score sidebar -->
@@ -1121,6 +1122,7 @@ button:disabled:active { transform: none; }
   var buzzerPlayerId = null;
   var hintLevel = 0;
   var ytPlaying = false;
+  var ytVideoVisible = false; // default: video hidden (pure intro quiz mode)
   var audienceWindow = null;
   var hayaoshiTimer = null;
   var hayaoshiCharIndex = 0;
@@ -1525,8 +1527,13 @@ button:disabled:active { transform: none; }
     $("#btn-hint").style.display = (mode === "silhouette") ? "inline-block" : "none";
     $("#btn-yt-play").style.display = (mode === "intro") ? "inline-block" : "none";
     $("#btn-yt-pause").style.display = (mode === "intro") ? "inline-block" : "none";
+    $("#btn-yt-video-toggle").style.display = (mode === "intro") ? "inline-block" : "none";
     $("#hint-info").style.display = (mode === "silhouette") ? "block" : "none";
     $("#intro-info").style.display = (mode === "intro") ? "block" : "none";
+    // Send current video visibility state to audience
+    if (mode === "intro") {
+      sendMsg("YOUTUBE_VISIBILITY", { visible: ytVideoVisible });
+    }
 
     var badge = $("#mode-badge");
     badge.className = "mode-badge " + mode;
@@ -1592,6 +1599,9 @@ button:disabled:active { transform: none; }
       questionData: questionData
     });
     sendMsg("BUZZER_RESET", {});
+    if (currentMode === "intro") {
+      sendMsg("YOUTUBE_VISIBILITY", { visible: ytVideoVisible });
+    }
 
     // Auto-start gradual reveal for hayaoshi (short delay so audience gets LOAD_QUESTION first)
     if (currentMode === "hayaoshi") {
@@ -1959,6 +1969,12 @@ button:disabled:active { transform: none; }
   $("#btn-hint").addEventListener("click", showHint);
   $("#btn-yt-play").addEventListener("click", ytPlay);
   $("#btn-yt-pause").addEventListener("click", ytPause);
+  $("#btn-yt-video-toggle").addEventListener("click", function() {
+    ytVideoVisible = !ytVideoVisible;
+    this.textContent = ytVideoVisible ? "📹 映像ON" : "📹 映像OFF";
+    this.style.background = ytVideoVisible ? "#2a5a2a" : "";
+    sendMsg("YOUTUBE_VISIBILITY", { visible: ytVideoVisible });
+  });
 
   $("#btn-back-mode").addEventListener("click", function() {
     currentMode = null;

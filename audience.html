@@ -490,6 +490,7 @@ const state = {
   buzzedPlayer: null,
   activated: false,
   ytReady: false,
+  ytVideoVisible: false,
 };
 
 let ytPlayer = null;
@@ -588,6 +589,20 @@ function pauseYouTubeIfPlaying() {
     const s = ytPlayer.getPlayerState();
     if (s === YT.PlayerState.PLAYING) ytPlayer.pauseVideo();
   } catch (_) {}
+}
+
+function applyYouTubeVisibility() {
+  // When video is hidden, the iframe still exists and plays audio,
+  // but the container is visually hidden so it's a pure intro quiz.
+  if (state.ytVideoVisible) {
+    dom.youtubeContainer.style.height = '';
+    dom.youtubeContainer.style.overflow = '';
+    dom.youtubeContainer.style.border = '';
+  } else {
+    dom.youtubeContainer.style.height = '0';
+    dom.youtubeContainer.style.overflow = 'hidden';
+    dom.youtubeContainer.style.border = 'none';
+  }
 }
 
 // ══════════════════════════════════════════════════════════════
@@ -771,29 +786,33 @@ function showQuestion(data) {
 
   // YouTube for intro mode
   if (state.currentMode === 'intro') {
+    var crop = dom.youtubeContainer.querySelector('.yt-crop');
+    var noVid = dom.youtubeContainer.querySelector('.yt-no-video');
     if (data.youtube_url) {
       dom.youtubeContainer.classList.add('visible');
+      if (crop) crop.style.display = '';
+      if (noVid) noVid.style.display = 'none';
       loadYouTubeVideo(data.youtube_url, data.start_seconds, data.end_seconds);
     } else {
-      // No URL — show container with "no video" message
+      // No URL — show fallback message (only if video mode is ON)
       dom.youtubeContainer.classList.add('visible');
-      dom.youtubeContainer.querySelector('.yt-crop').style.display = 'none';
-      var noVid = dom.youtubeContainer.querySelector('.yt-no-video');
+      if (crop) crop.style.display = 'none';
       if (!noVid) {
         noVid = document.createElement('div');
         noVid.className = 'yt-no-video';
         noVid.style.cssText = 'display:flex;align-items:center;justify-content:center;height:200px;color:#888;font-size:1.2rem;';
-        noVid.textContent = '🎵 YouTube未設定 — GMが曲を流してください';
+        noVid.textContent = '🎵 YouTube未設定';
         dom.youtubeContainer.appendChild(noVid);
       }
       noVid.style.display = 'flex';
     }
+    // Apply video visibility (hidden = audio-only mode)
+    applyYouTubeVisibility();
   } else {
     dom.youtubeContainer.classList.remove('visible');
-    var crop = dom.youtubeContainer.querySelector('.yt-crop');
-    if (crop) crop.style.display = '';
-    var noVid = dom.youtubeContainer.querySelector('.yt-no-video');
-    if (noVid) noVid.style.display = 'none';
+    dom.youtubeContainer.style.height = '';
+    dom.youtubeContainer.style.overflow = '';
+    dom.youtubeContainer.style.border = '';
   }
 
   // Hints area for silhouette mode
@@ -1084,6 +1103,11 @@ channel.onmessage = (event) => {
 
     case 'YOUTUBE_CONTROL':
       controlYouTube(payload.action || payload);
+      break;
+
+    case 'YOUTUBE_VISIBILITY':
+      state.ytVideoVisible = !!payload.visible;
+      applyYouTubeVisibility();
       break;
 
     case 'SHOW_HINT':
