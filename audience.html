@@ -236,6 +236,37 @@ html, body {
   0%   { opacity: 1; transform: translateX(-50%) translateY(0); }
   100% { opacity: 0; transform: translateX(-50%) translateY(-50px); }
 }
+/* ── スタックチャンス!! ── */
+.stackchance-icon {
+  position: absolute; top: -14px; right: -10px;
+  width: 40px; height: 40px;
+  background: #1a1a35; border: 2px solid #00e676; border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px; z-index: 10;
+  box-shadow: 0 0 14px rgba(0,230,118,0.6);
+  animation: stackchanBounce 1s ease-in-out infinite;
+}
+@keyframes stackchanBounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+.player-card.has-stackchance {
+  border-color: #00e676 !important;
+  box-shadow: 0 0 18px rgba(0,230,118,0.35), inset 0 0 12px rgba(0,230,118,0.08) !important;
+}
+.score-float.stackchance-float {
+  color: #00e676 !important; font-size: 1.6em !important;
+}
+#stackchance-bonus {
+  font-size: clamp(1.5rem, 4vw, 2.5rem); color: #00e676; font-weight: 900;
+  text-shadow: 0 0 20px rgba(0,230,118,0.8), 0 0 40px rgba(0,230,118,0.4);
+  margin-top: 0.8rem;
+  animation: stackchancePulse 0.5s ease-in-out 3;
+}
+@keyframes stackchancePulse {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.25); }
+}
 
 /* ── Buzzer overlay ── */
 #buzzer-overlay {
@@ -429,6 +460,7 @@ html, body {
   <div id="correct-text">🎉 正解!! 🎉</div>
   <div id="correct-player-name"></div>
   <div id="correct-answer-text"></div>
+  <div id="stackchance-bonus" style="display:none"></div>
 </div>
 
 <!-- Red flash overlay -->
@@ -491,6 +523,8 @@ const state = {
   activated: false,
   ytReady: false,
   ytVideoVisible: false,
+  stackchancePlayerId: null,
+  lastCorrectWasStackchance: false,
 };
 
 let ytPlayer = null;
@@ -726,13 +760,40 @@ function updateScores(players) {
         const card = scoreEl.closest('.player-card');
         const floater = document.createElement('div');
         floater.className = 'score-float';
-        floater.textContent = `+${diff}`;
+        // スタックチャンス!!の場合は特別表示
+        if (state.lastCorrectWasStackchance && p.id === state.stackchancePlayerId) {
+          floater.classList.add('stackchance-float');
+          floater.textContent = `x2!! +${diff}`;
+        } else {
+          floater.textContent = `+${diff}`;
+        }
         card.appendChild(floater);
         setTimeout(() => floater.remove(), 1100);
       }
     }
   });
   state.players = players;
+}
+
+function updateStackchance(playerId) {
+  state.stackchancePlayerId = playerId;
+  // 全プレイヤーカードからスタックチャンアイコンを除去
+  dom.scoreboardGrid.querySelectorAll('.player-card').forEach(card => {
+    card.classList.remove('has-stackchance');
+    const oldIcon = card.querySelector('.stackchance-icon');
+    if (oldIcon) oldIcon.remove();
+  });
+  // 対象プレイヤーにスタックチャンアイコンを付与
+  if (playerId !== null) {
+    const targetCard = dom.scoreboardGrid.querySelector(`.player-card[data-id="${playerId}"]`);
+    if (targetCard) {
+      targetCard.classList.add('has-stackchance');
+      const icon = document.createElement('div');
+      icon.className = 'stackchance-icon';
+      icon.textContent = '🤖';
+      targetCard.appendChild(icon);
+    }
+  }
 }
 
 function setActiveBuzzerPlayer(playerId) {
@@ -1085,20 +1146,40 @@ channel.onmessage = (event) => {
     case 'CORRECT_ANSWER':
       // Hide buzzer overlay first
       hideBuzzer();
+      // Track stackchance state for score float styling
+      state.lastCorrectWasStackchance = !!payload.isStackchance;
       // Show correct overlay with player name
       dom.correctPlayerName.textContent = payload.playerName || '';
       dom.correctAnswerText.innerHTML = payload.answerHtml ? '答え: ' + payload.answerHtml : '';
+      // スタックチャンス!!演出
+      var chanceEl = document.getElementById('stackchance-bonus');
+      if (chanceEl) {
+        if (payload.isStackchance) {
+          chanceEl.textContent = '🤖 スタックチャンス!! 得点2倍! 🤖';
+          chanceEl.style.display = 'block';
+          // Re-trigger animation
+          chanceEl.style.animation = 'none';
+          void chanceEl.offsetWidth;
+          chanceEl.style.animation = '';
+        } else {
+          chanceEl.style.display = 'none';
+        }
+      }
       dom.correctOverlay.classList.add('visible');
-      confetti.burst(250);
-      // Auto-hide after 3 seconds
+      confetti.burst(payload.isStackchance ? 500 : 250);
+      // Auto-hide (longer for stackchance)
       setTimeout(function() {
         dom.correctOverlay.classList.remove('visible');
-      }, 3000);
+      }, payload.isStackchance ? 4500 : 3000);
       break;
 
     case 'INCORRECT_ANSWER':
       hideBuzzer();
       flashRed();
+      break;
+
+    case 'STACKCHANCE':
+      updateStackchance(payload.playerId);
       break;
 
     case 'YOUTUBE_CONTROL':

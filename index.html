@@ -1121,6 +1121,7 @@ button:disabled:active { transform: none; }
   var players = [];
   var questionsData = null;
   var currentTournament = null;  // selected tournament ID
+  var stackchancePlayerId = null; // スタックチャンス!!所有プレイヤーID（スタックチャン大会限定）
   var tournamentData = null;     // all tournament data
   var currentMode = null;
   var currentQuestions = [];
@@ -1527,6 +1528,9 @@ button:disabled:active { transform: none; }
     answerRevealed = false;
     buzzerPlayerId = null;
     ytPlaying = false;
+    // スタックチャンスリセット
+    stackchancePlayerId = null;
+    sendMsg("STACKCHANCE", { playerId: null });
 
     sendMsg("INIT", { players: getPlayersPayload() });
     var modeNames = { hayaoshi: "早押しクイズ", silhouette: "シルエットクイズ", intro: "イントロクイズ" };
@@ -1725,13 +1729,28 @@ button:disabled:active { transform: none; }
     var p = findPlayer(buzzerPlayerId);
     if (p) {
       var pts = (currentQ && currentQ.points) ? currentQ.points : 10;
+      var isStackchance = false;
+
+      // スタックチャンス!!判定（スタックチャン大会限定）
+      if (currentTournament === "stackchan" && stackchancePlayerId === p.id) {
+        pts = pts * 2;
+        isStackchance = true;
+      }
+
       p.score += pts;
       renderScoreCards();
       playSoundCorrect();
       // Reveal full text on audience before showing correct effect
       revealFullToAudience();
-      sendMsg("CORRECT_ANSWER", { playerId: p.id, playerName: p.name, answerHtml: getAnswerHtml(), points: pts });
+      sendMsg("CORRECT_ANSWER", { playerId: p.id, playerName: p.name, answerHtml: getAnswerHtml(), points: pts, isStackchance: isStackchance });
       sendMsg("SCORE_UPDATE", { players: getPlayersPayload() });
+
+      // スタックチャン大会: 次のチャンスをこのプレイヤーに設定
+      if (currentTournament === "stackchan") {
+        stackchancePlayerId = p.id;
+        sendMsg("STACKCHANCE", { playerId: p.id });
+        renderScoreCards(); // チャンスアイコン更新
+      }
     }
     buzzerPlayerId = null;
     updateBuzzerUI();
@@ -1790,9 +1809,11 @@ button:disabled:active { transform: none; }
   function renderScoreCards() {
     var container = $("#score-cards");
     container.innerHTML = players.map(function(p) {
+      var chanceTag = (currentTournament === "stackchan" && stackchancePlayerId === p.id)
+        ? ' <span style="font-size:1.2em" title="スタックチャンス!!">🤖</span>' : '';
       return '<div class="player-score-card" data-player-id="' + p.id + '">' +
         '<div class="psc-top">' +
-          '<span class="psc-name" data-pid="' + p.id + '">' + escapeHtml(p.name) + '</span>' +
+          '<span class="psc-name" data-pid="' + p.id + '">' + escapeHtml(p.name) + chanceTag + '</span>' +
           '<span class="psc-key">キー: ' + p.id + '</span>' +
         '</div>' +
         '<div class="psc-score">' + p.score + '</div>' +
