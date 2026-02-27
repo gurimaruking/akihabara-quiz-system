@@ -176,11 +176,21 @@ html, body {
   70%  { opacity: 1; transform: scale(1.1); filter: blur(0); }
   100% { opacity: 1; transform: scale(1);   filter: blur(0); }
 }
+#answer-image-container {
+  display: none; justify-content: center; align-items: center;
+  margin-bottom: 0.5rem;
+}
+#answer-image {
+  max-height: 40vh; max-width: 70vw;
+  object-fit: contain; border-radius: 12px;
+  border: 3px solid var(--gold);
+  box-shadow: 0 0 30px rgba(255,215,0,0.5);
+}
 #answer-text {
-  font-size: clamp(2.5rem, 5vw, 5rem); font-weight: 900;
+  font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 900;
   color: var(--gold);
   text-shadow: 0 0 20px rgba(255,215,0,0.6), 0 0 40px rgba(255,215,0,0.3), 0 0 80px rgba(255,215,0,0.15);
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
 }
 
 /* ── Scoreboard ── */
@@ -312,9 +322,9 @@ html, body {
   100% { transform: scale(1); opacity: 1; }
 }
 #correct-text {
-  font-size: clamp(5rem, 12vw, 12rem); font-weight: 900;
+  font-size: clamp(2.5rem, 6vw, 5rem); font-weight: 900;
   color: var(--gold);
-  text-shadow: 0 0 40px rgba(255,215,0,0.8), 0 0 80px rgba(255,215,0,0.4), 0 0 120px rgba(255,215,0,0.2);
+  text-shadow: 0 0 30px rgba(255,215,0,0.8), 0 0 60px rgba(255,215,0,0.4);
   animation: correctPulse 0.8s ease-in-out infinite alternate;
 }
 @keyframes correctPulse {
@@ -322,13 +332,29 @@ html, body {
   100% { transform: scale(1.08); text-shadow: 0 0 60px rgba(255,215,0,1), 0 0 120px rgba(255,215,0,0.6); }
 }
 #correct-player-name {
-  font-size: clamp(2rem, 5vw, 4rem); font-weight: 800;
-  color: #fff; margin-top: 1rem;
+  font-size: clamp(1.2rem, 3vw, 2rem); font-weight: 800;
+  color: #fff; margin-top: 0.3rem;
   text-shadow: 0 0 20px rgba(255,255,255,0.5);
 }
+/* Answer image in correct overlay */
+#correct-answer-image-container {
+  display: none; justify-content: center; align-items: center;
+  margin: 0.5rem 0;
+}
+#correct-answer-image {
+  max-height: 45vh; max-width: 80vw;
+  object-fit: contain; border-radius: 16px;
+  border: 4px solid var(--gold);
+  box-shadow: 0 0 40px rgba(255,215,0,0.6), 0 0 80px rgba(255,215,0,0.3);
+  animation: imageGlow 1.5s ease-in-out infinite alternate;
+}
+@keyframes imageGlow {
+  0%   { box-shadow: 0 0 40px rgba(255,215,0,0.6), 0 0 80px rgba(255,215,0,0.3); }
+  100% { box-shadow: 0 0 60px rgba(255,215,0,0.8), 0 0 120px rgba(255,215,0,0.5); }
+}
 #correct-answer-text {
-  font-size: clamp(1.5rem, 3vw, 2.5rem); font-weight: 700;
-  color: var(--gold); margin-top: 1.5rem;
+  font-size: clamp(1.2rem, 2.5vw, 2rem); font-weight: 700;
+  color: var(--gold); margin-top: 0.3rem;
   opacity: 0.9;
 }
 
@@ -460,6 +486,9 @@ html, body {
 <div id="correct-overlay">
   <div id="correct-text">🎉 正解!! 🎉</div>
   <div id="correct-player-name"></div>
+  <div id="correct-answer-image-container">
+    <img id="correct-answer-image" src="" alt="" />
+  </div>
   <div id="correct-answer-text"></div>
   <div id="stackchance-bonus" style="display:none"></div>
 </div>
@@ -503,6 +532,9 @@ html, body {
     <div id="hints-area"></div>
 
     <div id="answer-area">
+      <div id="answer-image-container">
+        <img id="answer-image" src="" alt="" />
+      </div>
       <div id="answer-text"></div>
     </div>
   </div>
@@ -551,12 +583,41 @@ const dom = {
   correctOverlay:    document.getElementById('correct-overlay'),
   correctText:       document.getElementById('correct-text'),
   correctPlayerName: document.getElementById('correct-player-name'),
+  correctAnswerImageContainer: document.getElementById('correct-answer-image-container'),
+  correctAnswerImage: document.getElementById('correct-answer-image'),
   correctAnswerText: document.getElementById('correct-answer-text'),
+  answerImageContainer: document.getElementById('answer-image-container'),
+  answerImage:       document.getElementById('answer-image'),
   flashOverlay:     document.getElementById('flash-overlay'),
   resultsOverlay:   document.getElementById('results-overlay'),
   resultsList:      document.getElementById('results-list'),
   confettiCanvas:   document.getElementById('confetti-canvas'),
 };
+
+// ══════════════════════════════════════════════════════════════
+//  Answer Image Helpers
+// ══════════════════════════════════════════════════════════════
+function showAnswerImage(imgEl, containerEl, imageUrl) {
+  if (!imageUrl) {
+    containerEl.style.display = 'none';
+    imgEl.src = '';
+    return;
+  }
+  imgEl.onload = function() {
+    containerEl.style.display = 'flex';
+  };
+  imgEl.onerror = function() {
+    containerEl.style.display = 'none';
+  };
+  imgEl.src = imageUrl;
+}
+
+function hideAnswerImages() {
+  dom.correctAnswerImageContainer.style.display = 'none';
+  dom.correctAnswerImage.src = '';
+  dom.answerImageContainer.style.display = 'none';
+  dom.answerImage.src = '';
+}
 
 // ══════════════════════════════════════════════════════════════
 //  Activate overlay (autoplay policy)
@@ -828,6 +889,7 @@ function showQuestion(data) {
   dom.answerArea.style.visibility = 'hidden';
   dom.hintsArea.classList.remove('visible');
   dom.hintsArea.innerHTML = '';
+  hideAnswerImages();
 
   // Stop any existing hayaoshi reveal
   stopHayaoshiReveal();
@@ -886,6 +948,8 @@ function showQuestion(data) {
 function showAnswer(data) {
   const text = data.answerHtml || data.text || data.answer || '';
   dom.answerText.innerHTML = `★ ${text} ★`;
+  // Show answer image if available
+  showAnswerImage(dom.answerImage, dom.answerImageContainer, data.imageUrl || null);
   dom.answerArea.classList.remove('visible');
   dom.answerArea.style.opacity = '';
   dom.answerArea.style.visibility = '';
@@ -977,7 +1041,7 @@ function restoreState(data) {
     showQuestion(data.questionData);
   }
   if (data.answerRevealed && (data.answerHtml || data.answer)) {
-    showAnswer({ answerHtml: data.answerHtml, answer: data.answer });
+    showAnswer({ answerHtml: data.answerHtml, answer: data.answer, imageUrl: data.imageUrl || null });
   }
   if (data.hints && data.hints.length) {
     dom.hintsArea.classList.add('visible');
@@ -1152,6 +1216,8 @@ channel.onmessage = (event) => {
       // Show correct overlay with player name
       dom.correctPlayerName.textContent = payload.playerName || '';
       dom.correctAnswerText.innerHTML = payload.answerHtml ? '答え: ' + payload.answerHtml : '';
+      // Show answer image in correct overlay
+      showAnswerImage(dom.correctAnswerImage, dom.correctAnswerImageContainer, payload.imageUrl || null);
       // スタックチャンス!!演出
       var chanceEl = document.getElementById('stackchance-bonus');
       if (chanceEl) {
@@ -1168,10 +1234,10 @@ channel.onmessage = (event) => {
       }
       dom.correctOverlay.classList.add('visible');
       confetti.burst(payload.isStackchance ? 500 : 250);
-      // Auto-hide (longer for stackchance)
+      // Auto-hide (longer to let audience see image)
       setTimeout(function() {
         dom.correctOverlay.classList.remove('visible');
-      }, payload.isStackchance ? 4500 : 3000);
+      }, payload.isStackchance ? 5500 : 4000);
       break;
 
     case 'INCORRECT_ANSWER':

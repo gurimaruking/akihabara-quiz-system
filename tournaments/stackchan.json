@@ -6,210 +6,240 @@
       "question": "スタックチャン（Stack-chan）の開発者のハンドルネームは何？",
       "answer": "ししかわ",
       "difficulty": 1,
-      "points": 10
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Leo_IAU.svg/960px-Leo_IAU.svg.png"
     },
     {
       "id": 2,
       "question": "スタックチャンに使われている主なマイコンボードのブランド名は？",
       "answer": "M5Stack",
       "difficulty": 1,
-      "points": 10
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/M5Stack-controlled_LEGO_derailer_system_with_manual_buttons_-_May_29%2C_2021.jpg/960px-M5Stack-controlled_LEGO_derailer_system_with_manual_buttons_-_May_29%2C_2021.jpg"
     },
     {
       "id": 3,
       "question": "スタックチャンはどのような種類のロボットとして分類される？",
       "answer": "コミュニケーションロボット",
       "difficulty": 1,
-      "points": 10
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/IRobot-Roomba-Top-view-01.jpg/960px-IRobot-Roomba-Top-view-01.jpg"
     },
     {
       "id": 4,
       "question": "スタックチャンのプロジェクトが最初に公開された年は？",
       "answer": "2021年",
       "difficulty": 1,
-      "points": 10
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/MQ-1_Lethal_Presence.jpg/960px-MQ-1_Lethal_Presence.jpg"
     },
     {
       "id": 5,
       "question": "スタックチャンのソフトウェアに適用されているオープンソースライセンスは？",
       "answer": "Apache License 2.0",
       "difficulty": 1,
-      "points": 10
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/The_ASF_Logo_%282025%29.svg/960px-The_ASF_Logo_%282025%29.svg.png"
     },
     {
       "id": 6,
       "question": "スタックチャンの顔が表示されるディスプレイのサイズは何インチ？",
       "answer": "2インチ",
       "difficulty": 1,
-      "points": 10
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Inch_tape.jpg/960px-Inch_tape.jpg"
     },
     {
       "id": 7,
       "question": "スタックチャンのファームウェアを書くデフォルトのプログラミング言語は？",
       "answer": "JavaScript（TypeScript）",
       "difficulty": 1,
-      "points": 10
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png"
     },
     {
       "id": 8,
       "question": "スタックチャンの筐体（外装ケース）はどのような方法で製造する？",
       "answer": "3Dプリンター",
       "difficulty": 1,
-      "points": 10
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/ORDbot_quantum.jpg/960px-ORDbot_quantum.jpg"
     },
     {
       "id": 9,
       "question": "スタックチャンはオープンソースプロジェクトですが、設計データが公開されているプラットフォームは？",
       "answer": "GitHub",
       "difficulty": 1,
-      "points": 10
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Github_Docs_repository_screenshot.png/960px-Github_Docs_repository_screenshot.png"
     },
     {
       "id": 10,
       "question": "スタックチャンの大きさはどのくらい？「○○サイズ」で答えてください。",
       "answer": "手のひらサイズ",
       "difficulty": 1,
-      "points": 10
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/Pokemon_mini.png"
     },
     {
       "id": 11,
       "question": "スタックチャンの開発者ししかわ（石川真也）が勤務している日本のロボット企業の名前は？",
       "answer": "アールティ（RT Corporation）",
       "difficulty": 2,
-      "points": 20
+      "points": 20,
+      "image": null
     },
     {
       "id": 12,
       "question": "スタックチャンの最新版M5Stack CoreS3に搭載されているEspressif社のSoCは何？",
       "answer": "ESP32-S3",
       "difficulty": 2,
-      "points": 20
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Espressif_ESP-WROOM-32_Wi-Fi_%26_Bluetooth_Module.jpg"
     },
     {
       "id": 13,
       "question": "タカオ版スタックチャンで使用される、重さ9gの標準的なPWMサーボモーターの型番は？",
       "answer": "SG90",
       "difficulty": 2,
-      "points": 20
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/SG_LPbody3.jpg"
     },
     {
       "id": 14,
       "question": "ChatGPTと連携する「AIスタックチャン」を最初に開発した人物のハンドルネームは？",
       "answer": "Robo8080",
       "difficulty": 2,
-      "points": 20
+      "points": 20,
+      "image": null
     },
     {
       "id": 15,
       "question": "スタックチャンのJavaScriptファームウェア開発に使用されるSDKの名前は？",
       "answer": "Moddable SDK",
       "difficulty": 2,
-      "points": 20
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/ESP8266_IC.jpg/960px-ESP8266_IC.jpg"
     },
     {
       "id": 16,
       "question": "スタックチャンの音声合成に使用できる、無料の日本語テキスト読み上げエンジンは？",
       "answer": "VOICEVOX",
       "difficulty": 2,
-      "points": 20
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vocal_synthesizer_piano_roll.png"
     },
     {
       "id": 17,
       "question": "スタックチャンの誕生日（プロジェクト公開日）は何月何日？",
       "answer": "7月2日",
       "difficulty": 2,
-      "points": 20
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Square_Enix_HQ_%28Shinjuku_Eastside_Square%29.jpg/960px-Square_Enix_HQ_%28Shinjuku_Eastside_Square%29.jpg"
     },
     {
       "id": 18,
       "question": "スタックチャンの商用版「アールティVer.」の組み立てキット販売が開始された年は？",
       "answer": "2023年",
       "difficulty": 2,
-      "points": 20
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/IVE_%28%EC%95%84%EC%9D%B4%EB%B8%8C%29_performing_at_the_2023_World_Scout_Jamboree_K-POP_Super_Live_Concert.jpg/960px-IVE_%28%EC%95%84%EC%9D%B4%EB%B8%8C%29_performing_at_the_2023_World_Scout_Jamboree_K-POP_Super_Live_Concert.jpg"
     },
     {
       "id": 19,
       "question": "2021年のHackaday Prizeでスタックチャンが獲得した順位は？",
       "answer": "2位",
       "difficulty": 2,
-      "points": 20
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Meiji_yasuda_J2logo.jpg"
     },
     {
       "id": 20,
       "question": "スタックチャンが毎年出展している、東京で開催されるメイカー向け展示イベントの名前は？",
       "answer": "Maker Faire Tokyo",
       "difficulty": 2,
-      "points": 20
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Makerspace_at_Republica_2023_03.jpg/960px-Makerspace_at_Republica_2023_03.jpg"
     },
     {
       "id": 21,
       "question": "M5Stack CoreS3のデュアルコアCPU「Xtensa LX7」の最大クロック周波数は？",
       "answer": "240MHz",
       "difficulty": 3,
-      "points": 30
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Powerbook3400.jpg"
     },
     {
       "id": 22,
       "question": "2026年1月に開始されたスタックチャンのKickstarterキャンペーンの早期割引価格は何ドル？",
       "answer": "59ドル",
       "difficulty": 3,
-      "points": 30
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Dollar_sign_fonts.svg/960px-Dollar_sign_fonts.svg.png"
     },
     {
       "id": 23,
       "question": "スタックチャン（M5Stack公式版）の内蔵バッテリー容量は何mAh？",
       "answer": "700mAh",
       "difficulty": 3,
-      "points": 30
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/95680_apache_takes_off_from_the_battlefield_PikiWiki_Israel.jpg/960px-95680_apache_takes_off_from_the_battlefield_PikiWiki_Israel.jpg"
     },
     {
       "id": 24,
       "question": "M5Stack Japan Creativity Contest 2021でスタックチャンが獲得した順位は？",
       "answer": "3位",
       "difficulty": 3,
-      "points": 30
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/HONDA_ASIMO.jpg"
     },
     {
       "id": 25,
       "question": "スタックチャンのM5Stack CoreS3に搭載されている1Wスピーカー用オーディオアンプICの型番は？",
       "answer": "AW88298",
       "difficulty": 3,
-      "points": 30
+      "points": 30,
+      "image": null
     },
     {
       "id": 26,
       "question": "スタックチャンのM5Stack CoreS3のディスプレイに使用されているLCDドライバICは？",
       "answer": "ILI9342C",
       "difficulty": 3,
-      "points": 30
+      "points": 30,
+      "image": null
     },
     {
       "id": 27,
       "question": "スタックチャンのM5Stack CoreS3に搭載されているNFCチップのSTMicroelectronics型番は？",
       "answer": "ST25R3916",
       "difficulty": 3,
-      "points": 30
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flipper_Zero.jpg/960px-Flipper_Zero.jpg"
     },
     {
       "id": 28,
       "question": "Heroes League 2021でスタックチャンが受賞した2つの賞は、「オンラインヒーロー賞」と何？",
       "answer": "ユカイ工学賞",
       "difficulty": 3,
-      "points": 30
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Chiba_Television%2C_headoffice.jpg/960px-Chiba_Television%2C_headoffice.jpg"
     },
     {
       "id": 29,
       "question": "スタックチャンのGitHubリポジトリで最も使用比率が高いプログラミング言語とその割合（約何%）は？",
       "answer": "TypeScript（約70%）",
       "difficulty": 3,
-      "points": 30
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Logo_of_Japanese_type_foundry_Shaken_%28%E5%86%99%E7%A0%94%E3%81%AE%E3%83%AD%E3%82%B4%29.png/960px-Logo_of_Japanese_type_foundry_Shaken_%28%E5%86%99%E7%A0%94%E3%81%AE%E3%83%AD%E3%82%B4%29.png"
     },
     {
       "id": 30,
       "question": "スタックチャンのM5Stack CoreS3に搭載されているPSRAMの容量は？",
       "answer": "8MB",
       "difficulty": 3,
-      "points": 30
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Mini_CD_vs_Normal_CD_comparison.jpg/960px-Mini_CD_vs_Normal_CD_comparison.jpg"
     }
   ],
   "silhouette": [],

@@ -1,158 +1,1328 @@
 {
   "title": "2000年代以降アニメクイズ大会",
   "hayaoshi": [
-    {"id": 1, "question": "2006年放送。谷川流のライトノベルが原作で、憂鬱、溜息、消失などのエピソードが人気を博した、京都アニメーション制作のSF学園コメディアニメは何でしょう?", "answer": "涼宮ハルヒの憂鬱", "difficulty": 1, "points": 10},
-    {"id": 2, "question": "2006年放送。ルルーシュ・ランペルージが主人公で、「ギアス」という特殊能力を駆使して戦う、サンライズ制作のロボットアニメは何でしょう?", "answer": "コードギアス 反逆のルルーシュ", "difficulty": 1, "points": 10},
-    {"id": 3, "question": "2009年放送。平沢唯を主人公とする、桜が丘高校軽音部を舞台にした、京都アニメーション制作の日常系アニメは何でしょう?", "answer": "けいおん!", "difficulty": 1, "points": 10},
-    {"id": 4, "question": "2011年放送。魔法少女たちの過酷な運命を描いた、虚淵玄脚本、新房昭之監督によるシャフト制作のダークファンタジーアニメは何でしょう?", "answer": "魔法少女まどか☆マギカ", "difficulty": 1, "points": 10},
-    {"id": 5, "question": "2013年から放送。巨人と人類の戦いを描いた、諫山創の漫画が原作のWIT STUDIO制作アニメは何でしょう?", "answer": "進撃の巨人", "difficulty": 1, "points": 10},
-    {"id": 6, "question": "2019年放送。竈門炭治郎が主人公で、鬼と鬼殺隊の戦いを描いた、ufotable制作の大ヒットアニメは何でしょう?", "answer": "鬼滅の刃", "difficulty": 1, "points": 10},
-    {"id": 7, "question": "2020年放送。虎杖悠仁が主人公の、呪術師と呪霊の戦いを描いたMAPPA制作のバトルアニメは何でしょう?", "answer": "呪術廻戦", "difficulty": 1, "points": 10},
-    {"id": 8, "question": "2012年放送。仮想世界ソードアート・オンラインに閉じ込められたプレイヤーたちを描く、川原礫原作のA-1 Pictures制作アニメは何でしょう?", "answer": "ソードアート・オンライン", "difficulty": 1, "points": 10},
-    {"id": 9, "question": "2016年公開。新海誠監督による、入れ替わった高校生男女の運命を描いた大ヒット劇場アニメは何でしょう?", "answer": "君の名は。", "difficulty": 1, "points": 10},
-    {"id": 10, "question": "2019年公開。新海誠監督による、天候を操る力を持つ少女と家出少年の物語を描いた劇場アニメは何でしょう?", "answer": "天気の子", "difficulty": 1, "points": 10},
-    {"id": 11, "question": "2022年放送。ロイド・フォージャーが偽装家族を作るという設定の、遠藤達哉原作のWIT STUDIO・CloverWorks制作アニメは何でしょう?", "answer": "SPY×FAMILY", "difficulty": 1, "points": 10},
-    {"id": 12, "question": "2013年から展開。μ'sやAqours、虹ヶ咲学園などのスクールアイドルが登場する、サンライズ制作のメディアミックス作品は何でしょう?", "answer": "ラブライブ!", "difficulty": 1, "points": 10},
-    {"id": 13, "question": "2011年放送。本間芽衣子、通称「めんま」の願いを叶えるため幼馴染たちが集まる、A-1 Pictures制作の青春群像劇は何でしょう?", "answer": "あの日見た花の名前を僕達はまだ知らない。", "difficulty": 1, "points": 10},
-    {"id": 14, "question": "2016年放送。Re:ゼロから始める異世界生活の略称で知られる、ナツキ・スバルが死に戻りする能力を持つホワイトフォックス制作アニメは何でしょう?", "answer": "Re:ゼロから始める異世界生活", "difficulty": 1, "points": 10},
-    {"id": 15, "question": "2003年放送。エドワードとアルフォンスのエルリック兄弟が主人公の、荒川弘原作のボンズ制作錬金術アニメは何でしょう?", "answer": "鋼の錬金術師", "difficulty": 1, "points": 10},
-    {"id": 16, "question": "2002年放送。日向ヒナタが主人公のバレーボールアニメで、2014年にProduction I.G制作でリメイクされた作品は何でしょう?", "answer": "ハイキュー!!", "difficulty": 1, "points": 10},
-    {"id": 17, "question": "2009年放送。上条当麻が主人公で、学園都市を舞台にした、鎌池和馬原作のJ.C.STAFF制作超能力バトルアニメは何でしょう?", "answer": "とある魔術の禁書目録", "difficulty": 1, "points": 10},
-    {"id": 18, "question": "2011年放送。岡部倫太郎が主人公で、タイムリープを題材にした5pb.原作のホワイトフォックス制作アニメは何でしょう?", "answer": "STEINS;GATE", "difficulty": 1, "points": 10},
-    {"id": 19, "question": "2015年放送。サイタマが主人公の、あらゆる敵をワンパンチで倒すヒーローを描いたマッドハウス制作のギャグアニメは何でしょう?", "answer": "ワンパンマン", "difficulty": 1, "points": 10},
-    {"id": 20, "question": "2006年放送。夜神月とLの頭脳戦を描いた、大場つぐみ・小畑健原作のマッドハウス制作サスペンスアニメは何でしょう?", "answer": "DEATH NOTE", "difficulty": 1, "points": 10},
-    {"id": 21, "question": "2017年放送。各務原なでしこと志摩リンを主人公とする、キャンプを題材にしたC-Station制作の日常系アニメは何でしょう?", "answer": "ゆるキャン△", "difficulty": 1, "points": 10},
-    {"id": 22, "question": "2018年放送。ヴァイオレット・エヴァーガーデンが自動手記人形として働く姿を描いた、京都アニメーション制作の感動作は何でしょう?", "answer": "ヴァイオレット・エヴァーガーデン", "difficulty": 1, "points": 10},
-    {"id": 23, "question": "2013年放送。黒子テツヤが主人公のバスケットボールアニメで、キセキの世代と呼ばれる天才たちが登場するProduction I.G制作作品は何でしょう?", "answer": "黒子のバスケ", "difficulty": 1, "points": 10},
-    {"id": 24, "question": "2022年放送。後藤ひとりが主人公で、バンド活動を描いたきらら系のCloverWorks制作アニメは何でしょう?", "answer": "ぼっち・ざ・ろっく!", "difficulty": 1, "points": 10},
-    {"id": 25, "question": "2016年放送。ターニャ・デグレチャフが主人公の、異世界転生した元サラリーマンの戦記を描いたNUT制作アニメは何でしょう?", "answer": "幼女戦記", "difficulty": 1, "points": 10},
-    {"id": 26, "question": "2012年放送。キリトとアスナの恋愛も描かれる、VRMMORPG を舞台にしたA-1 Pictures制作のアニメシリーズは何でしょう?", "answer": "ソードアート・オンライン", "difficulty": 1, "points": 10},
-    {"id": 27, "question": "2011年放送。衛宮切嗣が主人公の、第四次聖杯戦争を描いたufotable制作のFateシリーズは何でしょう?", "answer": "Fate/Zero", "difficulty": 1, "points": 10},
-    {"id": 28, "question": "2018年放送。南極を目指す女子高生たちを描いた、マッドハウス制作の青春アニメで「よりもい」の愛称で知られる作品は何でしょう?", "answer": "宇宙よりも遠い場所", "difficulty": 1, "points": 10},
-    {"id": 29, "question": "2014年放送。アニメ制作会社を舞台にした、P.A.WORKS制作のお仕事アニメは何でしょう?", "answer": "SHIROBAKO", "difficulty": 1, "points": 10},
-    {"id": 30, "question": "2004年放送。エレンとミカサの幼馴染が登場する...ではなく、フリーレンを主人公とする魔法使いの旅を描いたマッドハウス制作アニメは何でしょう?", "answer": "葬送のフリーレン", "difficulty": 1, "points": 10},
-    {"id": 31, "question": "2023年放送。フリーレンを主人公とする、魔王討伐後の世界を旅する魔法使いの物語を描いたマッドハウス制作アニメは何でしょう?", "answer": "葬送のフリーレン", "difficulty": 1, "points": 10},
-    {"id": 32, "question": "2016年放送。リゼロの略称で知られる、ナツキ・スバルの異世界生活を描いたホワイトフォックス制作アニメの正式名称は何でしょう?", "answer": "Re:ゼロから始める異世界生活", "difficulty": 1, "points": 10},
-    {"id": 33, "question": "2019年放送。炭治郎の妹・禰豆子が鬼になってしまう、吾峠呼世晴原作のufotable制作バトルアニメは何でしょう?", "answer": "鬼滅の刃", "difficulty": 1, "points": 10},
-    {"id": 34, "question": "2021年放送。ウマ娘たちがレースで競い合う、Cygames原作のP.A.WORKS制作アニメは何でしょう?", "answer": "ウマ娘 プリティーダービー", "difficulty": 1, "points": 10},
-    {"id": 35, "question": "2007年放送。「らき☆すた」で知られる、泉こなたを主人公とした京都アニメーション制作の4コマ漫画原作アニメは何でしょう?", "answer": "らき☆すた", "difficulty": 1, "points": 10},
-    {"id": 36, "question": "2009年放送。化物語から始まる、阿良々木暦と怪異に関わる少女たちを描いたシャフト制作の物語シリーズは何でしょう?", "answer": "化物語", "difficulty": 1, "points": 10},
-    {"id": 37, "question": "2013年放送。音無結弦が主人公で、死後の世界を舞台にしたP.A.WORKS制作の青春ファンタジーアニメは何でしょう?", "answer": "Angel Beats!", "difficulty": 1, "points": 10},
-    {"id": 38, "question": "2016年公開。聲の形として知られる、聴覚障害を持つ少女と元いじめっ子の少年の関係を描いた京都アニメーション制作劇場アニメは何でしょう?", "answer": "映画 聲の形", "difficulty": 1, "points": 10},
-    {"id": 39, "question": "2019年放送。かぐや様は告らせたいの略称で知られる、四宮かぐやと白銀御行の恋愛頭脳戦を描いたA-1 Pictures制作アニメは何でしょう?", "answer": "かぐや様は告らせたい~天才たちの恋愛頭脳戦~", "difficulty": 1, "points": 10},
-    {"id": 40, "question": "2009年放送。「とある科学の超電磁砲」の主人公で、学園都市第3位の超能力者である中学生は誰でしょう?", "answer": "御坂美琴", "difficulty": 1, "points": 10},
-    {"id": 41, "question": "2011年放送。STEINS;GATEで、主人公・岡部倫太郎が使う中二病的な自称は何でしょう?", "answer": "鳳凰院凶真", "difficulty": 2, "points": 20},
-    {"id": 42, "question": "あの日見た花の名前を僕達はまだ知らない。で、めんまの本名は何でしょう?", "answer": "本間芽衣子", "difficulty": 2, "points": 20},
-    {"id": 43, "question": "Fate/Zeroで、第四次聖杯戦争のセイバーのマスターを務めた、正義の味方を目指す魔術師殺しは誰でしょう?", "answer": "衛宮切嗣", "difficulty": 2, "points": 20},
-    {"id": 44, "question": "Re:ゼロから始める異世界生活で、主人公スバルが持つ、死んでも時間を巻き戻せる能力の名称は何でしょう?", "answer": "死に戻り", "difficulty": 2, "points": 20},
-    {"id": 45, "question": "SHIROBAKOで、主人公・宮森あおいが務めるアニメ制作における職種は何でしょう?", "answer": "制作進行", "difficulty": 2, "points": 20},
-    {"id": 46, "question": "ゆるキャン△で、ソロキャンプを好む青髪の女子高生の名前は何でしょう?", "answer": "志摩リン", "difficulty": 2, "points": 20},
-    {"id": 47, "question": "ぼっち・ざ・ろっく!で、主人公・後藤ひとりが所属するバンドの名前は何でしょう?", "answer": "結束バンド", "difficulty": 2, "points": 20},
-    {"id": 48, "question": "ヴァイオレット・エヴァーガーデンで、ヴァイオレットが従事する手紙の代筆屋の職業名は何でしょう?", "answer": "自動手記人形(ドール)", "difficulty": 2, "points": 20},
-    {"id": 49, "question": "宇宙よりも遠い場所で、4人の女子高生が目指す目的地はどこでしょう?", "answer": "南極", "difficulty": 2, "points": 20},
-    {"id": 50, "question": "ウマ娘 プリティーダービーで、チームスピカの寮長を務める黒髪の優等生ウマ娘は誰でしょう?", "answer": "トウカイテイオー", "difficulty": 2, "points": 20},
-    {"id": 51, "question": "鬼滅の刃で、炭治郎が最初に習得した呼吸法は何でしょう?", "answer": "水の呼吸", "difficulty": 2, "points": 20},
-    {"id": 52, "question": "呪術廻戦で、虎杖悠仁に取り憑いた特級呪物である呪いの王の名前は何でしょう?", "answer": "両面宿儺", "difficulty": 2, "points": 20},
-    {"id": 53, "question": "涼宮ハルヒの憂鬱で、SOS団の団長を務める涼宮ハルヒの声を演じた声優は誰でしょう?", "answer": "平野綾", "difficulty": 2, "points": 20},
-    {"id": 54, "question": "コードギアスで、主人公ルルーシュがギアスを授けられた相手の名前は何でしょう?", "answer": "C.C.(シーツー)", "difficulty": 2, "points": 20},
-    {"id": 55, "question": "けいおん!で、主人公・平沢唯が担当する楽器は何でしょう?", "answer": "ギター", "difficulty": 2, "points": 20},
-    {"id": 56, "question": "魔法少女まどか☆マギカで、まどかと契約を結ぼうとする白い生物の名前は何でしょう?", "answer": "キュゥべえ", "difficulty": 2, "points": 20},
-    {"id": 57, "question": "進撃の巨人で、エレンが持つ巨人化能力の正式名称は何でしょう?", "answer": "進撃の巨人", "difficulty": 2, "points": 20},
-    {"id": 58, "question": "ソードアート・オンラインで、キリトの本名は何でしょう?", "answer": "桐ヶ谷和人", "difficulty": 2, "points": 20},
-    {"id": 59, "question": "君の名は。で、主人公の立花瀧と入れ替わる女子高生の名前は何でしょう?", "answer": "宮水三葉", "difficulty": 2, "points": 20},
-    {"id": 60, "question": "天気の子で、天候を操る能力を持つヒロインの名前は何でしょう?", "answer": "天野陽菜", "difficulty": 2, "points": 20},
-    {"id": 61, "question": "SPY×FAMILYで、超能力を持つフォージャー家の娘の名前は何でしょう?", "answer": "アーニャ", "difficulty": 2, "points": 20},
-    {"id": 62, "question": "ラブライブ!で、μ'sのセンターを務めるオレンジ髪の少女は誰でしょう?", "answer": "高坂穂乃果", "difficulty": 2, "points": 20},
-    {"id": 63, "question": "ワンパンマンで、主人公サイタマの弟子となったサイボーグヒーローの名前は何でしょう?", "answer": "ジェノス", "difficulty": 2, "points": 20},
-    {"id": 64, "question": "DEATH NOTEで、夜神月がデスノートで最初に殺した犯罪者の名前は何でしょう?", "answer": "尾田九蔵", "difficulty": 2, "points": 20},
-    {"id": 65, "question": "黒子のバスケで、黒子テツヤの光として帝光中学時代にタッグを組んでいた選手は誰でしょう?", "answer": "火神大我", "difficulty": 2, "points": 20},
-    {"id": 66, "question": "化物語で、主人公・阿良々木暦が出会った怪異の専門家である男性の名前は何でしょう?", "answer": "忍野メメ", "difficulty": 2, "points": 20},
-    {"id": 67, "question": "かぐや様は告らせたいで、秀知院学園生徒会長を務める白銀御行の声を演じた声優は誰でしょう?", "answer": "古川慎", "difficulty": 2, "points": 20},
-    {"id": 68, "question": "とある科学の超電磁砲で、御坂美琴の能力レベルはいくつでしょう?", "answer": "レベル5", "difficulty": 2, "points": 20},
-    {"id": 69, "question": "幼女戦記で、主人公ターニャ・デグレチャフの前世の職業は何でしょう?", "answer": "サラリーマン(人事担当)", "difficulty": 2, "points": 20},
-    {"id": 70, "question": "葬送のフリーレンで、フリーレンがかつて旅をした勇者パーティーのリーダーの名前は何でしょう?", "answer": "ヒンメル", "difficulty": 2, "points": 20},
-    {"id": 71, "question": "鋼の錬金術師で、エドワード・エルリックの弟・アルフォンスの魂が定着している物は何でしょう?", "answer": "鎧", "difficulty": 2, "points": 20},
-    {"id": 72, "question": "ハイキュー!!で、主人公・日向翔陽が入学した高校の名前は何でしょう?", "answer": "烏野高校", "difficulty": 2, "points": 20},
-    {"id": 73, "question": "らき☆すたで、主人公・泉こなたの声を演じた声優は誰でしょう?", "answer": "平野綾", "difficulty": 2, "points": 20},
-    {"id": 74, "question": "Angel Beats!で、死んだ世界戦線のリーダーを務める少女の名前は何でしょう?", "answer": "ゆり(仲村ゆり)", "difficulty": 2, "points": 20},
-    {"id": 75, "question": "映画 聲の形で、聴覚障害を持つヒロインの名前は何でしょう?", "answer": "西宮硝子", "difficulty": 2, "points": 20},
-    {"id": 76, "question": "宝石の国で、主人公のフォスフォフィライトの硬度はモース硬度いくつでしょう?", "answer": "3.5", "difficulty": 2, "points": 20},
-    {"id": 77, "question": "夏目友人帳で、主人公・夏目貴志が祖母から受け継いだ、妖怪の名が記された帳面の名称は何でしょう?", "answer": "友人帳", "difficulty": 2, "points": 20},
-    {"id": 78, "question": "ヴィンランド・サガで、主人公トルフィンの父親で「トロルの戦士」と呼ばれた人物は誰でしょう?", "answer": "トールズ", "difficulty": 2, "points": 20},
-    {"id": 79, "question": "メイドインアビスで、主人公リコが目指す大穴の名前は何でしょう?", "answer": "アビス", "difficulty": 2, "points": 20},
-    {"id": 80, "question": "無職転生で、主人公ルーデウスが最初に師事した魔術の師匠の名前は何でしょう?", "answer": "ロキシー・ミグルディア", "difficulty": 2, "points": 20},
-    {"id": 81, "question": "電脳コイルを監督し、後に地球外少年少女も手がけたアニメ監督は誰でしょう?", "answer": "磯光雄", "difficulty": 3, "points": 30},
-    {"id": 82, "question": "宝石の国の制作を担当した、3DCGアニメーションを得意とする制作会社はどこでしょう?", "answer": "オレンジ", "difficulty": 3, "points": 30},
-    {"id": 83, "question": "ARIAシリーズで、主人公・水無灯里が住む惑星の名前は何でしょう?", "answer": "アクア", "difficulty": 3, "points": 30},
-    {"id": 84, "question": "夏目友人帳で、夏目を守る用心棒である妖怪が変身した姿の猫の名前は何でしょう?", "answer": "ニャンコ先生", "difficulty": 3, "points": 30},
-    {"id": 85, "question": "ピンポン THE ANIMATIONを監督した、四畳半神話大系や映像研には手を出すな!も手がけた監督は誰でしょう?", "answer": "湯浅政明", "difficulty": 3, "points": 30},
-    {"id": 86, "question": "少女終末旅行で、チトとユーリが旅をする終末世界の乗り物の名前は何でしょう?", "answer": "ケッテンクラート", "difficulty": 3, "points": 30},
-    {"id": 87, "question": "プリンセス・プリンシパルを制作した、黒星紅白がキャラクター原案を務めたアニメスタジオはどこでしょう?", "answer": "アクタス/3Hz", "difficulty": 3, "points": 30},
-    {"id": 88, "question": "響け!ユーフォニアムで、主人公・黄前久美子が所属する高校の吹奏楽部がある学校の名前は何でしょう?", "answer": "北宇治高校", "difficulty": 3, "points": 30},
-    {"id": 89, "question": "昭和元禄落語心中を制作した、ユーリ!!! on ICEやゾンビランドサガも手がけたアニメスタジオはどこでしょう?", "answer": "MAPPA", "difficulty": 3, "points": 30},
-    {"id": 90, "question": "3月のライオンで、主人公・桐山零の職業は何でしょう?", "answer": "プロ棋士", "difficulty": 3, "points": 30},
-    {"id": 91, "question": "プラネテスで、主人公・星野八郎太が所属するデブリ回収課の通称は何でしょう?", "answer": "デブリ課(4課)", "difficulty": 3, "points": 30},
-    {"id": 92, "question": "時をかける少女(2006年)を監督し、後にサマーウォーズやバケモノの子も手がけた監督は誰でしょう?", "answer": "細田守", "difficulty": 3, "points": 30},
-    {"id": 93, "question": "serial experiments lainを制作した、安倍吉俊がキャラクターデザインを務めた作品のアニメスタジオはどこでしょう?", "answer": "トライアングルスタッフ", "difficulty": 3, "points": 30},
-    {"id": 94, "question": "花咲くいろはを制作した、SHIROBAKO、ウマ娘などのオリジナルアニメを数多く手がける制作会社はどこでしょう?", "answer": "P.A.WORKS", "difficulty": 3, "points": 30},
-    {"id": 95, "question": "亜人ちゃんは語りたいで、主人公の高橋鉄男が勤める学校で出会う亜人の総称は何でしょう?", "answer": "デミ(demi-human)", "difficulty": 3, "points": 30},
-    {"id": 96, "question": "ちはやふるで、主人公・綾瀬千早が情熱を注ぐ競技は何でしょう?", "answer": "競技かるた", "difficulty": 3, "points": 30},
-    {"id": 97, "question": "有頂天家族を原作とした森見登美彦の小説をアニメ化し、P.A.WORKSが制作した京都を舞台とする作品は何でしょう?", "answer": "有頂天家族", "difficulty": 3, "points": 30},
-    {"id": 98, "question": "新世界よりで、人類が超能力「呪力」を持つようになった未来の日本を舞台にした、A-1 Pictures制作のSFアニメは何でしょう?", "answer": "新世界より", "difficulty": 3, "points": 30},
-    {"id": 99, "question": "キノの旅 -the Beautiful World-で、主人公キノと旅をする喋るモトラドの名前は何でしょう?", "answer": "エルメス", "difficulty": 3, "points": 30},
-    {"id": 100, "question": "灰羽連盟を制作した、安倍吉俊が原案・キャラクターデザインを務めた作品のアニメスタジオはどこでしょう?", "answer": "ラディックス", "difficulty": 3, "points": 30},
-    {"id": 101, "question": "91Daysで、禁酒法時代のアメリカを舞台にした復讐劇を制作したアニメスタジオはどこでしょう?", "answer": "朱夏", "difficulty": 3, "points": 30},
-    {"id": 102, "question": "甲鉄城のカバネリを制作した、進撃の巨人やヴィンランド・サガも手がけたアニメスタジオはどこでしょう?", "answer": "WIT STUDIO", "difficulty": 3, "points": 30},
-    {"id": 103, "question": "月がきれいで、主人公・安曇小太郎と水野茜の淡い恋愛を描いた、feel.制作の青春アニメは何でしょう?", "answer": "月がきれい", "difficulty": 3, "points": 30},
-    {"id": 104, "question": "恋は雨上がりのようにで、主人公・橘あきらが恋心を抱く相手の職業は何でしょう?", "answer": "ファミレス店長", "difficulty": 3, "points": 30},
-    {"id": 105, "question": "色づく世界の明日からで、主人公・月白瞳美が持つ特殊能力は何でしょう?", "answer": "色が見えない", "difficulty": 3, "points": 30},
-    {"id": 106, "question": "ID:INVADEDで、主人公・酒井戸が潜る殺人犯の深層心理世界の名称は何でしょう?", "answer": "イド", "difficulty": 3, "points": 30},
-    {"id": 107, "question": "デカダンスで、人類が巨大移動要塞に住む世界を描いた、NUT制作のオリジナルアニメは何でしょう?", "answer": "デカダンス", "difficulty": 3, "points": 30},
-    {"id": 108, "question": "オッドタクシーで、主人公の小戸川が営む職業は何でしょう?", "answer": "タクシー運転手", "difficulty": 3, "points": 30},
-    {"id": 109, "question": "サマータイムレンダで、主人公・網代慎平が持つループ能力の名称は何でしょう?", "answer": "死に戻り(正確には時間跳躍)", "difficulty": 3, "points": 30},
-    {"id": 110, "question": "Vivy -Fluorite Eye's Song-で、主人公のAI・ヴィヴィが歌うテーマパークの名前は何でしょう?", "answer": "ニーアランド", "difficulty": 3, "points": 30},
-    {"id": 111, "question": "白い砂のアクアトープで、主人公・海咲野くくるが働く沖縄の水族館の名前は何でしょう?", "answer": "がまがま水族館", "difficulty": 3, "points": 30},
-    {"id": 112, "question": "スキップとローファーで、主人公・岩倉美津未の声を演じた声優は誰でしょう?", "answer": "黒沢ともよ", "difficulty": 3, "points": 30},
-    {"id": 113, "question": "Do It Yourselfで、女子高生たちがDIY部で活動する姿を描いた、PINE JAMとBLADE制作のアニメは何でしょう?", "answer": "Do It Yourself!!", "difficulty": 3, "points": 30},
-    {"id": 114, "question": "PSYCHO-PASSで、人々の心理状態を数値化したシステムの名称は何でしょう?", "answer": "シビュラシステム", "difficulty": 3, "points": 30},
-    {"id": 115, "question": "GANGSTA.で、主人公のウォリックとニコラスが営む何でも屋の名前は何でしょう?", "answer": "便利屋(Benriya)", "difficulty": 3, "points": 30},
-    {"id": 116, "question": "舟を編むで、主人公・馬締光也が編纂に携わる辞書の名前は何でしょう?", "answer": "大渡海", "difficulty": 3, "points": 30},
-    {"id": 117, "question": "ばらかもんで、主人公の書道家・半田清舟が移住した場所はどこでしょう?", "answer": "五島列島(長崎)", "difficulty": 3, "points": 30},
-    {"id": 118, "question": "蟲師で、主人公のギンコが追う原生生物のような存在を何と呼ぶでしょう?", "answer": "蟲", "difficulty": 3, "points": 30},
-    {"id": 119, "question": "モブサイコ100で、主人公・影山茂夫の通称は何でしょう?", "answer": "モブ", "difficulty": 3, "points": 30},
-    {"id": 120, "question": "BANANAFISH で、主人公のアッシュ・リンクスが追う謎の言葉は何でしょう?", "answer": "バナナフィッシュ", "difficulty": 3, "points": 30}
+    {
+      "id": 1,
+      "question": "2006年放送。谷川流のライトノベルが原作で、憂鬱、溜息、消失などのエピソードが人気を博した、京都アニメーション制作のSF学園コメディアニメは何でしょう?",
+      "answer": "涼宮ハルヒの憂鬱",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Aya_Hirano.jpg/960px-Aya_Hirano.jpg"
+    },
+    {
+      "id": 2,
+      "question": "2006年放送。ルルーシュ・ランペルージが主人公で、「ギアス」という特殊能力を駆使して戦う、サンライズ制作のロボットアニメは何でしょう?",
+      "answer": "コードギアス 反逆のルルーシュ",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Kuroishi_Hitomi_at_HYPER_JAPAN_2015%2C_London.jpg/960px-Kuroishi_Hitomi_at_HYPER_JAPAN_2015%2C_London.jpg"
+    },
+    {
+      "id": 3,
+      "question": "2009年放送。平沢唯を主人公とする、桜が丘高校軽音部を舞台にした、京都アニメーション制作の日常系アニメは何でしょう?",
+      "answer": "けいおん!",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Saitama_Super_Arena-2005-9-11_1.jpg/960px-Saitama_Super_Arena-2005-9-11_1.jpg"
+    },
+    {
+      "id": 4,
+      "question": "2011年放送。魔法少女たちの過酷な運命を描いた、虚淵玄脚本、新房昭之監督によるシャフト制作のダークファンタジーアニメは何でしょう?",
+      "answer": "魔法少女まどか☆マギカ",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wikipe-tan_sorceress_color.svg/960px-Wikipe-tan_sorceress_color.svg.png"
+    },
+    {
+      "id": 5,
+      "question": "2013年から放送。巨人と人類の戦いを描いた、諫山創の漫画が原作のWIT STUDIO制作アニメは何でしょう?",
+      "answer": "進撃の巨人",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Bessatsu_Shonen_Magazine.svg/960px-Bessatsu_Shonen_Magazine.svg.png"
+    },
+    {
+      "id": 6,
+      "question": "2019年放送。竈門炭治郎が主人公で、鬼と鬼殺隊の戦いを描いた、ufotable制作の大ヒットアニメは何でしょう?",
+      "answer": "鬼滅の刃",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Kimetsu_no_Yaiba_logo.svg/960px-Kimetsu_no_Yaiba_logo.svg.png"
+    },
+    {
+      "id": 7,
+      "question": "2020年放送。虎杖悠仁が主人公の、呪術師と呪霊の戦いを描いたMAPPA制作のバトルアニメは何でしょう?",
+      "answer": "呪術廻戦",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Jujutsu_Kaisen_%28Japanese%29_logo.svg/960px-Jujutsu_Kaisen_%28Japanese%29_logo.svg.png"
+    },
+    {
+      "id": 8,
+      "question": "2012年放送。仮想世界ソードアート・オンラインに閉じ込められたプレイヤーたちを描く、川原礫原作のA-1 Pictures制作アニメは何でしょう?",
+      "answer": "ソードアート・オンライン",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Matsuoka_Yoshitsugu_2022.png/960px-Matsuoka_Yoshitsugu_2022.png"
+    },
+    {
+      "id": 9,
+      "question": "2016年公開。新海誠監督による、入れ替わった高校生男女の運命を描いた大ヒット劇場アニメは何でしょう?",
+      "answer": "君の名は。",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Descendants_of_Izanami_alone.svg/960px-Descendants_of_Izanami_alone.svg.png"
+    },
+    {
+      "id": 10,
+      "question": "2019年公開。新海誠監督による、天候を操る力を持つ少女と家出少年の物語を描いた劇場アニメは何でしょう?",
+      "answer": "天気の子",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Makoto_Shinkai%2C_2023.jpg/960px-Makoto_Shinkai%2C_2023.jpg"
+    },
+    {
+      "id": 11,
+      "question": "2022年放送。ロイド・フォージャーが偽装家族を作るという設定の、遠藤達哉原作のWIT STUDIO・CloverWorks制作アニメは何でしょう?",
+      "answer": "SPY×FAMILY",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Spy_%C3%97_Family_logo.svg/960px-Spy_%C3%97_Family_logo.svg.png"
+    },
+    {
+      "id": 12,
+      "question": "2013年から展開。μ'sやAqours、虹ヶ咲学園などのスクールアイドルが登場する、サンライズ制作のメディアミックス作品は何でしょう?",
+      "answer": "ラブライブ!",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Love_Live%21_series_English_logo.svg/960px-Love_Live%21_series_English_logo.svg.png"
+    },
+    {
+      "id": 13,
+      "question": "2011年放送。本間芽衣子、通称「めんま」の願いを叶えるため幼馴染たちが集まる、A-1 Pictures制作の青春群像劇は何でしょう?",
+      "answer": "あの日見た花の名前を僕達はまだ知らない。",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Central_Chichibu_view_from_Hitsujiyama_Park.JPG/960px-Central_Chichibu_view_from_Hitsujiyama_Park.JPG"
+    },
+    {
+      "id": 14,
+      "question": "2016年放送。Re:ゼロから始める異世界生活の略称で知られる、ナツキ・スバルが死に戻りする能力を持つホワイトフォックス制作アニメは何でしょう?",
+      "answer": "Re:ゼロから始める異世界生活",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Re_Zero_kara_Hajimeru_Isekai_Seikatsu_logo.svg/960px-Re_Zero_kara_Hajimeru_Isekai_Seikatsu_logo.svg.png"
+    },
+    {
+      "id": 15,
+      "question": "2003年放送。エドワードとアルフォンスのエルリック兄弟が主人公の、荒川弘原作のボンズ制作錬金術アニメは何でしょう?",
+      "answer": "鋼の錬金術師",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Fullmetal_Alchemist_Sacred_Star_of_Milos_%28cropped%29.png"
+    },
+    {
+      "id": 16,
+      "question": "2002年放送。日向ヒナタが主人公のバレーボールアニメで、2014年にProduction I.G制作でリメイクされた作品は何でしょう?",
+      "answer": "ハイキュー!!",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Osaka-jo_Hall_in_201408.JPG/960px-Osaka-jo_Hall_in_201408.JPG"
+    },
+    {
+      "id": 17,
+      "question": "2009年放送。上条当麻が主人公で、学園都市を舞台にした、鎌池和馬原作のJ.C.STAFF制作超能力バトルアニメは何でしょう?",
+      "answer": "とある魔術の禁書目録",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Toaru_Majutsu_no_Index_light_novel_logo.svg/960px-Toaru_Majutsu_no_Index_light_novel_logo.svg.png"
+    },
+    {
+      "id": 18,
+      "question": "2011年放送。岡部倫太郎が主人公で、タイムリープを題材にした5pb.原作のホワイトフォックス制作アニメは何でしょう?",
+      "answer": "STEINS;GATE",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Kanako_It%C5%8D%28by_danny_choo%29.jpg"
+    },
+    {
+      "id": 19,
+      "question": "2015年放送。サイタマが主人公の、あらゆる敵をワンパンチで倒すヒーローを描いたマッドハウス制作のギャグアニメは何でしょう?",
+      "answer": "ワンパンマン",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Eveready_Harton_in_Buried_Treasure.ogv/533px--Eveready_Harton_in_Buried_Treasure.ogv.jpg"
+    },
+    {
+      "id": 20,
+      "question": "2006年放送。夜神月とLの頭脳戦を描いた、大場つぐみ・小畑健原作のマッドハウス制作サスペンスアニメは何でしょう?",
+      "answer": "DEATH NOTE",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Airborne_imagery_Yokohama_City_%284274354758%29.jpg/960px-Airborne_imagery_Yokohama_City_%284274354758%29.jpg"
+    },
+    {
+      "id": 21,
+      "question": "2017年放送。各務原なでしこと志摩リンを主人公とする、キャンプを題材にしたC-Station制作の日常系アニメは何でしょう?",
+      "answer": "ゆるキャン△",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Anime6ku.jpg/960px-Anime6ku.jpg"
+    },
+    {
+      "id": 22,
+      "question": "2018年放送。ヴァイオレット・エヴァーガーデンが自動手記人形として働く姿を描いた、京都アニメーション制作の感動作は何でしょう?",
+      "answer": "ヴァイオレット・エヴァーガーデン",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Kyoto_Animation_head_office_20101010.jpg/960px-Kyoto_Animation_head_office_20101010.jpg"
+    },
+    {
+      "id": 23,
+      "question": "2013年放送。黒子テツヤが主人公のバスケットボールアニメで、キセキの世代と呼ばれる天才たちが登場するProduction I.G制作作品は何でしょう?",
+      "answer": "黒子のバスケ",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ono_Kensho_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348527925%29.jpg/960px-Ono_Kensho_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348527925%29.jpg"
+    },
+    {
+      "id": 24,
+      "question": "2022年放送。後藤ひとりが主人公で、バンド活動を描いたきらら系のCloverWorks制作アニメは何でしょう?",
+      "answer": "ぼっち・ざ・ろっく!",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Vanilla_Ninja_001.jpg/960px-Vanilla_Ninja_001.jpg"
+    },
+    {
+      "id": 25,
+      "question": "2016年放送。ターニャ・デグレチャフが主人公の、異世界転生した元サラリーマンの戦記を描いたNUT制作アニメは何でしょう?",
+      "answer": "幼女戦記",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Youjo_Senki_anime_logo.svg/960px-Youjo_Senki_anime_logo.svg.png"
+    },
+    {
+      "id": 26,
+      "question": "2012年放送。キリトとアスナの恋愛も描かれる、VRMMORPG を舞台にしたA-1 Pictures制作のアニメシリーズは何でしょう?",
+      "answer": "ソードアート・オンライン",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Matsuoka_Yoshitsugu_2022.png/960px-Matsuoka_Yoshitsugu_2022.png"
+    },
+    {
+      "id": 27,
+      "question": "2011年放送。衛宮切嗣が主人公の、第四次聖杯戦争を描いたufotable制作のFateシリーズは何でしょう?",
+      "answer": "Fate/Zero",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Fate_Zero_logo.svg/960px-Fate_Zero_logo.svg.png"
+    },
+    {
+      "id": 28,
+      "question": "2018年放送。南極を目指す女子高生たちを描いた、マッドハウス制作の青春アニメで「よりもい」の愛称で知られる作品は何でしょう?",
+      "answer": "宇宙よりも遠い場所",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bernal_sphere_interior.jpg/960px-Bernal_sphere_interior.jpg"
+    },
+    {
+      "id": 29,
+      "question": "2014年放送。アニメ制作会社を舞台にした、P.A.WORKS制作のお仕事アニメは何でしょう?",
+      "answer": "SHIROBAKO",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Risto-Jarva-1970s.jpg/960px-Risto-Jarva-1970s.jpg"
+    },
+    {
+      "id": 30,
+      "question": "2004年放送。エレンとミカサの幼馴染が登場する...ではなく、フリーレンを主人公とする魔法使いの旅を描いたマッドハウス制作アニメは何でしょう?",
+      "answer": "葬送のフリーレン",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/S%C5%8Ds%C5%8D_no_Frieren_logo.png"
+    },
+    {
+      "id": 31,
+      "question": "2023年放送。フリーレンを主人公とする、魔王討伐後の世界を旅する魔法使いの物語を描いたマッドハウス制作アニメは何でしょう?",
+      "answer": "葬送のフリーレン",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/S%C5%8Ds%C5%8D_no_Frieren_logo.png"
+    },
+    {
+      "id": 32,
+      "question": "2016年放送。リゼロの略称で知られる、ナツキ・スバルの異世界生活を描いたホワイトフォックス制作アニメの正式名称は何でしょう?",
+      "answer": "Re:ゼロから始める異世界生活",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Re_Zero_kara_Hajimeru_Isekai_Seikatsu_logo.svg/960px-Re_Zero_kara_Hajimeru_Isekai_Seikatsu_logo.svg.png"
+    },
+    {
+      "id": 33,
+      "question": "2019年放送。炭治郎の妹・禰豆子が鬼になってしまう、吾峠呼世晴原作のufotable制作バトルアニメは何でしょう?",
+      "answer": "鬼滅の刃",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Kimetsu_no_Yaiba_logo.svg/960px-Kimetsu_no_Yaiba_logo.svg.png"
+    },
+    {
+      "id": 34,
+      "question": "2021年放送。ウマ娘たちがレースで競い合う、Cygames原作のP.A.WORKS制作アニメは何でしょう?",
+      "answer": "ウマ娘 プリティーダービー",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/JR-West323_Umamusume.jpg/960px-JR-West323_Umamusume.jpg"
+    },
+    {
+      "id": 35,
+      "question": "2007年放送。「らき☆すた」で知られる、泉こなたを主人公とした京都アニメーション制作の4コマ漫画原作アニメは何でしょう?",
+      "answer": "らき☆すた",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/960px-AT-X_logo.svg.png"
+    },
+    {
+      "id": 36,
+      "question": "2009年放送。化物語から始まる、阿良々木暦と怪異に関わる少女たちを描いたシャフト制作の物語シリーズは何でしょう?",
+      "answer": "化物語",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Monogatari_logo.png"
+    },
+    {
+      "id": 37,
+      "question": "2013年放送。音無結弦が主人公で、死後の世界を舞台にしたP.A.WORKS制作の青春ファンタジーアニメは何でしょう?",
+      "answer": "Angel Beats!",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/P.A._WORKS.jpg/960px-P.A._WORKS.jpg"
+    },
+    {
+      "id": 38,
+      "question": "2016年公開。聲の形として知られる、聴覚障害を持つ少女と元いじめっ子の少年の関係を描いた京都アニメーション制作劇場アニメは何でしょう?",
+      "answer": "映画 聲の形",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Scene_from_a_Radio_Broadcast_of_a_Drama_of_Family_Life.jpg/960px-Scene_from_a_Radio_Broadcast_of_a_Drama_of_Family_Life.jpg"
+    },
+    {
+      "id": 39,
+      "question": "2019年放送。かぐや様は告らせたいの略称で知られる、四宮かぐやと白銀御行の恋愛頭脳戦を描いたA-1 Pictures制作アニメは何でしょう?",
+      "answer": "かぐや様は告らせたい~天才たちの恋愛頭脳戦~",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Hashimoto_Kanna_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2017_%2840169185482%29_%28cropped%29.jpg/960px-Hashimoto_Kanna_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2017_%2840169185482%29_%28cropped%29.jpg"
+    },
+    {
+      "id": 40,
+      "question": "2009年放送。「とある科学の超電磁砲」の主人公で、学園都市第3位の超能力者である中学生は誰でしょう?",
+      "answer": "御坂美琴",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Toaru_Kagaku_no_Railgun_logo.svg/960px-Toaru_Kagaku_no_Railgun_logo.svg.png"
+    },
+    {
+      "id": 41,
+      "question": "2011年放送。STEINS;GATEで、主人公・岡部倫太郎が使う中二病的な自称は何でしょう?",
+      "answer": "鳳凰院凶真",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Daisuke_Kishio.jpg"
+    },
+    {
+      "id": 42,
+      "question": "あの日見た花の名前を僕達はまだ知らない。で、めんまの本名は何でしょう?",
+      "answer": "本間芽衣子",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Central_Chichibu_view_from_Hitsujiyama_Park.JPG/960px-Central_Chichibu_view_from_Hitsujiyama_Park.JPG"
+    },
+    {
+      "id": 43,
+      "question": "Fate/Zeroで、第四次聖杯戦争のセイバーのマスターを務めた、正義の味方を目指す魔術師殺しは誰でしょう?",
+      "answer": "衛宮切嗣",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Fate_Zero_logo.svg/960px-Fate_Zero_logo.svg.png"
+    },
+    {
+      "id": 44,
+      "question": "Re:ゼロから始める異世界生活で、主人公スバルが持つ、死んでも時間を巻き戻せる能力の名称は何でしょう?",
+      "answer": "死に戻り",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Skullclose.jpg"
+    },
+    {
+      "id": 45,
+      "question": "SHIROBAKOで、主人公・宮森あおいが務めるアニメ制作における職種は何でしょう?",
+      "answer": "制作進行",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/%E3%83%81%E3%83%A8%E3%83%80%E6%9C%AC%E7%A4%BE%EF%BC%885%E9%9A%8E%EF%BC%89.jpg/960px-%E3%83%81%E3%83%A8%E3%83%80%E6%9C%AC%E7%A4%BE%EF%BC%885%E9%9A%8E%EF%BC%89.jpg"
+    },
+    {
+      "id": 46,
+      "question": "ゆるキャン△で、ソロキャンプを好む青髪の女子高生の名前は何でしょう?",
+      "answer": "志摩リン",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/JP-Mie-Ise-Grand-Shrine-Main-Gate.jpg/960px-JP-Mie-Ise-Grand-Shrine-Main-Gate.jpg"
+    },
+    {
+      "id": 47,
+      "question": "ぼっち・ざ・ろっく!で、主人公・後藤ひとりが所属するバンドの名前は何でしょう?",
+      "answer": "結束バンド",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Vanilla_Ninja_001.jpg/960px-Vanilla_Ninja_001.jpg"
+    },
+    {
+      "id": 48,
+      "question": "ヴァイオレット・エヴァーガーデンで、ヴァイオレットが従事する手紙の代筆屋の職業名は何でしょう?",
+      "answer": "自動手記人形(ドール)",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Kyoto_Animation_head_office_20101010.jpg/960px-Kyoto_Animation_head_office_20101010.jpg"
+    },
+    {
+      "id": 49,
+      "question": "宇宙よりも遠い場所で、4人の女子高生が目指す目的地はどこでしょう?",
+      "answer": "南極",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/LocationAntarctica.png/960px-LocationAntarctica.png"
+    },
+    {
+      "id": 50,
+      "question": "ウマ娘 プリティーダービーで、チームスピカの寮長を務める黒髪の優等生ウマ娘は誰でしょう?",
+      "answer": "トウカイテイオー",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Tokai_Teio_20000923F01.jpg"
+    },
+    {
+      "id": 51,
+      "question": "鬼滅の刃で、炭治郎が最初に習得した呼吸法は何でしょう?",
+      "answer": "水の呼吸",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Gas_exchange.jpg/960px-Gas_exchange.jpg"
+    },
+    {
+      "id": 52,
+      "question": "呪術廻戦で、虎杖悠仁に取り憑いた特級呪物である呪いの王の名前は何でしょう?",
+      "answer": "両面宿儺",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/RyomenSukuna2.jpg/960px-RyomenSukuna2.jpg"
+    },
+    {
+      "id": 53,
+      "question": "涼宮ハルヒの憂鬱で、SOS団の団長を務める涼宮ハルヒの声を演じた声優は誰でしょう?",
+      "answer": "平野綾",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/FanimeCon_2019_127_%2847956073941%29%28cropped%29.png/960px-FanimeCon_2019_127_%2847956073941%29%28cropped%29.png"
+    },
+    {
+      "id": 54,
+      "question": "コードギアスで、主人公ルルーシュがギアスを授けられた相手の名前は何でしょう?",
+      "answer": "C.C.(シーツー)",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/PRIMETREE_AKAIKE%2C_Minote_Akaike-cho_Nisshin_City_2023.jpg/960px-PRIMETREE_AKAIKE%2C_Minote_Akaike-cho_Nisshin_City_2023.jpg"
+    },
+    {
+      "id": 55,
+      "question": "けいおん!で、主人公・平沢唯が担当する楽器は何でしょう?",
+      "answer": "ギター",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png"
+    },
+    {
+      "id": 56,
+      "question": "魔法少女まどか☆マギカで、まどかと契約を結ぼうとする白い生物の名前は何でしょう?",
+      "answer": "キュゥべえ",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wikipe-tan_sorceress_color.svg/960px-Wikipe-tan_sorceress_color.svg.png"
+    },
+    {
+      "id": 57,
+      "question": "進撃の巨人で、エレンが持つ巨人化能力の正式名称は何でしょう?",
+      "answer": "進撃の巨人",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Bessatsu_Shonen_Magazine.svg/960px-Bessatsu_Shonen_Magazine.svg.png"
+    },
+    {
+      "id": 58,
+      "question": "ソードアート・オンラインで、キリトの本名は何でしょう?",
+      "answer": "桐ヶ谷和人",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/BanG_Dream%21_logo.svg/960px-BanG_Dream%21_logo.svg.png"
+    },
+    {
+      "id": 59,
+      "question": "君の名は。で、主人公の立花瀧と入れ替わる女子高生の名前は何でしょう?",
+      "answer": "宮水三葉",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Alfred_Hitchcock_cameo_Spellbound.jpg"
+    },
+    {
+      "id": 60,
+      "question": "天気の子で、天候を操る能力を持つヒロインの名前は何でしょう?",
+      "answer": "天野陽菜",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Ryokuoushoku_Shakai_on_SET_News.jpg/960px-Ryokuoushoku_Shakai_on_SET_News.jpg"
+    },
+    {
+      "id": 61,
+      "question": "SPY×FAMILYで、超能力を持つフォージャー家の娘の名前は何でしょう?",
+      "answer": "アーニャ",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Agna.jpg/960px-Agna.jpg"
+    },
+    {
+      "id": 62,
+      "question": "ラブライブ!で、μ'sのセンターを務めるオレンジ髪の少女は誰でしょう?",
+      "answer": "高坂穂乃果",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/%CE%9C%27s_logo.svg/960px-%CE%9C%27s_logo.svg.png"
+    },
+    {
+      "id": 63,
+      "question": "ワンパンマンで、主人公サイタマの弟子となったサイボーグヒーローの名前は何でしょう?",
+      "answer": "ジェノス",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Logo_spectreman_international.svg/960px-Logo_spectreman_international.svg.png"
+    },
+    {
+      "id": 64,
+      "question": "DEATH NOTEで、夜神月がデスノートで最初に殺した犯罪者の名前は何でしょう?",
+      "answer": "尾田九蔵",
+      "difficulty": 2,
+      "points": 20,
+      "image": null
+    },
+    {
+      "id": 65,
+      "question": "黒子のバスケで、黒子テツヤの光として帝光中学時代にタッグを組んでいた選手は誰でしょう?",
+      "answer": "火神大我",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Skyline_of_Beijing_CBD_from_the_southeast_%2820210907094201%29.jpg/960px-Skyline_of_Beijing_CBD_from_the_southeast_%2820210907094201%29.jpg"
+    },
+    {
+      "id": 66,
+      "question": "化物語で、主人公・阿良々木暦が出会った怪異の専門家である男性の名前は何でしょう?",
+      "answer": "忍野メメ",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Monogatari_logo.png"
+    },
+    {
+      "id": 67,
+      "question": "かぐや様は告らせたいで、秀知院学園生徒会長を務める白銀御行の声を演じた声優は誰でしょう?",
+      "answer": "古川慎",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Yuki_Furukawa.jpg"
+    },
+    {
+      "id": 68,
+      "question": "とある科学の超電磁砲で、御坂美琴の能力レベルはいくつでしょう?",
+      "answer": "レベル5",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Eveready_Harton_in_Buried_Treasure.ogv/533px--Eveready_Harton_in_Buried_Treasure.ogv.jpg"
+    },
+    {
+      "id": 69,
+      "question": "幼女戦記で、主人公ターニャ・デグレチャフの前世の職業は何でしょう?",
+      "answer": "サラリーマン(人事担当)",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Schaubild_Muster-Bundesministerium.svg/960px-Schaubild_Muster-Bundesministerium.svg.png"
+    },
+    {
+      "id": 70,
+      "question": "葬送のフリーレンで、フリーレンがかつて旅をした勇者パーティーのリーダーの名前は何でしょう?",
+      "answer": "ヒンメル",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/S%C5%8Ds%C5%8D_no_Frieren_logo.png"
+    },
+    {
+      "id": 71,
+      "question": "鋼の錬金術師で、エドワード・エルリックの弟・アルフォンスの魂が定着している物は何でしょう?",
+      "answer": "鎧",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Japanese_Armour_Diagram_by_Wendelin_Boeheim.jpg"
+    },
+    {
+      "id": 72,
+      "question": "ハイキュー!!で、主人公・日向翔陽が入学した高校の名前は何でしょう?",
+      "answer": "烏野高校",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Anime6ku.jpg/960px-Anime6ku.jpg"
+    },
+    {
+      "id": 73,
+      "question": "らき☆すたで、主人公・泉こなたの声を演じた声優は誰でしょう?",
+      "answer": "平野綾",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/FanimeCon_2019_127_%2847956073941%29%28cropped%29.png/960px-FanimeCon_2019_127_%2847956073941%29%28cropped%29.png"
+    },
+    {
+      "id": 74,
+      "question": "Angel Beats!で、死んだ世界戦線のリーダーを務める少女の名前は何でしょう?",
+      "answer": "ゆり(仲村ゆり)",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Nakamura_Yuri_from_%22by_the_window%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2022_%2852461354464%29.jpg/960px-Nakamura_Yuri_from_%22by_the_window%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2022_%2852461354464%29.jpg"
+    },
+    {
+      "id": 75,
+      "question": "映画 聲の形で、聴覚障害を持つヒロインの名前は何でしょう?",
+      "answer": "西宮硝子",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Koshien_Stadium_Ginsan_and_Liner_Vision.jpg/960px-Koshien_Stadium_Ginsan_and_Liner_Vision.jpg"
+    },
+    {
+      "id": 76,
+      "question": "宝石の国で、主人公のフォスフォフィライトの硬度はモース硬度いくつでしょう?",
+      "answer": "3.5",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Four_Commedia_dell%E2%80%99Arte_Figures_claude-gillot.jpg"
+    },
+    {
+      "id": 77,
+      "question": "夏目友人帳で、主人公・夏目貴志が祖母から受け継いだ、妖怪の名が記された帳面の名称は何でしょう?",
+      "answer": "友人帳",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Anime6ku.jpg/960px-Anime6ku.jpg"
+    },
+    {
+      "id": 78,
+      "question": "ヴィンランド・サガで、主人公トルフィンの父親で「トロルの戦士」と呼ばれた人物は誰でしょう?",
+      "answer": "トールズ",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Vinland_Saga_simplified_logo.svg/960px-Vinland_Saga_simplified_logo.svg.png"
+    },
+    {
+      "id": 79,
+      "question": "メイドインアビスで、主人公リコが目指す大穴の名前は何でしょう?",
+      "answer": "アビス",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/%E3%83%81%E3%83%A8%E3%83%80%E6%9C%AC%E7%A4%BE%EF%BC%885%E9%9A%8E%EF%BC%89.jpg/960px-%E3%83%81%E3%83%A8%E3%83%80%E6%9C%AC%E7%A4%BE%EF%BC%885%E9%9A%8E%EF%BC%89.jpg"
+    },
+    {
+      "id": 80,
+      "question": "無職転生で、主人公ルーデウスが最初に師事した魔術の師匠の名前は何でしょう?",
+      "answer": "ロキシー・ミグルディア",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Roxy_Theatre.jpg/960px-Roxy_Theatre.jpg"
+    },
+    {
+      "id": 81,
+      "question": "電脳コイルを監督し、後に地球外少年少女も手がけたアニメ監督は誰でしょう?",
+      "answer": "磯光雄",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Mitsuo_Iso%2C_manga-style_sketch.png/960px-Mitsuo_Iso%2C_manga-style_sketch.png"
+    },
+    {
+      "id": 82,
+      "question": "宝石の国の制作を担当した、3DCGアニメーションを得意とする制作会社はどこでしょう?",
+      "answer": "オレンジ",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Orange_Crop_Kufr_Jammal.JPG/960px-Orange_Crop_Kufr_Jammal.JPG"
+    },
+    {
+      "id": 83,
+      "question": "ARIAシリーズで、主人公・水無灯里が住む惑星の名前は何でしょう?",
+      "answer": "アクア",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/2019_Toyota_Yaris_1.5_E_%2827%29.jpg/960px-2019_Toyota_Yaris_1.5_E_%2827%29.jpg"
+    },
+    {
+      "id": 84,
+      "question": "夏目友人帳で、夏目を守る用心棒である妖怪が変身した姿の猫の名前は何でしょう?",
+      "answer": "ニャンコ先生",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/LaLa_manga_magazine.png"
+    },
+    {
+      "id": 85,
+      "question": "ピンポン THE ANIMATIONを監督した、四畳半神話大系や映像研には手を出すな!も手がけた監督は誰でしょう?",
+      "answer": "湯浅政明",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Yuasa_Masaaki_from_%22The_World_of_Masaaki_Yuasa%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2830678155317%29.jpg/960px-Yuasa_Masaaki_from_%22The_World_of_Masaaki_Yuasa%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2830678155317%29.jpg"
+    },
+    {
+      "id": 86,
+      "question": "少女終末旅行で、チトとユーリが旅をする終末世界の乗り物の名前は何でしょう?",
+      "answer": "ケッテンクラート",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/34/Bundesarchiv_Bild_101I-725-0184-22%2C_Russland%2C_Soldaten_auf_Kettenkrad.jpg"
+    },
+    {
+      "id": 87,
+      "question": "プリンセス・プリンシパルを制作した、黒星紅白がキャラクター原案を務めたアニメスタジオはどこでしょう?",
+      "answer": "アクタス/3Hz",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/%E3%83%81%E3%83%A8%E3%83%80%E6%9C%AC%E7%A4%BE%EF%BC%885%E9%9A%8E%EF%BC%89.jpg/960px-%E3%83%81%E3%83%A8%E3%83%80%E6%9C%AC%E7%A4%BE%EF%BC%885%E9%9A%8E%EF%BC%89.jpg"
+    },
+    {
+      "id": 88,
+      "question": "響け!ユーフォニアムで、主人公・黄前久美子が所属する高校の吹奏楽部がある学校の名前は何でしょう?",
+      "answer": "北宇治高校",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Kyoto_Animation_head_office_20101010.jpg/960px-Kyoto_Animation_head_office_20101010.jpg"
+    },
+    {
+      "id": 89,
+      "question": "昭和元禄落語心中を制作した、ユーリ!!! on ICEやゾンビランドサガも手がけたアニメスタジオはどこでしょう?",
+      "answer": "MAPPA",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/%E4%B8%AD%E9%87%8E%E9%A7%85%E5%89%8D%E3%81%AE%E4%BD%8F%E5%8F%8B%E4%B8%8D%E5%8B%95%E7%94%A3%E9%AB%98%E5%B1%A4%E3%83%93%E3%83%AB%28%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%BF%E3%83%AF%E3%83%BC%E3%80%81%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9%E3%80%81%E3%83%8A%E3%82%AB%E3%83%8E%E3%82%B5%E3%82%A6%E3%82%B9%E3%83%86%E3%83%A9%29.jpg/960px-%E4%B8%AD%E9%87%8E%E9%A7%85%E5%89%8D%E3%81%AE%E4%BD%8F%E5%8F%8B%E4%B8%8D%E5%8B%95%E7%94%A3%E9%AB%98%E5%B1%A4%E3%83%93%E3%83%AB%28%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%BF%E3%83%AF%E3%83%BC%E3%80%81%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9%E3%80%81%E3%83%8A%E3%82%AB%E3%83%8E%E3%82%B5%E3%82%A6%E3%82%B9%E3%83%86%E3%83%A9%29.jpg"
+    },
+    {
+      "id": 90,
+      "question": "3月のライオンで、主人公・桐山零の職業は何でしょう?",
+      "answer": "プロ棋士",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/ShogiJapanSeriesFinalTokyo2014HabuWatanabe.jpg/960px-ShogiJapanSeriesFinalTokyo2014HabuWatanabe.jpg"
+    },
+    {
+      "id": 91,
+      "question": "プラネテスで、主人公・星野八郎太が所属するデブリ回収課の通称は何でしょう?",
+      "answer": "デブリ課(4課)",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Tsuda_Kenjiro_from_%22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg/960px-Tsuda_Kenjiro_from_%22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
+    },
+    {
+      "id": 92,
+      "question": "時をかける少女(2006年)を監督し、後にサマーウォーズやバケモノの子も手がけた監督は誰でしょう?",
+      "answer": "細田守",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Hosoda_Mamoru_from_%22The_World_of_Mamoru_Hosoda%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2016_%2833644165075%29.jpg/960px-Hosoda_Mamoru_from_%22The_World_of_Mamoru_Hosoda%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2016_%2833644165075%29.jpg"
+    },
+    {
+      "id": 93,
+      "question": "serial experiments lainを制作した、安倍吉俊がキャラクターデザインを務めた作品のアニメスタジオはどこでしょう?",
+      "answer": "トライアングルスタッフ",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/%E7%B7%8F%E5%8B%99%E7%9C%81%E3%83%AF%E3%82%A4%E3%83%89FM%E9%9B%A8%E5%AE%AE%E5%A4%A92023%E5%B9%B43%E6%9C%88.png"
+    },
+    {
+      "id": 94,
+      "question": "花咲くいろはを制作した、SHIROBAKO、ウマ娘などのオリジナルアニメを数多く手がける制作会社はどこでしょう?",
+      "answer": "P.A.WORKS",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/P.A._WORKS.jpg/960px-P.A._WORKS.jpg"
+    },
+    {
+      "id": 95,
+      "question": "亜人ちゃんは語りたいで、主人公の高橋鉄男が勤める学校で出会う亜人の総称は何でしょう?",
+      "answer": "デミ(demi-human)",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Demititle.png"
+    },
+    {
+      "id": 96,
+      "question": "ちはやふるで、主人公・綾瀬千早が情熱を注ぐ競技は何でしょう?",
+      "answer": "競技かるた",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Playing_uta_garuta.jpg/960px-Playing_uta_garuta.jpg"
+    },
+    {
+      "id": 97,
+      "question": "有頂天家族を原作とした森見登美彦の小説をアニメ化し、P.A.WORKSが制作した京都を舞台とする作品は何でしょう?",
+      "answer": "有頂天家族",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Shounen_Maid_logo.svg/960px-Shounen_Maid_logo.svg.png"
+    },
+    {
+      "id": 98,
+      "question": "新世界よりで、人類が超能力「呪力」を持つようになった未来の日本を舞台にした、A-1 Pictures制作のSFアニメは何でしょう?",
+      "answer": "新世界より",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Luigi_emblem.svg/960px-Luigi_emblem.svg.png"
+    },
+    {
+      "id": 99,
+      "question": "キノの旅 -the Beautiful World-で、主人公キノと旅をする喋るモトラドの名前は何でしょう?",
+      "answer": "エルメス",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Rue_du_Faubourg-Saint-Honor%C3%A9%2C_Paris_May_2006.jpg/960px-Rue_du_Faubourg-Saint-Honor%C3%A9%2C_Paris_May_2006.jpg"
+    },
+    {
+      "id": 100,
+      "question": "灰羽連盟を制作した、安倍吉俊が原案・キャラクターデザインを務めた作品のアニメスタジオはどこでしょう?",
+      "answer": "ラディックス",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cameron_Diaz_2016_%28cropped%29.jpg"
+    },
+    {
+      "id": 101,
+      "question": "91Daysで、禁酒法時代のアメリカを舞台にした復讐劇を制作したアニメスタジオはどこでしょう?",
+      "answer": "朱夏",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Shuka_Logo.png"
+    },
+    {
+      "id": 102,
+      "question": "甲鉄城のカバネリを制作した、進撃の巨人やヴィンランド・サガも手がけたアニメスタジオはどこでしょう?",
+      "answer": "WIT STUDIO",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Wit_studio.svg/960px-Wit_studio.svg.png"
+    },
+    {
+      "id": 103,
+      "question": "月がきれいで、主人公・安曇小太郎と水野茜の淡い恋愛を描いた、feel.制作の青春アニメは何でしょう?",
+      "answer": "月がきれい",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/11R_Tokyo_Yushun_%28Japanese_Derby%29_%28G1%2C_3yo%29_Turf_2400m_at_Tokyo_racecourse_winners%27_celemony_%E8%A1%A8%E5%BD%B0%E5%BC%8F_%2852931958413%29_Ai_Mikami_%28cropped%29.jpg"
+    },
+    {
+      "id": 104,
+      "question": "恋は雨上がりのようにで、主人公・橘あきらが恋心を抱く相手の職業は何でしょう?",
+      "answer": "ファミレス店長",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/After_the_Rain_logo.png"
+    },
+    {
+      "id": 105,
+      "question": "色づく世界の明日からで、主人公・月白瞳美が持つ特殊能力は何でしょう?",
+      "answer": "色が見えない",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/HLSColorSpace.png"
+    },
+    {
+      "id": 106,
+      "question": "ID:INVADEDで、主人公・酒井戸が潜る殺人犯の深層心理世界の名称は何でしょう?",
+      "answer": "イド",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Tsuda_Kenjiro_from_%22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg/960px-Tsuda_Kenjiro_from_%22The_Concierge%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348306038%29.jpg"
+    },
+    {
+      "id": 107,
+      "question": "デカダンスで、人類が巨大移動要塞に住む世界を描いた、NUT制作のオリジナルアニメは何でしょう?",
+      "answer": "デカダンス",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/F%C3%A9licien_Rops_-_Pornokrat%C3%A8s_-_1878_%282%29.jpg/960px-F%C3%A9licien_Rops_-_Pornokrat%C3%A8s_-_1878_%282%29.jpg"
+    },
+    {
+      "id": 108,
+      "question": "オッドタクシーで、主人公の小戸川が営む職業は何でしょう?",
+      "answer": "タクシー運転手",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Times_Square_16_Sep_2012_%28day%29.jpg/960px-Times_Square_16_Sep_2012_%28day%29.jpg"
+    },
+    {
+      "id": 109,
+      "question": "サマータイムレンダで、主人公・網代慎平が持つループ能力の名称は何でしょう?",
+      "answer": "死に戻り(正確には時間跳躍)",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/City_Hunter_anime_logo.png"
+    },
+    {
+      "id": 110,
+      "question": "Vivy -Fluorite Eye's Song-で、主人公のAI・ヴィヴィが歌うテーマパークの名前は何でしょう?",
+      "answer": "ニーアランド",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Vivy_Fluorite_Eye%27s_Song_logo.svg/960px-Vivy_Fluorite_Eye%27s_Song_logo.svg.png"
+    },
+    {
+      "id": 111,
+      "question": "白い砂のアクアトープで、主人公・海咲野くくるが働く沖縄の水族館の名前は何でしょう?",
+      "answer": "がまがま水族館",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Shiroi_Suna_no_Aquatope_logo.svg/960px-Shiroi_Suna_no_Aquatope_logo.svg.png"
+    },
+    {
+      "id": 112,
+      "question": "スキップとローファーで、主人公・岩倉美津未の声を演じた声優は誰でしょう?",
+      "answer": "黒沢ともよ",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Akudama_Drive_Logo.png/960px-Akudama_Drive_Logo.png"
+    },
+    {
+      "id": 113,
+      "question": "Do It Yourselfで、女子高生たちがDIY部で活動する姿を描いた、PINE JAMとBLADE制作のアニメは何でしょう?",
+      "answer": "Do It Yourself!!",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Arthur_Rothstein%2C_Boy_building_a_model_airplane_as_girl_watches%2C_FSA_camp%2C_Robstown%2C_Texas%2C_1942.jpg/960px-Arthur_Rothstein%2C_Boy_building_a_model_airplane_as_girl_watches%2C_FSA_camp%2C_Robstown%2C_Texas%2C_1942.jpg"
+    },
+    {
+      "id": 114,
+      "question": "PSYCHO-PASSで、人々の心理状態を数値化したシステムの名称は何でしょう?",
+      "answer": "シビュラシステム",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/AMB_Japanese_Verbs.pdf/page1-960px-AMB_Japanese_Verbs.pdf.jpg"
+    },
+    {
+      "id": 115,
+      "question": "GANGSTA.で、主人公のウォリックとニコラスが営む何でも屋の名前は何でしょう?",
+      "answer": "便利屋(Benriya)",
+      "difficulty": 3,
+      "points": 30,
+      "image": null
+    },
+    {
+      "id": 116,
+      "question": "舟を編むで、主人公・馬締光也が編纂に携わる辞書の名前は何でしょう?",
+      "answer": "大渡海",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Kisabur%C5%8D_Tokai_20240123.jpg"
+    },
+    {
+      "id": 117,
+      "question": "ばらかもんで、主人公の書道家・半田清舟が移住した場所はどこでしょう?",
+      "answer": "五島列島(長崎)",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Nagasaki-Glover-Garden-5415.jpg/960px-Nagasaki-Glover-Garden-5415.jpg"
+    },
+    {
+      "id": 118,
+      "question": "蟲師で、主人公のギンコが追う原生生物のような存在を何と呼ぶでしょう?",
+      "answer": "蟲",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Deciphering_the_sword.jpg/960px-Deciphering_the_sword.jpg"
+    },
+    {
+      "id": 119,
+      "question": "モブサイコ100で、主人公・影山茂夫の通称は何でしょう?",
+      "answer": "モブ",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mob_Psycho_100_logo.svg/960px-Mob_Psycho_100_logo.svg.png"
+    },
+    {
+      "id": 120,
+      "question": "BANANAFISH で、主人公のアッシュ・リンクスが追う謎の言葉は何でしょう?",
+      "answer": "バナナフィッシュ",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Luxor%2C_Banana_Island%2C_Banana_Tree%2C_Egypt%2C_Oct_2004.jpg"
+    }
   ],
   "silhouette": [],
   "intro": [
-    {"id": 1, "anime_title": "鬼滅の刃", "song_title": "紅蓮華", "artist": "LiSA", "hint": "2019年放送の大ヒット鬼退治アニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=MpYy6wwqxoo", "youtube_start": 0, "youtube_end": 30},
-    {"id": 2, "anime_title": "進撃の巨人", "song_title": "紅蓮の弓矢", "artist": "Linked Horizon", "hint": "2013年放送の巨人と人類の戦いアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=XMXgHfHxKVM", "youtube_start": 0, "youtube_end": 30},
-    {"id": 3, "anime_title": "涼宮ハルヒの憂鬱", "song_title": "God knows...", "artist": "平野綾", "hint": "2006年放送の学園SFアニメの劇中歌", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=5QNaSMiZ_-o", "youtube_start": 0, "youtube_end": 30},
-    {"id": 4, "anime_title": "けいおん!", "song_title": "Don't say \"lazy\"", "artist": "桜高軽音部", "hint": "2009年放送の軽音楽部アニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=5CSNv9MNEC4", "youtube_start": 0, "youtube_end": 30},
-    {"id": 5, "anime_title": "魔法少女まどか☆マギカ", "song_title": "コネクト", "artist": "ClariS", "hint": "2011年放送のダークファンタジー魔法少女アニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=eNvD-D6Gw6c", "youtube_start": 0, "youtube_end": 30},
-    {"id": 6, "anime_title": "とある科学の超電磁砲", "song_title": "only my railgun", "artist": "fripSide", "hint": "2009年放送の学園都市を舞台にした超能力バトルアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=cFqaN3vgxLc", "youtube_start": 0, "youtube_end": 30},
-    {"id": 7, "anime_title": "ソードアート・オンライン", "song_title": "crossing field", "artist": "LiSA", "hint": "2012年放送のVRMMOデスゲームアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=hVxW1wVpHqI", "youtube_start": 0, "youtube_end": 30},
-    {"id": 8, "anime_title": "呪術廻戦", "song_title": "廻廻奇譚", "artist": "Eve", "hint": "2020年放送の呪術バトルアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=1tk1pqwrOys", "youtube_start": 0, "youtube_end": 30},
-    {"id": 9, "anime_title": "チェンソーマン", "song_title": "KICK BACK", "artist": "米津玄師", "hint": "2022年放送のデビルハンターアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=M2cckDmNLMI", "youtube_start": 0, "youtube_end": 30},
-    {"id": 10, "anime_title": "【推しの子】", "song_title": "アイドル", "artist": "YOASOBI", "hint": "2023年放送の芸能界サスペンスアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=ZRtdQ81jPUQ", "youtube_start": 0, "youtube_end": 30},
-    {"id": 11, "anime_title": "機動戦士ガンダム 水星の魔女", "song_title": "祝福", "artist": "YOASOBI", "hint": "2022年放送の学園ガンダムシリーズ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=3eytpBOkOFA", "youtube_start": 0, "youtube_end": 30},
-    {"id": 12, "anime_title": "STEINS;GATE", "song_title": "Hacking to the Gate", "artist": "いとうかなこ", "hint": "2011年放送のタイムリープSFアニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=3TADlbgAXHY", "youtube_start": 0, "youtube_end": 30},
-    {"id": 13, "anime_title": "鬼滅の刃 遊郭編", "song_title": "残響散歌", "artist": "Aimer", "hint": "2021年放送の鬼滅第2期", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=tLQLa6lM3Us", "youtube_start": 0, "youtube_end": 30},
-    {"id": 14, "anime_title": "NARUTO -ナルト- 疾風伝", "song_title": "シルエット", "artist": "KANA-BOON", "hint": "2014年放送の忍者バトルアニメ後半", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=ZFoJYI7Q4iA", "youtube_start": 0, "youtube_end": 30},
-    {"id": 15, "anime_title": "化物語", "song_title": "恋愛サーキュレーション", "artist": "花澤香菜", "hint": "2009年放送の西尾維新原作怪異アニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=C4OlB6E8Cyw", "youtube_start": 0, "youtube_end": 30},
-    {"id": 16, "anime_title": "Angel Beats!", "song_title": "My Soul, Your Beats!", "artist": "Lia", "hint": "2010年放送の死後の世界学園アニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=al6Z7Z_fN-k", "youtube_start": 0, "youtube_end": 30},
-    {"id": 17, "anime_title": "Re:ゼロから始める異世界生活", "song_title": "Redo", "artist": "鈴木このみ", "hint": "2016年放送の死に戻り異世界アニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=R9i8nVS2NCA", "youtube_start": 0, "youtube_end": 30},
-    {"id": 18, "anime_title": "あの日見た花の名前を僕達はまだ知らない。", "song_title": "青い栞", "artist": "Galileo Galilei", "hint": "2011年放送の幼馴染再会青春アニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=mF-Da9NXmb4", "youtube_start": 0, "youtube_end": 30},
-    {"id": 19, "anime_title": "PSYCHO-PASS", "song_title": "abnormalize", "artist": "凛として時雨", "hint": "2012年放送の近未来犯罪係数SFアニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=DOKM9QWJG3g", "youtube_start": 0, "youtube_end": 30},
-    {"id": 20, "anime_title": "Fate/Zero", "song_title": "oath sign", "artist": "LiSA", "hint": "2011年放送の聖杯戦争前日譚アニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=aXnNuwXrcNc", "youtube_start": 0, "youtube_end": 30},
-    {"id": 21, "anime_title": "ぼっち・ざ・ろっく!", "song_title": "青春コンプレックス", "artist": "結束バンド", "hint": "2022年放送の陰キャバンドアニメ", "difficulty": 3, "points": 30, "youtube_url": "https://www.youtube.com/watch?v=c_SBnZZMXWs", "youtube_start": 0, "youtube_end": 30},
-    {"id": 22, "anime_title": "SHIROBAKO", "song_title": "COLORFUL BOX", "artist": "石田燿子", "hint": "2014年放送のアニメ制作現場アニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 23, "anime_title": "宇宙よりも遠い場所", "song_title": "The Girls Are Alright!", "artist": "saya", "hint": "2018年放送の南極を目指す女子高生アニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 24, "anime_title": "メイドインアビス", "song_title": "Deep in Abyss", "artist": "富田美憂・伊瀬茉莉也", "hint": "2017年放送の大穴探検ファンタジーアニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 25, "anime_title": "ヴァイオレット・エヴァーガーデン", "song_title": "Sincerely", "artist": "TRUE", "hint": "2018年放送の手紙代筆アニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 26, "anime_title": "SSSS.GRIDMAN", "song_title": "UNION", "artist": "OxT", "hint": "2018年放送の特撮リメイクアニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 27, "anime_title": "リコリス・リコイル", "song_title": "ALIVE", "artist": "ClariS", "hint": "2022年放送のガールズアクションアニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 28, "anime_title": "SPY×FAMILY", "song_title": "ミックスナッツ", "artist": "Official髭男dism", "hint": "2022年放送のスパイ家族コメディアニメ", "difficulty": 3, "points": 30, "youtube_url": "https://www.youtube.com/watch?v=CbH2F0kXgTY", "youtube_start": 0, "youtube_end": 30},
-    {"id": 29, "anime_title": "葬送のフリーレン", "song_title": "勇者", "artist": "YOASOBI", "hint": "2023年放送のエルフの魔法使い冒険アニメ", "difficulty": 3, "points": 30, "youtube_url": "https://www.youtube.com/watch?v=OIBODIPC_8Y", "youtube_start": 0, "youtube_end": 30},
-    {"id": 30, "anime_title": "薬屋のひとりごと", "song_title": "花になって", "artist": "緑黄色社会", "hint": "2024年放送の後宮謎解きアニメ", "difficulty": 3, "points": 30, "youtube_url": "https://www.youtube.com/watch?v=v-WcMQbXbKY", "youtube_start": 0, "youtube_end": 30}
+    {
+      "id": 1,
+      "anime_title": "鬼滅の刃",
+      "song_title": "紅蓮華",
+      "artist": "LiSA",
+      "hint": "2019年放送の大ヒット鬼退治アニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=MpYy6wwqxoo",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 2,
+      "anime_title": "進撃の巨人",
+      "song_title": "紅蓮の弓矢",
+      "artist": "Linked Horizon",
+      "hint": "2013年放送の巨人と人類の戦いアニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=XMXgHfHxKVM",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 3,
+      "anime_title": "涼宮ハルヒの憂鬱",
+      "song_title": "God knows...",
+      "artist": "平野綾",
+      "hint": "2006年放送の学園SFアニメの劇中歌",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=5QNaSMiZ_-o",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 4,
+      "anime_title": "けいおん!",
+      "song_title": "Don't say \"lazy\"",
+      "artist": "桜高軽音部",
+      "hint": "2009年放送の軽音楽部アニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=5CSNv9MNEC4",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 5,
+      "anime_title": "魔法少女まどか☆マギカ",
+      "song_title": "コネクト",
+      "artist": "ClariS",
+      "hint": "2011年放送のダークファンタジー魔法少女アニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=eNvD-D6Gw6c",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 6,
+      "anime_title": "とある科学の超電磁砲",
+      "song_title": "only my railgun",
+      "artist": "fripSide",
+      "hint": "2009年放送の学園都市を舞台にした超能力バトルアニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=cFqaN3vgxLc",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 7,
+      "anime_title": "ソードアート・オンライン",
+      "song_title": "crossing field",
+      "artist": "LiSA",
+      "hint": "2012年放送のVRMMOデスゲームアニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=hVxW1wVpHqI",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 8,
+      "anime_title": "呪術廻戦",
+      "song_title": "廻廻奇譚",
+      "artist": "Eve",
+      "hint": "2020年放送の呪術バトルアニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=1tk1pqwrOys",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 9,
+      "anime_title": "チェンソーマン",
+      "song_title": "KICK BACK",
+      "artist": "米津玄師",
+      "hint": "2022年放送のデビルハンターアニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=M2cckDmNLMI",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 10,
+      "anime_title": "【推しの子】",
+      "song_title": "アイドル",
+      "artist": "YOASOBI",
+      "hint": "2023年放送の芸能界サスペンスアニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=ZRtdQ81jPUQ",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 11,
+      "anime_title": "機動戦士ガンダム 水星の魔女",
+      "song_title": "祝福",
+      "artist": "YOASOBI",
+      "hint": "2022年放送の学園ガンダムシリーズ",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "https://www.youtube.com/watch?v=3eytpBOkOFA",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 12,
+      "anime_title": "STEINS;GATE",
+      "song_title": "Hacking to the Gate",
+      "artist": "いとうかなこ",
+      "hint": "2011年放送のタイムリープSFアニメ",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "https://www.youtube.com/watch?v=3TADlbgAXHY",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 13,
+      "anime_title": "鬼滅の刃 遊郭編",
+      "song_title": "残響散歌",
+      "artist": "Aimer",
+      "hint": "2021年放送の鬼滅第2期",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "https://www.youtube.com/watch?v=tLQLa6lM3Us",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 14,
+      "anime_title": "NARUTO -ナルト- 疾風伝",
+      "song_title": "シルエット",
+      "artist": "KANA-BOON",
+      "hint": "2014年放送の忍者バトルアニメ後半",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "https://www.youtube.com/watch?v=ZFoJYI7Q4iA",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 15,
+      "anime_title": "化物語",
+      "song_title": "恋愛サーキュレーション",
+      "artist": "花澤香菜",
+      "hint": "2009年放送の西尾維新原作怪異アニメ",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "https://www.youtube.com/watch?v=C4OlB6E8Cyw",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 16,
+      "anime_title": "Angel Beats!",
+      "song_title": "My Soul, Your Beats!",
+      "artist": "Lia",
+      "hint": "2010年放送の死後の世界学園アニメ",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "https://www.youtube.com/watch?v=al6Z7Z_fN-k",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 17,
+      "anime_title": "Re:ゼロから始める異世界生活",
+      "song_title": "Redo",
+      "artist": "鈴木このみ",
+      "hint": "2016年放送の死に戻り異世界アニメ",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "https://www.youtube.com/watch?v=R9i8nVS2NCA",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 18,
+      "anime_title": "あの日見た花の名前を僕達はまだ知らない。",
+      "song_title": "青い栞",
+      "artist": "Galileo Galilei",
+      "hint": "2011年放送の幼馴染再会青春アニメ",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "https://www.youtube.com/watch?v=mF-Da9NXmb4",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 19,
+      "anime_title": "PSYCHO-PASS",
+      "song_title": "abnormalize",
+      "artist": "凛として時雨",
+      "hint": "2012年放送の近未来犯罪係数SFアニメ",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "https://www.youtube.com/watch?v=DOKM9QWJG3g",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 20,
+      "anime_title": "Fate/Zero",
+      "song_title": "oath sign",
+      "artist": "LiSA",
+      "hint": "2011年放送の聖杯戦争前日譚アニメ",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "https://www.youtube.com/watch?v=aXnNuwXrcNc",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 21,
+      "anime_title": "ぼっち・ざ・ろっく!",
+      "song_title": "青春コンプレックス",
+      "artist": "結束バンド",
+      "hint": "2022年放送の陰キャバンドアニメ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "https://www.youtube.com/watch?v=c_SBnZZMXWs",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 22,
+      "anime_title": "SHIROBAKO",
+      "song_title": "COLORFUL BOX",
+      "artist": "石田燿子",
+      "hint": "2014年放送のアニメ制作現場アニメ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 23,
+      "anime_title": "宇宙よりも遠い場所",
+      "song_title": "The Girls Are Alright!",
+      "artist": "saya",
+      "hint": "2018年放送の南極を目指す女子高生アニメ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 24,
+      "anime_title": "メイドインアビス",
+      "song_title": "Deep in Abyss",
+      "artist": "富田美憂・伊瀬茉莉也",
+      "hint": "2017年放送の大穴探検ファンタジーアニメ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 25,
+      "anime_title": "ヴァイオレット・エヴァーガーデン",
+      "song_title": "Sincerely",
+      "artist": "TRUE",
+      "hint": "2018年放送の手紙代筆アニメ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 26,
+      "anime_title": "SSSS.GRIDMAN",
+      "song_title": "UNION",
+      "artist": "OxT",
+      "hint": "2018年放送の特撮リメイクアニメ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 27,
+      "anime_title": "リコリス・リコイル",
+      "song_title": "ALIVE",
+      "artist": "ClariS",
+      "hint": "2022年放送のガールズアクションアニメ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 28,
+      "anime_title": "SPY×FAMILY",
+      "song_title": "ミックスナッツ",
+      "artist": "Official髭男dism",
+      "hint": "2022年放送のスパイ家族コメディアニメ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "https://www.youtube.com/watch?v=CbH2F0kXgTY",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 29,
+      "anime_title": "葬送のフリーレン",
+      "song_title": "勇者",
+      "artist": "YOASOBI",
+      "hint": "2023年放送のエルフの魔法使い冒険アニメ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "https://www.youtube.com/watch?v=OIBODIPC_8Y",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 30,
+      "anime_title": "薬屋のひとりごと",
+      "song_title": "花になって",
+      "artist": "緑黄色社会",
+      "hint": "2024年放送の後宮謎解きアニメ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "https://www.youtube.com/watch?v=v-WcMQbXbKY",
+      "youtube_start": 0,
+      "youtube_end": 30
+    }
   ]
 }

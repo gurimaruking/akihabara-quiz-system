@@ -1744,11 +1744,16 @@ button:disabled:active { transform: none; }
     return "";
   }
 
+  function getAnswerImageUrl() {
+    if (!currentQ) return null;
+    return currentQ.image || null;
+  }
+
   function showAnswer() {
     if (answerRevealed) return;
     answerRevealed = true;
     revealFullToAudience();
-    sendMsg("SHOW_ANSWER", { answerHtml: getAnswerHtml() });
+    sendMsg("SHOW_ANSWER", { answerHtml: getAnswerHtml(), imageUrl: getAnswerImageUrl() });
   }
 
   function nextQuestion() {
@@ -1798,7 +1803,7 @@ button:disabled:active { transform: none; }
       playSoundCorrect();
       // Reveal full text on audience before showing correct effect
       revealFullToAudience();
-      sendMsg("CORRECT_ANSWER", { playerId: p.id, playerName: p.name, answerHtml: getAnswerHtml(), points: pts, isStackchance: isStackchance });
+      sendMsg("CORRECT_ANSWER", { playerId: p.id, playerName: p.name, answerHtml: getAnswerHtml(), imageUrl: getAnswerImageUrl(), points: pts, isStackchance: isStackchance });
       sendMsg("SCORE_UPDATE", { players: getPlayersPayload() });
 
       // スタックチャン大会: 次のチャンスをこのプレイヤーに設定
@@ -2164,6 +2169,7 @@ button:disabled:active { transform: none; }
         questionData: currentQ ? buildQuestionDataForAudience() : null,
         answerRevealed: answerRevealed,
         answerHtml: answerRevealed ? getAnswerHtml() : null,
+        imageUrl: answerRevealed ? getAnswerImageUrl() : null,
         buzzerState: buzzerState,
         hintLevel: hintLevel,
         hints: hints

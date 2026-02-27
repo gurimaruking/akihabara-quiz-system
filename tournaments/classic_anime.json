@@ -1,158 +1,1328 @@
 {
   "title": "2000年代以前アニメクイズ大会",
   "hayaoshi": [
-    {"id":1,"question":"1963年に手塚治虫原作で日本初の本格的テレビアニメシリーズとして放送された、科学省の少年ロボットを主人公とする作品は何でしょう？","answer":"鉄腕アトム","difficulty":1,"points":10},
-    {"id":2,"question":"「行きまーす」という決め台詞で知られる、1979年から放送された富野由悠季監督のロボットアニメで、アムロ・レイが主人公の作品は何でしょう？","answer":"機動戦士ガンダム","difficulty":1,"points":10},
-    {"id":3,"question":"1995年にGAINAXが制作し、「残酷な天使のテーゼ」が主題歌の、碇シンジが主人公のロボットアニメは何でしょう？","answer":"新世紀エヴァンゲリオン","difficulty":1,"points":10},
-    {"id":4,"question":"1974年に放送開始し、「さらば」や「完結編」などの劇場版も制作された、イスカンダルを目指す宇宙船を描いた松本零士原作のアニメは何でしょう？","answer":"宇宙戦艦ヤマト","difficulty":1,"points":10},
-    {"id":5,"question":"1992年から放送され、「月に代わってお仕置きよ」という決め台詞で知られる、月野うさぎが主人公の武内直子原作の変身ヒロインアニメは何でしょう？","answer":"美少女戦士セーラームーン","difficulty":1,"points":10},
-    {"id":6,"question":"1986年から週刊少年ジャンプで連載され、アニメでは孫悟空が主人公の鳥山明原作の冒険・バトルアニメは何でしょう？","answer":"ドラゴンボール","difficulty":1,"points":10},
-    {"id":7,"question":"1993年から放送され、湘北高校バスケ部の桜木花道が主人公の井上雄彦原作のバスケットボールアニメは何でしょう？","answer":"SLAM DUNK","difficulty":1,"points":10},
-    {"id":8,"question":"1982年に放送され、「愛・おぼえていますか」の劇場版でも知られる、可変戦闘機バルキリーが登場する河森正治がメカデザインを担当したSFアニメは何でしょう？","answer":"超時空要塞マクロス","difficulty":1,"points":10},
-    {"id":9,"question":"1998年にサンライズが制作し、「Tank!」がオープニング曲の、スパイク・スピーゲルが主人公の渡辺信一郎監督のSFアニメは何でしょう？","answer":"カウボーイビバップ","difficulty":1,"points":10},
-    {"id":10,"question":"1996年から放送され、「ポケモンゲットだぜ」という決め台詞でサトシがピカチュウと冒険する、ゲーム原作のアニメは何でしょう？","answer":"ポケットモンスター","difficulty":1,"points":10},
-    {"id":11,"question":"1978年に放送開始し、少年探偵団や怪盗キッドが登場する、青山剛昌原作の推理アニメの前身となった作品は何でしょう？","answer":"未来少年コナン","difficulty":1,"points":10},
-    {"id":12,"question":"1988年に公開された大友克洋監督のSF映画で、2019年のネオ東京を舞台に金田と鉄雄の物語を描いた作品は何でしょう？","answer":"AKIRA","difficulty":1,"points":10},
-    {"id":13,"question":"1984年に宮崎駿が監督した、ナウシカが主人公の風の谷を舞台とした長編アニメ映画は何でしょう？","answer":"風の谷のナウシカ","difficulty":1,"points":10},
-    {"id":14,"question":"1997年にスタジオジブリが制作し、「もののけ姫」というタイトルの、アシタカとサンの物語を描いた宮崎駿監督作品は何でしょう？","answer":"もののけ姫","difficulty":1,"points":10},
-    {"id":15,"question":"1988年に公開された、サツキとメイの姉妹が主人公の、宮崎駿監督のスタジオジブリ作品は何でしょう？","answer":"となりのトトロ","difficulty":1,"points":10},
-    {"id":16,"question":"1969年に放送開始した、ルパン三世が主人公のモンキー・パンチ原作のアニメシリーズは何でしょう？","answer":"ルパン三世","difficulty":1,"points":10},
-    {"id":17,"question":"1996年に放送され、「残酷な」という形容詞で始まる主題歌が話題となった、庵野秀明監督のロボットアニメは何でしょう？","answer":"新世紀エヴァンゲリオン","difficulty":1,"points":10},
-    {"id":18,"question":"1990年から放送され、ちびまる子ちゃんが主人公のさくらももこ原作のホームコメディアニメは何でしょう？","answer":"ちびまる子ちゃん","difficulty":1,"points":10},
-    {"id":19,"question":"1969年に放送開始した、野原しんのすけが主人公の臼井儀人原作のギャグアニメは何でしょう？","answer":"クレヨンしんちゃん","difficulty":1,"points":10},
-    {"id":20,"question":"1985年から放送され、野比のび太とドラえもんの日常を描いた藤子・F・不二雄原作のSFアニメは何でしょう？","answer":"ドラえもん","difficulty":1,"points":10},
-    {"id":21,"question":"1999年に公開された細田守監督のデジモンアドベンチャーの劇場版第1作は何でしょう？","answer":"デジモンアドベンチャー","difficulty":1,"points":10},
-    {"id":22,"question":"1987年から放送され、キン肉マンやテリーマンが登場するゆでたまご原作のプロレスアニメは何でしょう？","answer":"キン肉マン","difficulty":1,"points":10},
-    {"id":23,"question":"1983年から放送され、両津勘吉が主人公の秋本治原作のギャグアニメは何でしょう？","answer":"こちら葛飾区亀有公園前派出所","difficulty":1,"points":10},
-    {"id":24,"question":"1968年に放送開始した、タイガーマスクが主人公の梶原一騎原作のプロレスアニメは何でしょう？","answer":"タイガーマスク","difficulty":1,"points":10},
-    {"id":25,"question":"1994年から放送され、海坂藩を舞台に剣客の物語を描いた時代劇アニメは何でしょう？","answer":"るろうに剣心","difficulty":1,"points":10},
-    {"id":26,"question":"1992年から放送され、浦飯幽助が主人公の冨樫義博原作のバトルアニメは何でしょう？","answer":"幽遊白書","difficulty":1,"points":10},
-    {"id":27,"question":"1981年から放送され、ラムちゃんが登場する高橋留美子原作のラブコメアニメは何でしょう？","answer":"うる星やつら","difficulty":1,"points":10},
-    {"id":28,"question":"1989年から放送され、乱馬が水をかぶると女になる高橋留美子原作のラブコメアニメは何でしょう？","answer":"らんま1/2","difficulty":1,"points":10},
-    {"id":29,"question":"1996年から放送され、ひろしとみさえが両親の野原家を描いた臼井儀人原作のアニメは何でしょう？","answer":"クレヨンしんちゃん","difficulty":1,"points":10},
-    {"id":30,"question":"1986年から放送され、天空の城ラピュタとして知られる宮崎駿監督の冒険活劇は何でしょう？","answer":"天空の城ラピュタ","difficulty":1,"points":10},
-    {"id":31,"question":"1989年に公開された、魔女の宅急便というタイトルで、キキが主人公の宮崎駿監督作品は何でしょう？","answer":"魔女の宅急便","difficulty":1,"points":10},
-    {"id":32,"question":"1992年に公開された、紅の豚というタイトルで、ポルコ・ロッソが主人公の宮崎駿監督作品は何でしょう？","answer":"紅の豚","difficulty":1,"points":10},
-    {"id":33,"question":"1995年に公開された、耳をすませばというタイトルで、月島雫が主人公の近藤喜文監督作品は何でしょう？","answer":"耳をすませば","difficulty":1,"points":10},
-    {"id":34,"question":"1991年に公開された、おもひでぽろぽろというタイトルで、岡島タエ子が主人公の高畑勲監督作品は何でしょう？","answer":"おもひでぽろぽろ","difficulty":1,"points":10},
-    {"id":35,"question":"1994年に公開された、平成狸合戦ぽんぽこというタイトルで、多摩丘陵のたぬきが主人公の高畑勲監督作品は何でしょう？","answer":"平成狸合戦ぽんぽこ","difficulty":1,"points":10},
-    {"id":36,"question":"1979年から放送され、キャプテン翼が主人公の高橋陽一原作のサッカーアニメは何でしょう？","answer":"キャプテン翼","difficulty":1,"points":10},
-    {"id":37,"question":"1998年から放送され、ゴン・フリークスが主人公の冨樫義博原作の冒険アニメは何でしょう？","answer":"HUNTER×HUNTER","difficulty":1,"points":10},
-    {"id":38,"question":"1996年から放送され、神楽坂明日菜が登場する赤松健原作のラブコメアニメは何でしょう？","answer":"ラブひな","difficulty":1,"points":10},
-    {"id":39,"question":"1983年から放送され、キャプテン翼の続編として南葛中学校を舞台にしたサッカーアニメは何でしょう？","answer":"キャプテン翼","difficulty":1,"points":10},
-    {"id":40,"question":"1977年から放送され、ヤマトよ永遠にというサブタイトルで知られる宇宙戦艦ヤマトの続編シリーズは何でしょう？","answer":"宇宙戦艦ヤマト","difficulty":1,"points":10},
-    {"id":41,"question":"うる星やつらで、ラムちゃんの声を担当し、後にらんま1/2の女らんまも演じた声優は誰でしょう？","answer":"平野文","difficulty":2,"points":20},
-    {"id":42,"question":"1996年に放送された、逮捕しちゃうぞというタイトルで、墨東署の婦警コンビを主人公とする藤島康介原作のアニメは何でしょう？","answer":"逮捕しちゃうぞ","difficulty":2,"points":20},
-    {"id":43,"question":"1998年に放送されたトライガンで、主人公ヴァッシュ・ザ・スタンピードの声を担当した声優は誰でしょう？","answer":"小野坂昌也","difficulty":2,"points":20},
-    {"id":44,"question":"1990年にOVAとして制作された、ロードス島戦記の主人公である若き騎士の名前は何でしょう？","answer":"パーン","difficulty":2,"points":20},
-    {"id":45,"question":"機動戦士ガンダムで、シャア・アズナブルの声を担当し、後に多くのクールな二枚目役を演じた声優は誰でしょう？","answer":"池田秀一","difficulty":2,"points":20},
-    {"id":46,"question":"新世紀エヴァンゲリオンで、綾波レイの声を担当した声優は誰でしょう？","answer":"林原めぐみ","difficulty":2,"points":20},
-    {"id":47,"question":"ドラゴンボールZで、孫悟空の声を担当し、悟飯や悟天の声も演じた声優は誰でしょう？","answer":"野沢雅子","difficulty":2,"points":20},
-    {"id":48,"question":"美少女戦士セーラームーンで、月野うさぎの声を担当した声優は誰でしょう？","answer":"三石琴乃","difficulty":2,"points":20},
-    {"id":49,"question":"SLAM DUNKで、桜木花道の声を担当した声優は誰でしょう？","answer":"草尾毅","difficulty":2,"points":20},
-    {"id":50,"question":"カウボーイビバップで、スパイク・スピーゲルの声を担当した声優は誰でしょう？","answer":"山寺宏一","difficulty":2,"points":20},
-    {"id":51,"question":"幽遊白書で、浦飯幽助の声を担当した声優は誰でしょう？","answer":"佐々木望","difficulty":2,"points":20},
-    {"id":52,"question":"らんま1/2で、早乙女らんま（男）の声を担当した声優は誰でしょう？","answer":"山口勝平","difficulty":2,"points":20},
-    {"id":53,"question":"新世紀エヴァンゲリオンのオープニング主題歌「残酷な天使のテーゼ」を歌ったアーティストは誰でしょう？","answer":"高橋洋子","difficulty":2,"points":20},
-    {"id":54,"question":"るろうに剣心のオープニング主題歌「そばかす」を歌ったアーティストは誰でしょう？","answer":"JUDY AND MARY","difficulty":2,"points":20},
-    {"id":55,"question":"スラムダンクのエンディング主題歌「世界が終るまでは…」を歌ったアーティストは誰でしょう？","answer":"WANDS","difficulty":2,"points":20},
-    {"id":56,"question":"機動戦士ガンダムで、アムロ・レイが搭乗する白い連邦軍のモビルスーツの名前は何でしょう？","answer":"ガンダム","difficulty":2,"points":20},
-    {"id":57,"question":"超時空要塞マクロスで、リン・ミンメイの声を担当し、歌手としても活躍した声優は誰でしょう？","answer":"飯島真理","difficulty":2,"points":20},
-    {"id":58,"question":"1985年に放送されたタッチで、上杉達也と上杉和也の双子兄弟が通う高校の名前は何でしょう？","answer":"明青学園","difficulty":2,"points":20},
-    {"id":59,"question":"1987年から放送された聖闘士星矢で、主人公星矢が身につける青銅聖衣の星座は何でしょう？","answer":"ペガサス","difficulty":2,"points":20},
-    {"id":60,"question":"1989年に公開された機動警察パトレイバーの劇場版第1作を監督した、後に攻殻機動隊を手がける監督は誰でしょう？","answer":"押井守","difficulty":2,"points":20},
-    {"id":61,"question":"1983年から放送されたキャッツ・アイで、3姉妹が経営する喫茶店の名前は何でしょう？","answer":"キャッツアイ","difficulty":2,"points":20},
-    {"id":62,"question":"1984年から放送された北斗の拳で、主人公ケンシロウが使う拳法の名前は何でしょう？","answer":"北斗神拳","difficulty":2,"points":20},
-    {"id":63,"question":"1986年から放送されたドラゴンボールで、孫悟空が初めて出会った女の子の名前は何でしょう？","answer":"ブルマ","difficulty":2,"points":20},
-    {"id":64,"question":"1990年に公開されたふしぎの海のナディアのテレビシリーズを監督した、後にエヴァンゲリオンを手がける監督は誰でしょう？","answer":"庵野秀明","difficulty":2,"points":20},
-    {"id":65,"question":"1993年から放送された機動戦士Vガンダムで、主人公ウッソ・エヴィンが搭乗するガンダムの名前は何でしょう？","answer":"V(ヴィクトリー)ガンダム","difficulty":2,"points":20},
-    {"id":66,"question":"1995年に公開された攻殻機動隊で、主人公草薙素子が所属する公安組織の名前は何でしょう？","answer":"公安9課","difficulty":2,"points":20},
-    {"id":67,"question":"1996年から放送された機動戦艦ナデシコで、主人公テンカワ・アキトの職業は何でしょう？","answer":"コック(料理人)","difficulty":2,"points":20},
-    {"id":68,"question":"1997年に放送された少女革命ウテナで、主人公天上ウテナが決闘で勝利するために目指すものは何でしょう？","answer":"世界を革命する力","difficulty":2,"points":20},
-    {"id":69,"question":"1998年に放送されたカードキャプターさくらで、主人公木之本桜が封印するカードの名前は何でしょう？","answer":"クロウカード","difficulty":2,"points":20},
-    {"id":70,"question":"1999年に放送されたターンエーガンダムで、主人公ロラン・セアックが搭乗するガンダムの特徴的な部位は何でしょう？","answer":"髭(ヒゲ)","difficulty":2,"points":20},
-    {"id":71,"question":"1982年から放送された超時空要塞マクロスで、マクロス艦が不時着した惑星の名前は何でしょう？","answer":"地球","difficulty":2,"points":20},
-    {"id":72,"question":"1985年に放送されたタッチで、上杉達也が想いを寄せる幼なじみヒロインの名前は何でしょう？","answer":"浅倉南","difficulty":2,"points":20},
-    {"id":73,"question":"1988年に公開されたAKIRAで、主人公金田正太郎が乗るバイクの色は何色でしょう？","answer":"赤","difficulty":2,"points":20},
-    {"id":74,"question":"1991年から放送された美少女戦士セーラームーンで、月野うさぎが変身する際に言うセリフは何でしょう？","answer":"ムーンプリズムパワー、メイクアップ","difficulty":2,"points":20},
-    {"id":75,"question":"1994年から放送されたマクロス7で、主人公熱気バサラが所属するバンドの名前は何でしょう？","answer":"Fire Bomber","difficulty":2,"points":20},
-    {"id":76,"question":"1996年から放送された機動新世紀ガンダムXで、主人公ガロード・ランが搭乗するガンダムの必殺技は何でしょう？","answer":"サテライトキャノン","difficulty":2,"points":20},
-    {"id":77,"question":"1997年から放送されたベルセルクで、主人公ガッツが使う大剣の名前は何でしょう？","answer":"ドラゴン殺し","difficulty":2,"points":20},
-    {"id":78,"question":"1998年に放送されたロスト・ユニバースで、主人公ケイン・ブルーリバーが乗る宇宙船の名前は何でしょう？","answer":"ソードブレイカー","difficulty":2,"points":20},
-    {"id":79,"question":"1999年に放送された∀ガンダムで、月に住む人々を何と呼ぶでしょう？","answer":"ムーンレィス","difficulty":2,"points":20},
-    {"id":80,"question":"1980年から放送された伝説巨神イデオンで、主人公ユウキ・コスモが発見した巨大ロボットの名前は何でしょう？","answer":"イデオン","difficulty":2,"points":20},
-    {"id":81,"question":"1963年に放送された鉄腕アトムを制作したアニメスタジオで、手塚治虫が設立した会社の名前は何でしょう？","answer":"虫プロダクション","difficulty":3,"points":30},
-    {"id":82,"question":"1974年に宇宙戦艦ヤマトの音楽を担当し、交響組曲としても知られる作曲家は誰でしょう？","answer":"宮川泰","difficulty":3,"points":30},
-    {"id":83,"question":"1979年の機動戦士ガンダムで、メカニックデザインを担当し、後にガンプラブームを支えたデザイナーは誰でしょう？","answer":"大河原邦男","difficulty":3,"points":30},
-    {"id":84,"question":"1983年に公開された幻魔大戦で、キャラクターデザインを担当した漫画家は誰でしょう？","answer":"大友克洋","difficulty":3,"points":30},
-    {"id":85,"question":"1984年に公開された風の谷のナウシカのために宮崎駿が設立したアニメスタジオの名前は何でしょう？","answer":"スタジオジブリ","difficulty":3,"points":30},
-    {"id":86,"question":"1985年に発売されたOVA「メガゾーン23」で、主人公矢作省吾の声を担当した声優は誰でしょう？","answer":"鶴ひろみ","difficulty":3,"points":30},
-    {"id":87,"question":"1987年に公開された王立宇宙軍 オネアミスの翼を制作したアニメスタジオで、後にエヴァンゲリオンを手がけるスタジオは何でしょう？","answer":"GAINAX","difficulty":3,"points":30},
-    {"id":88,"question":"1988年に発売されたOVA「トップをねらえ!」で監督デビューを果たし、後にエヴァンゲリオンを手がける監督は誰でしょう？","answer":"庵野秀明","difficulty":3,"points":30},
-    {"id":89,"question":"1989年に公開された機動警察パトレイバー劇場版で、レイバー犯罪を取り締まる特車二課第二小隊の隊長の名前は何でしょう？","answer":"後藤喜一","difficulty":3,"points":30},
-    {"id":90,"question":"1991年に公開された老人Zで、主人公の看護学生の名前は何でしょう？","answer":"春日部晴子","difficulty":3,"points":30},
-    {"id":91,"question":"1993年に公開されたマクロスプラスで、主人公イサム・ダイソンの声を担当した声優は誰でしょう？","answer":"山崎たくみ","difficulty":3,"points":30},
-    {"id":92,"question":"1995年に公開された攻殻機動隊で、原作漫画を手がけ、キャラクターデザインも担当した漫画家は誰でしょう？","answer":"士郎正宗","difficulty":3,"points":30},
-    {"id":93,"question":"1997年に公開された劇場版AIR/まごころを、君にで、新世紀エヴァンゲリオンの完結編として制作された作品の正式タイトルは何でしょう？","answer":"新世紀エヴァンゲリオン劇場版 Air/まごころを、君に","difficulty":3,"points":30},
-    {"id":94,"question":"1998年に放送された serial experiments lainで、主人公玲音が接続する電脳世界の名前は何でしょう？","answer":"ワイヤード","difficulty":3,"points":30},
-    {"id":95,"question":"1999年に公開された劇場版カードキャプターさくらで、さくらが封印の鍵を変化させる呪文は何でしょう？","answer":"レリーズ","difficulty":3,"points":30},
-    {"id":96,"question":"1972年に放送された科学忍者隊ガッチャマンで、主人公大鷲の健が率いるチームの名前は何でしょう？","answer":"科学忍者隊","difficulty":3,"points":30},
-    {"id":97,"question":"1975年に放送された勇者ライディーンで、主人公ひびき洸が搭乗する巨大ロボットを操るために必要な能力は何でしょう？","answer":"超能力","difficulty":3,"points":30},
-    {"id":98,"question":"1976年に放送された超電磁ロボ コン・バトラーVで、5機のマシンが合体する際のかけ声は何でしょう？","answer":"レッツ・コンバイン","difficulty":3,"points":30},
-    {"id":99,"question":"1977年に放送された超電磁マシーン ボルテスVで、剛三兄弟の父親の名前は何でしょう？","answer":"剛健太郎","difficulty":3,"points":30},
-    {"id":100,"question":"1978年に放送された無敵鋼人ダイターン3で、主人公破嵐万丈の声を担当した声優は誰でしょう？","answer":"鈴置洋孝","difficulty":3,"points":30},
-    {"id":101,"question":"1980年に放送された伝説巨神イデオンで、イデの力を巡る戦いを描いた劇場版のサブタイトルは何でしょう？","answer":"発動篇","difficulty":3,"points":30},
-    {"id":102,"question":"1981年に放送された最強ロボ ダイオージャで、主人公ミト王子の声を担当した声優は誰でしょう？","answer":"塩沢兼人","difficulty":3,"points":30},
-    {"id":103,"question":"1982年に放送された戦闘メカ ザブングルで、主人公ジロン・アモスが搭乗するウォーカーマシンの名前は何でしょう？","answer":"ザブングル","difficulty":3,"points":30},
-    {"id":104,"question":"1983年に放送された聖戦士ダンバインで、異世界バイストン・ウェルに召喚された主人公の名前は何でしょう？","answer":"ショウ・ザマ","difficulty":3,"points":30},
-    {"id":105,"question":"1984年に放送された重戦機エルガイムで、主人公ダバ・マイロードが搭乗するヘビーメタルの名前は何でしょう？","answer":"エルガイム","difficulty":3,"points":30},
-    {"id":106,"question":"1985年に放送された機動戦士Zガンダムで、主人公カミーユ・ビダンが搭乗するガンダムの名前は何でしょう？","answer":"Zガンダム","difficulty":3,"points":30},
-    {"id":107,"question":"1986年に放送された機動戦士ガンダムZZで、主人公ジュドー・アーシタの声を担当した声優は誰でしょう？","answer":"矢尾一樹","difficulty":3,"points":30},
-    {"id":108,"question":"1987年に放送された機甲戦記ドラグナーで、主人公ケーン・ワカバが搭乗するドラグナーのタイプは何でしょう？","answer":"ドラグナー1型","difficulty":3,"points":30},
-    {"id":109,"question":"1988年に放送された鎧伝サムライトルーパーで、主人公真田遼が身につける鎧の名前は何でしょう？","answer":"烈火","difficulty":3,"points":30},
-    {"id":110,"question":"1989年に放送されたNG騎士ラムネ&40で、主人公馬場ラムネードが搭乗する騎士の名前は何でしょう？","answer":"ラムネス","difficulty":3,"points":30},
-    {"id":111,"question":"1990年に放送された魔神英雄伝ワタルで、主人公戦部ワタルが搭乗する龍神丸の声を担当した声優は誰でしょう？","answer":"林原めぐみ","difficulty":3,"points":30},
-    {"id":112,"question":"1992年に公開された機動戦士ガンダム0083 STARDUST MEMORYで、主人公コウ・ウラキが搭乗するガンダムの開発コードは何でしょう？","answer":"GP01","difficulty":3,"points":30},
-    {"id":113,"question":"1994年に放送された機動武闘伝Gガンダムで、主人公ドモン・カッシュが使う必殺技は何でしょう？","answer":"石破天驚拳","difficulty":3,"points":30},
-    {"id":114,"question":"1995年に放送された新機動戦記ガンダムWで、主人公ヒイロ・ユイの声を担当した声優は誰でしょう？","answer":"緑川光","difficulty":3,"points":30},
-    {"id":115,"question":"1996年に公開されたマクロスプラスで、AI歌手シャロン・アップルのバーチャルコンサートで使われた楽曲を手がけた音楽家は誰でしょう？","answer":"菅野よう子","difficulty":3,"points":30},
-    {"id":116,"question":"1997年に放送された少女革命ウテナで、音楽を担当し、「絶対運命黙示録」などの楽曲を手がけた音楽家は誰でしょう？","answer":"J.A.シーザー","difficulty":3,"points":30},
-    {"id":117,"question":"1998年に公開された劇場版カウボーイビバップ 天国の扉で、スパイクたちが立ち向かう敵の名前は何でしょう？","answer":"ヴィンセント・ボラージュ","difficulty":3,"points":30},
-    {"id":118,"question":"1999年に放送された無限のリヴァイアスで、主人公相葉昴治の声を担当した声優は誰でしょう？","answer":"名塚佳織","difficulty":3,"points":30},
-    {"id":119,"question":"1971年に放送されたルパン三世(第1シリーズ)で、ルパンの声を担当し、後のシリーズでも長く演じ続けた声優は誰でしょう？","answer":"山田康雄","difficulty":3,"points":30},
-    {"id":120,"question":"1967年に放送された日本初のカラーテレビアニメで、ジャングル大帝の主人公ライオンの名前は何でしょう？","answer":"レオ","difficulty":3,"points":30}
+    {
+      "id": 1,
+      "question": "1963年に手塚治虫原作で日本初の本格的テレビアニメシリーズとして放送された、科学省の少年ロボットを主人公とする作品は何でしょう？",
+      "answer": "鉄腕アトム",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Osamu_Tezuka_1951_Scan10008-2.JPG"
+    },
+    {
+      "id": 2,
+      "question": "「行きまーす」という決め台詞で知られる、1979年から放送された富野由悠季監督のロボットアニメで、アムロ・レイが主人公の作品は何でしょう？",
+      "answer": "機動戦士ガンダム",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/1st_GUNDAM_title_logo_jp_color.png"
+    },
+    {
+      "id": 3,
+      "question": "1995年にGAINAXが制作し、「残酷な天使のテーゼ」が主題歌の、碇シンジが主人公のロボットアニメは何でしょう？",
+      "answer": "新世紀エヴァンゲリオン",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Neon_Genesis_Evangelion_The_End_of_Evangelion_logo.png"
+    },
+    {
+      "id": 4,
+      "question": "1974年に放送開始し、「さらば」や「完結編」などの劇場版も制作された、イスカンダルを目指す宇宙船を描いた松本零士原作のアニメは何でしょう？",
+      "answer": "宇宙戦艦ヤマト",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Space_Battleship_Yamato_2199_Rank_insignia_05.png"
+    },
+    {
+      "id": 5,
+      "question": "1992年から放送され、「月に代わってお仕置きよ」という決め台詞で知られる、月野うさぎが主人公の武内直子原作の変身ヒロインアニメは何でしょう？",
+      "answer": "美少女戦士セーラームーン",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Sailor_Moon_Japanese_stylized.png"
+    },
+    {
+      "id": 6,
+      "question": "1986年から週刊少年ジャンプで連載され、アニメでは孫悟空が主人公の鳥山明原作の冒険・バトルアニメは何でしょう？",
+      "answer": "ドラゴンボール",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Dragon_Ball_Z_Logo_A.png/960px-Dragon_Ball_Z_Logo_A.png"
+    },
+    {
+      "id": 7,
+      "question": "1993年から放送され、湘北高校バスケ部の桜木花道が主人公の井上雄彦原作のバスケットボールアニメは何でしょう？",
+      "answer": "SLAM DUNK",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Griner_dunking_at_2015_All-Star_game_%28cropped%29.jpg"
+    },
+    {
+      "id": 8,
+      "question": "1982年に放送され、「愛・おぼえていますか」の劇場版でも知られる、可変戦闘機バルキリーが登場する河森正治がメカデザインを担当したSFアニメは何でしょう？",
+      "answer": "超時空要塞マクロス",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/U.N._Spacy_Roundel.svg/960px-U.N._Spacy_Roundel.svg.png"
+    },
+    {
+      "id": 9,
+      "question": "1998年にサンライズが制作し、「Tank!」がオープニング曲の、スパイク・スピーゲルが主人公の渡辺信一郎監督のSFアニメは何でしょう？",
+      "answer": "カウボーイビバップ",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Shinichiro_Watanabe_20090703_Japan_Expo_01.jpg/960px-Shinichiro_Watanabe_20090703_Japan_Expo_01.jpg"
+    },
+    {
+      "id": 10,
+      "question": "1996年から放送され、「ポケモンゲットだぜ」という決め台詞でサトシがピカチュウと冒険する、ゲーム原作のアニメは何でしょう？",
+      "answer": "ポケットモンスター",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/960px-International_Pok%C3%A9mon_logo.svg.png"
+    },
+    {
+      "id": 11,
+      "question": "1978年に放送開始し、少年探偵団や怪盗キッドが登場する、青山剛昌原作の推理アニメの前身となった作品は何でしょう？",
+      "answer": "未来少年コナン",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Animation_disc.svg/960px-Animation_disc.svg.png"
+    },
+    {
+      "id": 12,
+      "question": "1988年に公開された大友克洋監督のSF映画で、2019年のネオ東京を舞台に金田と鉄雄の物語を描いた作品は何でしょう？",
+      "answer": "AKIRA",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/AKIRA%E3%83%AD%E3%82%B4.jpg"
+    },
+    {
+      "id": 13,
+      "question": "1984年に宮崎駿が監督した、ナウシカが主人公の風の谷を舞台とした長編アニメ映画は何でしょう？",
+      "answer": "風の谷のナウシカ",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Toshio_Suzuki%2C_Howl%27s_Moving_Castle_premiere.jpg"
+    },
+    {
+      "id": 14,
+      "question": "1997年にスタジオジブリが制作し、「もののけ姫」というタイトルの、アシタカとサンの物語を描いた宮崎駿監督作品は何でしょう？",
+      "answer": "もののけ姫",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Princess_Mononoke_logo.png"
+    },
+    {
+      "id": 15,
+      "question": "1988年に公開された、サツキとメイの姉妹が主人公の、宮崎駿監督のスタジオジブリ作品は何でしょう？",
+      "answer": "となりのトトロ",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Toshio_Suzuki%2C_Howl%27s_Moving_Castle_premiere.jpg"
+    },
+    {
+      "id": 16,
+      "question": "1969年に放送開始した、ルパン三世が主人公のモンキー・パンチ原作のアニメシリーズは何でしょう？",
+      "answer": "ルパン三世",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/%E3%83%AB%E3%83%91%E3%83%B3%E4%B8%89%E4%B8%96%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E8%A1%A8%E7%A4%BA.gif"
+    },
+    {
+      "id": 17,
+      "question": "1996年に放送され、「残酷な」という形容詞で始まる主題歌が話題となった、庵野秀明監督のロボットアニメは何でしょう？",
+      "answer": "新世紀エヴァンゲリオン",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Neon_Genesis_Evangelion_The_End_of_Evangelion_logo.png"
+    },
+    {
+      "id": 18,
+      "question": "1990年から放送され、ちびまる子ちゃんが主人公のさくらももこ原作のホームコメディアニメは何でしょう？",
+      "answer": "ちびまる子ちゃん",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Chibi_Maruko-chan_anime.png/960px-Chibi_Maruko-chan_anime.png"
+    },
+    {
+      "id": 19,
+      "question": "1969年に放送開始した、野原しんのすけが主人公の臼井儀人原作のギャグアニメは何でしょう？",
+      "answer": "クレヨンしんちゃん",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Crayon_Shin-chan_anime.png/960px-Crayon_Shin-chan_anime.png"
+    },
+    {
+      "id": 20,
+      "question": "1985年から放送され、野比のび太とドラえもんの日常を描いた藤子・F・不二雄原作のSFアニメは何でしょう？",
+      "answer": "ドラえもん",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Doraemon_1979Logo.jpg"
+    },
+    {
+      "id": 21,
+      "question": "1999年に公開された細田守監督のデジモンアドベンチャーの劇場版第1作は何でしょう？",
+      "answer": "デジモンアドベンチャー",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Digimon_02_Logo_Hispanoam%C3%A9rica.svg/960px-Digimon_02_Logo_Hispanoam%C3%A9rica.svg.png"
+    },
+    {
+      "id": 22,
+      "question": "1987年から放送され、キン肉マンやテリーマンが登場するゆでたまご原作のプロレスアニメは何でしょう？",
+      "answer": "キン肉マン",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Hankai_mo505_Kinnikuman.JPG/960px-Hankai_mo505_Kinnikuman.JPG"
+    },
+    {
+      "id": 23,
+      "question": "1983年から放送され、両津勘吉が主人公の秋本治原作のギャグアニメは何でしょう？",
+      "answer": "こちら葛飾区亀有公園前派出所",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/KochiKame.svg/960px-KochiKame.svg.png"
+    },
+    {
+      "id": 24,
+      "question": "1968年に放送開始した、タイガーマスクが主人公の梶原一騎原作のプロレスアニメは何でしょう？",
+      "answer": "タイガーマスク",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Tiger_Mask_IV_2015.JPG"
+    },
+    {
+      "id": 25,
+      "question": "1994年から放送され、海坂藩を舞台に剣客の物語を描いた時代劇アニメは何でしょう？",
+      "answer": "るろうに剣心",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/2018_FCG_Headquarters_Building_2.jpg/960px-2018_FCG_Headquarters_Building_2.jpg"
+    },
+    {
+      "id": 26,
+      "question": "1992年から放送され、浦飯幽助が主人公の冨樫義博原作のバトルアニメは何でしょう？",
+      "answer": "幽遊白書",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Y%C5%AB_Y%C5%AB_Hakusho_logo.svg/960px-Y%C5%AB_Y%C5%AB_Hakusho_logo.svg.png"
+    },
+    {
+      "id": 27,
+      "question": "1981年から放送され、ラムちゃんが登場する高橋留美子原作のラブコメアニメは何でしょう？",
+      "answer": "うる星やつら",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Cosplayer_of_Lum_Invader_from_Urusei_Yatsura_%2853564441569%29.jpg/960px-Cosplayer_of_Lum_Invader_from_Urusei_Yatsura_%2853564441569%29.jpg"
+    },
+    {
+      "id": 28,
+      "question": "1989年から放送され、乱馬が水をかぶると女になる高橋留美子原作のラブコメアニメは何でしょう？",
+      "answer": "らんま1/2",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Ranma_%C2%BD_2024_Anime_Logo.png"
+    },
+    {
+      "id": 29,
+      "question": "1996年から放送され、ひろしとみさえが両親の野原家を描いた臼井儀人原作のアニメは何でしょう？",
+      "answer": "クレヨンしんちゃん",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Crayon_Shin-chan_anime.png/960px-Crayon_Shin-chan_anime.png"
+    },
+    {
+      "id": 30,
+      "question": "1986年から放送され、天空の城ラピュタとして知られる宮崎駿監督の冒険活劇は何でしょう？",
+      "answer": "天空の城ラピュタ",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Tenk%C5%AB_no_Shiro_Rapyuta_title.jpg"
+    },
+    {
+      "id": 31,
+      "question": "1989年に公開された、魔女の宅急便というタイトルで、キキが主人公の宮崎駿監督作品は何でしょう？",
+      "answer": "魔女の宅急便",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Yamato_ev.jpg/960px-Yamato_ev.jpg"
+    },
+    {
+      "id": 32,
+      "question": "1992年に公開された、紅の豚というタイトルで、ポルコ・ロッソが主人公の宮崎駿監督作品は何でしょう？",
+      "answer": "紅の豚",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Kurenai_no_buta_title.jpg"
+    },
+    {
+      "id": 33,
+      "question": "1995年に公開された、耳をすませばというタイトルで、月島雫が主人公の近藤喜文監督作品は何でしょう？",
+      "answer": "耳をすませば",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Seiseki-sakuragaoka-station.jpg"
+    },
+    {
+      "id": 34,
+      "question": "1991年に公開された、おもひでぽろぽろというタイトルで、岡島タエ子が主人公の高畑勲監督作品は何でしょう？",
+      "answer": "おもひでぽろぽろ",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Toshio_Suzuki%2C_Howl%27s_Moving_Castle_premiere.jpg"
+    },
+    {
+      "id": 35,
+      "question": "1994年に公開された、平成狸合戦ぽんぽこというタイトルで、多摩丘陵のたぬきが主人公の高畑勲監督作品は何でしょう？",
+      "answer": "平成狸合戦ぽんぽこ",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Heisei_tanuki_gassen_ponpoko_title.jpg"
+    },
+    {
+      "id": 36,
+      "question": "1979年から放送され、キャプテン翼が主人公の高橋陽一原作のサッカーアニメは何でしょう？",
+      "answer": "キャプテン翼",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Tsubasa_-_mural_Legii_na_Goclawiu.jpg/960px-Tsubasa_-_mural_Legii_na_Goclawiu.jpg"
+    },
+    {
+      "id": 37,
+      "question": "1998年から放送され、ゴン・フリークスが主人公の冨樫義博原作の冒険アニメは何でしょう？",
+      "answer": "HUNTER×HUNTER",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Hunter_x_hunter.png/960px-Hunter_x_hunter.png"
+    },
+    {
+      "id": 38,
+      "question": "1996年から放送され、神楽坂明日菜が登場する赤松健原作のラブコメアニメは何でしょう？",
+      "answer": "ラブひな",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E4%BD%90%E9%87%8E%E3%81%B2%E3%81%AA%E3%81%93.png"
+    },
+    {
+      "id": 39,
+      "question": "1983年から放送され、キャプテン翼の続編として南葛中学校を舞台にしたサッカーアニメは何でしょう？",
+      "answer": "キャプテン翼",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Tsubasa_-_mural_Legii_na_Goclawiu.jpg/960px-Tsubasa_-_mural_Legii_na_Goclawiu.jpg"
+    },
+    {
+      "id": 40,
+      "question": "1977年から放送され、ヤマトよ永遠にというサブタイトルで知られる宇宙戦艦ヤマトの続編シリーズは何でしょう？",
+      "answer": "宇宙戦艦ヤマト",
+      "difficulty": 1,
+      "points": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Space_Battleship_Yamato_2199_Rank_insignia_05.png"
+    },
+    {
+      "id": 41,
+      "question": "うる星やつらで、ラムちゃんの声を担当し、後にらんま1/2の女らんまも演じた声優は誰でしょう？",
+      "answer": "平野文",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Hirano_Nora_2016-01.jpg"
+    },
+    {
+      "id": 42,
+      "question": "1996年に放送された、逮捕しちゃうぞというタイトルで、墨東署の婦警コンビを主人公とする藤島康介原作のアニメは何でしょう？",
+      "answer": "逮捕しちゃうぞ",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Danish_police_arrest.jpg"
+    },
+    {
+      "id": 43,
+      "question": "1998年に放送されたトライガンで、主人公ヴァッシュ・ザ・スタンピードの声を担当した声優は誰でしょう？",
+      "answer": "小野坂昌也",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/960px-AT-X_logo.svg.png"
+    },
+    {
+      "id": 44,
+      "question": "1990年にOVAとして制作された、ロードス島戦記の主人公である若き騎士の名前は何でしょう？",
+      "answer": "パーン",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/PanandDaphnis.jpg"
+    },
+    {
+      "id": 45,
+      "question": "機動戦士ガンダムで、シャア・アズナブルの声を担当し、後に多くのクールな二枚目役を演じた声優は誰でしょう？",
+      "answer": "池田秀一",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Ikeda_Shuichi_%22The_World_of_Gundam%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_%2822405153956%29.jpg/960px-Ikeda_Shuichi_%22The_World_of_Gundam%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_%2822405153956%29.jpg"
+    },
+    {
+      "id": 46,
+      "question": "新世紀エヴァンゲリオンで、綾波レイの声を担当した声優は誰でしょう？",
+      "answer": "林原めぐみ",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/%E4%B8%AD%E9%87%8E%E9%A7%85%E5%89%8D%E3%81%AE%E4%BD%8F%E5%8F%8B%E4%B8%8D%E5%8B%95%E7%94%A3%E9%AB%98%E5%B1%A4%E3%83%93%E3%83%AB%28%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%BF%E3%83%AF%E3%83%BC%E3%80%81%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9%E3%80%81%E3%83%8A%E3%82%AB%E3%83%8E%E3%82%B5%E3%82%A6%E3%82%B9%E3%83%86%E3%83%A9%29.jpg/960px-%E4%B8%AD%E9%87%8E%E9%A7%85%E5%89%8D%E3%81%AE%E4%BD%8F%E5%8F%8B%E4%B8%8D%E5%8B%95%E7%94%A3%E9%AB%98%E5%B1%A4%E3%83%93%E3%83%AB%28%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%BF%E3%83%AF%E3%83%BC%E3%80%81%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9%E3%80%81%E3%83%8A%E3%82%AB%E3%83%8E%E3%82%B5%E3%82%A6%E3%82%B9%E3%83%86%E3%83%A9%29.jpg"
+    },
+    {
+      "id": 47,
+      "question": "ドラゴンボールZで、孫悟空の声を担当し、悟飯や悟天の声も演じた声優は誰でしょう？",
+      "answer": "野沢雅子",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/%E9%87%8E%E6%B2%A2%E9%9B%85%E5%AD%90.png"
+    },
+    {
+      "id": 48,
+      "question": "美少女戦士セーラームーンで、月野うさぎの声を担当した声優は誰でしょう？",
+      "answer": "三石琴乃",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Sailor_Moon_Japanese_stylized.png"
+    },
+    {
+      "id": 49,
+      "question": "SLAM DUNKで、桜木花道の声を担当した声優は誰でしょう？",
+      "answer": "草尾毅",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Takeshi_Kusao.jpg/960px-Takeshi_Kusao.jpg"
+    },
+    {
+      "id": 50,
+      "question": "カウボーイビバップで、スパイク・スピーゲルの声を担当した声優は誰でしょう？",
+      "answer": "山寺宏一",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Yamadera_Koichi.png"
+    },
+    {
+      "id": 51,
+      "question": "幽遊白書で、浦飯幽助の声を担当した声優は誰でしょう？",
+      "answer": "佐々木望",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Kong-_Skull_Island_Japan_Premiere_Red_Carpet-_GACKT%2C_Sasaki_Nozomi_02.jpg/960px-Kong-_Skull_Island_Japan_Premiere_Red_Carpet-_GACKT%2C_Sasaki_Nozomi_02.jpg"
+    },
+    {
+      "id": 52,
+      "question": "らんま1/2で、早乙女らんま（男）の声を担当した声優は誰でしょう？",
+      "answer": "山口勝平",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Kappei_Yamaguchi_by_Gage_Skidmore.jpg/960px-Kappei_Yamaguchi_by_Gage_Skidmore.jpg"
+    },
+    {
+      "id": 53,
+      "question": "新世紀エヴァンゲリオンのオープニング主題歌「残酷な天使のテーゼ」を歌ったアーティストは誰でしょう？",
+      "answer": "高橋洋子",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Cofest_-_2010_%2811765904485%29.jpg"
+    },
+    {
+      "id": 54,
+      "question": "るろうに剣心のオープニング主題歌「そばかす」を歌ったアーティストは誰でしょう？",
+      "answer": "JUDY AND MARY",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Judy_Collins_by_Bryan_Ledgard_2_%28cropped%29.jpg/960px-Judy_Collins_by_Bryan_Ledgard_2_%28cropped%29.jpg"
+    },
+    {
+      "id": 55,
+      "question": "スラムダンクのエンディング主題歌「世界が終るまでは…」を歌ったアーティストは誰でしょう？",
+      "answer": "WANDS",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/John_William_Waterhouse_-_Magic_Circle.JPG/960px-John_William_Waterhouse_-_Magic_Circle.JPG"
+    },
+    {
+      "id": 56,
+      "question": "機動戦士ガンダムで、アムロ・レイが搭乗する白い連邦軍のモビルスーツの名前は何でしょう？",
+      "answer": "ガンダム",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/1st_GUNDAM_title_logo_jp_color.png"
+    },
+    {
+      "id": 57,
+      "question": "超時空要塞マクロスで、リン・ミンメイの声を担当し、歌手としても活躍した声優は誰でしょう？",
+      "answer": "飯島真理",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Mari_Iijima_promo_image_1.jpg/960px-Mari_Iijima_promo_image_1.jpg"
+    },
+    {
+      "id": 58,
+      "question": "1985年に放送されたタッチで、上杉達也と上杉和也の双子兄弟が通う高校の名前は何でしょう？",
+      "answer": "明青学園",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Tomori_Kusunoki_promoting_Project_Sekai_2nd_anniversary.jpg"
+    },
+    {
+      "id": 59,
+      "question": "1987年から放送された聖闘士星矢で、主人公星矢が身につける青銅聖衣の星座は何でしょう？",
+      "answer": "ペガサス",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Pegaz_Opera_Pozna%C5%84.jpg"
+    },
+    {
+      "id": 60,
+      "question": "1989年に公開された機動警察パトレイバーの劇場版第1作を監督した、後に攻殻機動隊を手がける監督は誰でしょう？",
+      "answer": "押井守",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Mamoru_Oshii_-_Lucca_Comics_%26_Games_2015.JPG"
+    },
+    {
+      "id": 61,
+      "question": "1983年から放送されたキャッツ・アイで、3姉妹が経営する喫茶店の名前は何でしょう？",
+      "answer": "キャッツアイ",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Katseye_Sophia_in_Seattle_%28cropped%29.jpg/960px-Katseye_Sophia_in_Seattle_%28cropped%29.jpg"
+    },
+    {
+      "id": 62,
+      "question": "1984年から放送された北斗の拳で、主人公ケンシロウが使う拳法の名前は何でしょう？",
+      "answer": "北斗神拳",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Aminishiki_toyonoshima.JPG/960px-Aminishiki_toyonoshima.JPG"
+    },
+    {
+      "id": 63,
+      "question": "1986年から放送されたドラゴンボールで、孫悟空が初めて出会った女の子の名前は何でしょう？",
+      "answer": "ブルマ",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Smith-College-Class-1902-basketball-team.jpg/960px-Smith-College-Class-1902-basketball-team.jpg"
+    },
+    {
+      "id": 64,
+      "question": "1990年に公開されたふしぎの海のナディアのテレビシリーズを監督した、後にエヴァンゲリオンを手がける監督は誰でしょう？",
+      "answer": "庵野秀明",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Godzilla_Resurgence_World_Premiere_Red_Carpet-_Anno_Hideaki_%2828526527191%29.jpg/960px-Godzilla_Resurgence_World_Premiere_Red_Carpet-_Anno_Hideaki_%2828526527191%29.jpg"
+    },
+    {
+      "id": 65,
+      "question": "1993年から放送された機動戦士Vガンダムで、主人公ウッソ・エヴィンが搭乗するガンダムの名前は何でしょう？",
+      "answer": "V(ヴィクトリー)ガンダム",
+      "difficulty": 2,
+      "points": 20,
+      "image": null
+    },
+    {
+      "id": 66,
+      "question": "1995年に公開された攻殻機動隊で、主人公草薙素子が所属する公安組織の名前は何でしょう？",
+      "answer": "公安9課",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/%E5%85%AC%E5%AE%89%E8%AA%BF%E6%9F%BB%E5%BA%81.svg/960px-%E5%85%AC%E5%AE%89%E8%AA%BF%E6%9F%BB%E5%BA%81.svg.png"
+    },
+    {
+      "id": 67,
+      "question": "1996年から放送された機動戦艦ナデシコで、主人公テンカワ・アキトの職業は何でしょう？",
+      "answer": "コック(料理人)",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Chef_martin_joel_vasquez.jpg/960px-Chef_martin_joel_vasquez.jpg"
+    },
+    {
+      "id": 68,
+      "question": "1997年に放送された少女革命ウテナで、主人公天上ウテナが決闘で勝利するために目指すものは何でしょう？",
+      "answer": "世界を革命する力",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/StocktonDarlingtonOpening.jpg/960px-StocktonDarlingtonOpening.jpg"
+    },
+    {
+      "id": 69,
+      "question": "1998年に放送されたカードキャプターさくらで、主人公木之本桜が封印するカードの名前は何でしょう？",
+      "answer": "クロウカード",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Russell_Crowe_%2833994020424%29.jpg/960px-Russell_Crowe_%2833994020424%29.jpg"
+    },
+    {
+      "id": 70,
+      "question": "1999年に放送されたターンエーガンダムで、主人公ロラン・セアックが搭乗するガンダムの特徴的な部位は何でしょう？",
+      "answer": "髭(ヒゲ)",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Photography-wallpaper-facial-hair-man-beard-chin-moustache-human-elder-portrait-1453095.jpg/960px-Photography-wallpaper-facial-hair-man-beard-chin-moustache-human-elder-portrait-1453095.jpg"
+    },
+    {
+      "id": 71,
+      "question": "1982年から放送された超時空要塞マクロスで、マクロス艦が不時着した惑星の名前は何でしょう？",
+      "answer": "地球",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/960px-The_Blue_Marble_%28remastered%29.jpg"
+    },
+    {
+      "id": 72,
+      "question": "1985年に放送されたタッチで、上杉達也が想いを寄せる幼なじみヒロインの名前は何でしょう？",
+      "answer": "浅倉南",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/%E6%B5%85%E5%80%89%E3%82%AB%E3%83%B3%E3%83%8A.png"
+    },
+    {
+      "id": 73,
+      "question": "1988年に公開されたAKIRAで、主人公金田正太郎が乗るバイクの色は何色でしょう？",
+      "answer": "赤",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Tomato-global.png"
+    },
+    {
+      "id": 74,
+      "question": "1991年から放送された美少女戦士セーラームーンで、月野うさぎが変身する際に言うセリフは何でしょう？",
+      "answer": "ムーンプリズムパワー、メイクアップ",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Evgenia_Medvedeva_at_the_2018_Winter_Olympic_Games_-_Awarding_ceremony.jpg"
+    },
+    {
+      "id": 75,
+      "question": "1994年から放送されたマクロス7で、主人公熱気バサラが所属するバンドの名前は何でしょう？",
+      "answer": "Fire Bomber",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Thunder_Over_The_Empire_Airfest_2012_120519-F-EI671-001.jpg/960px-Thunder_Over_The_Empire_Airfest_2012_120519-F-EI671-001.jpg"
+    },
+    {
+      "id": 76,
+      "question": "1996年から放送された機動新世紀ガンダムXで、主人公ガロード・ランが搭乗するガンダムの必殺技は何でしょう？",
+      "answer": "サテライトキャノン",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Canon_headquarters_2024-05-04.jpg/960px-Canon_headquarters_2024-05-04.jpg"
+    },
+    {
+      "id": 77,
+      "question": "1997年から放送されたベルセルクで、主人公ガッツが使う大剣の名前は何でしょう？",
+      "answer": "ドラゴン殺し",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Dragon_on_Dragon_Bridge_%28cropped%29.jpg/960px-Dragon_on_Dragon_Bridge_%28cropped%29.jpg"
+    },
+    {
+      "id": 78,
+      "question": "1998年に放送されたロスト・ユニバースで、主人公ケイン・ブルーリバーが乗る宇宙船の名前は何でしょう？",
+      "answer": "ソードブレイカー",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Sowd_breaker.jpg"
+    },
+    {
+      "id": 79,
+      "question": "1999年に放送された∀ガンダムで、月に住む人々を何と呼ぶでしょう？",
+      "answer": "ムーンレィス",
+      "difficulty": 2,
+      "points": 20,
+      "image": null
+    },
+    {
+      "id": 80,
+      "question": "1980年から放送された伝説巨神イデオンで、主人公ユウキ・コスモが発見した巨大ロボットの名前は何でしょう？",
+      "answer": "イデオン",
+      "difficulty": 2,
+      "points": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Kimi_Onoda.jpg"
+    },
+    {
+      "id": 81,
+      "question": "1963年に放送された鉄腕アトムを制作したアニメスタジオで、手塚治虫が設立した会社の名前は何でしょう？",
+      "answer": "虫プロダクション",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/PRODUCTION_I.G_STUDIO.jpg/960px-PRODUCTION_I.G_STUDIO.jpg"
+    },
+    {
+      "id": 82,
+      "question": "1974年に宇宙戦艦ヤマトの音楽を担当し、交響組曲としても知られる作曲家は誰でしょう？",
+      "answer": "宮川泰",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sachiko_Kobayashi_2017_%2835361318945%29.jpg/960px-Sachiko_Kobayashi_2017_%2835361318945%29.jpg"
+    },
+    {
+      "id": 83,
+      "question": "1979年の機動戦士ガンダムで、メカニックデザインを担当し、後にガンプラブームを支えたデザイナーは誰でしょう？",
+      "answer": "大河原邦男",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Okawara_Kunio_%22The_World_of_Gundam%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_%2822431137765%29.jpg/960px-Okawara_Kunio_%22The_World_of_Gundam%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_%2822431137765%29.jpg"
+    },
+    {
+      "id": 84,
+      "question": "1983年に公開された幻魔大戦で、キャラクターデザインを担当した漫画家は誰でしょう？",
+      "answer": "大友克洋",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/FIBD2016OtomoHermann_%28cropped%29.jpg"
+    },
+    {
+      "id": 85,
+      "question": "1984年に公開された風の谷のナウシカのために宮崎駿が設立したアニメスタジオの名前は何でしょう？",
+      "answer": "スタジオジブリ",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Studio_Ghibli_studio_3.jpg/960px-Studio_Ghibli_studio_3.jpg"
+    },
+    {
+      "id": 86,
+      "question": "1985年に発売されたOVA「メガゾーン23」で、主人公矢作省吾の声を担当した声優は誰でしょう？",
+      "answer": "鶴ひろみ",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/AoDissekt_scheme_StanfordB_en.png"
+    },
+    {
+      "id": 87,
+      "question": "1987年に公開された王立宇宙軍 オネアミスの翼を制作したアニメスタジオで、後にエヴァンゲリオンを手がけるスタジオは何でしょう？",
+      "answer": "GAINAX",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Shaft_2024-10-30.jpg/960px-Shaft_2024-10-30.jpg"
+    },
+    {
+      "id": 88,
+      "question": "1988年に発売されたOVA「トップをねらえ!」で監督デビューを果たし、後にエヴァンゲリオンを手がける監督は誰でしょう？",
+      "answer": "庵野秀明",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Godzilla_Resurgence_World_Premiere_Red_Carpet-_Anno_Hideaki_%2828526527191%29.jpg/960px-Godzilla_Resurgence_World_Premiere_Red_Carpet-_Anno_Hideaki_%2828526527191%29.jpg"
+    },
+    {
+      "id": 89,
+      "question": "1989年に公開された機動警察パトレイバー劇場版で、レイバー犯罪を取り締まる特車二課第二小隊の隊長の名前は何でしょう？",
+      "answer": "後藤喜一",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Kiichi_Miyazawa_19911105.jpg"
+    },
+    {
+      "id": 90,
+      "question": "1991年に公開された老人Zで、主人公の看護学生の名前は何でしょう？",
+      "answer": "春日部晴子",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Kadokawa_sneaker_Bunko_logo.svg/960px-Kadokawa_sneaker_Bunko_logo.svg.png"
+    },
+    {
+      "id": 91,
+      "question": "1993年に公開されたマクロスプラスで、主人公イサム・ダイソンの声を担当した声優は誰でしょう？",
+      "answer": "山崎たくみ",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A8%E3%82%A4%E3%82%B8%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%EF%BC%83%EF%BC%91_%E9%89%84%E8%8F%AF%E7%B9%9A%E4%B9%B15%E5%BC%BE_%E5%85%88%E5%8F%96%E3%82%8A%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A8%E3%82%A4%E3%82%B8%EF%BC%8112m29s_%E5%86%85%E5%8C%A0%E9%9D%96%E6%98%8E.jpg"
+    },
+    {
+      "id": 92,
+      "question": "1995年に公開された攻殻機動隊で、原作漫画を手がけ、キャラクターデザインも担当した漫画家は誰でしょう？",
+      "answer": "士郎正宗",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Illu_pancrease-ja.svg/960px-Illu_pancrease-ja.svg.png"
+    },
+    {
+      "id": 93,
+      "question": "1997年に公開された劇場版AIR/まごころを、君にで、新世紀エヴァンゲリオンの完結編として制作された作品の正式タイトルは何でしょう？",
+      "answer": "新世紀エヴァンゲリオン劇場版 Air/まごころを、君に",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Neon_Genesis_Evangelion_The_End_of_Evangelion_logo.png"
+    },
+    {
+      "id": 94,
+      "question": "1998年に放送された serial experiments lainで、主人公玲音が接続する電脳世界の名前は何でしょう？",
+      "answer": "ワイヤード",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Studio_Deen_%282005-%29_L.jpg/960px-Studio_Deen_%282005-%29_L.jpg"
+    },
+    {
+      "id": 95,
+      "question": "1999年に公開された劇場版カードキャプターさくらで、さくらが封印の鍵を変化させる呪文は何でしょう？",
+      "answer": "レリーズ",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Fairouz_Ai_2021.jpg/960px-Fairouz_Ai_2021.jpg"
+    },
+    {
+      "id": 96,
+      "question": "1972年に放送された科学忍者隊ガッチャマンで、主人公大鷲の健が率いるチームの名前は何でしょう？",
+      "answer": "科学忍者隊",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Eight_Hundred_Heroes_of_Our_Country_s_Suikoden_12.jpg"
+    },
+    {
+      "id": 97,
+      "question": "1975年に放送された勇者ライディーンで、主人公ひびき洸が搭乗する巨大ロボットを操るために必要な能力は何でしょう？",
+      "answer": "超能力",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Superman_-_The_Animated_Series_%281996_TV_series%29_-_press_logo.svg/960px-Superman_-_The_Animated_Series_%281996_TV_series%29_-_press_logo.svg.png"
+    },
+    {
+      "id": 98,
+      "question": "1976年に放送された超電磁ロボ コン・バトラーVで、5機のマシンが合体する際のかけ声は何でしょう？",
+      "answer": "レッツ・コンバイン",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/%E9%96%A2%E6%A0%B9%E9%BE%8D%E4%B8%80.jpg/960px-%E9%96%A2%E6%A0%B9%E9%BE%8D%E4%B8%80.jpg"
+    },
+    {
+      "id": 99,
+      "question": "1977年に放送された超電磁マシーン ボルテスVで、剛三兄弟の父親の名前は何でしょう？",
+      "answer": "剛健太郎",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Kentaro_Sakahuchi_at_the_2025_Seoul_Drama_Awards_07.jpg"
+    },
+    {
+      "id": 100,
+      "question": "1978年に放送された無敵鋼人ダイターン3で、主人公破嵐万丈の声を担当した声優は誰でしょう？",
+      "answer": "鈴置洋孝",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Furuya_Toru_%22The_World_of_Gundam%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_%2822243451158%29.jpg/960px-Furuya_Toru_%22The_World_of_Gundam%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_%2822243451158%29.jpg"
+    },
+    {
+      "id": 101,
+      "question": "1980年に放送された伝説巨神イデオンで、イデの力を巡る戦いを描いた劇場版のサブタイトルは何でしょう？",
+      "answer": "発動篇",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Logo_Naruto_Shipp%C5%ABden.svg/960px-Logo_Naruto_Shipp%C5%ABden.svg.png"
+    },
+    {
+      "id": 102,
+      "question": "1981年に放送された最強ロボ ダイオージャで、主人公ミト王子の声を担当した声優は誰でしょう？",
+      "answer": "塩沢兼人",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/The_Second_Junior_and_Senior_High_School_of_Nihon_University.jpg"
+    },
+    {
+      "id": 103,
+      "question": "1982年に放送された戦闘メカ ザブングルで、主人公ジロン・アモスが搭乗するウォーカーマシンの名前は何でしょう？",
+      "answer": "ザブングル",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Zabunguru-akihabara-march17-2018.jpg/960px-Zabunguru-akihabara-march17-2018.jpg"
+    },
+    {
+      "id": 104,
+      "question": "1983年に放送された聖戦士ダンバインで、異世界バイストン・ウェルに召喚された主人公の名前は何でしょう？",
+      "answer": "ショウ・ザマ",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/FRUITS_ZIPPER.png/960px-FRUITS_ZIPPER.png"
+    },
+    {
+      "id": 105,
+      "question": "1984年に放送された重戦機エルガイムで、主人公ダバ・マイロードが搭乗するヘビーメタルの名前は何でしょう？",
+      "answer": "エルガイム",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/%E3%83%81%E3%83%A8%E3%83%80%E6%9C%AC%E7%A4%BE%EF%BC%885%E9%9A%8E%EF%BC%89.jpg/960px-%E3%83%81%E3%83%A8%E3%83%80%E6%9C%AC%E7%A4%BE%EF%BC%885%E9%9A%8E%EF%BC%89.jpg"
+    },
+    {
+      "id": 106,
+      "question": "1985年に放送された機動戦士Zガンダムで、主人公カミーユ・ビダンが搭乗するガンダムの名前は何でしょう？",
+      "answer": "Zガンダム",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/1st_GUNDAM_title_logo_jp_color.png"
+    },
+    {
+      "id": 107,
+      "question": "1986年に放送された機動戦士ガンダムZZで、主人公ジュドー・アーシタの声を担当した声優は誰でしょう？",
+      "answer": "矢尾一樹",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/Ami_Koshimizu_%28%E5%B0%8F%E6%B8%85%E6%B0%B4%E4%BA%9C%E7%BE%8E%29_from_acrofan.jpg"
+    },
+    {
+      "id": 108,
+      "question": "1987年に放送された機甲戦記ドラグナーで、主人公ケーン・ワカバが搭乗するドラグナーのタイプは何でしょう？",
+      "answer": "ドラグナー1型",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Masami_Obari.jpg"
+    },
+    {
+      "id": 109,
+      "question": "1988年に放送された鎧伝サムライトルーパーで、主人公真田遼が身につける鎧の名前は何でしょう？",
+      "answer": "烈火",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Nobuyuki_Anzai_20070708_Japan_Expo_1.jpg/960px-Nobuyuki_Anzai_20070708_Japan_Expo_1.jpg"
+    },
+    {
+      "id": 110,
+      "question": "1989年に放送されたNG騎士ラムネ&40で、主人公馬場ラムネードが搭乗する騎士の名前は何でしょう？",
+      "answer": "ラムネス",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Megumi_Han_%28%E6%BD%98_%E3%82%81%E3%81%90%E3%81%BF%29_at_Anime_Expo_2013.jpg"
+    },
+    {
+      "id": 111,
+      "question": "1990年に放送された魔神英雄伝ワタルで、主人公戦部ワタルが搭乗する龍神丸の声を担当した声優は誰でしょう？",
+      "answer": "林原めぐみ",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/%E4%B8%AD%E9%87%8E%E9%A7%85%E5%89%8D%E3%81%AE%E4%BD%8F%E5%8F%8B%E4%B8%8D%E5%8B%95%E7%94%A3%E9%AB%98%E5%B1%A4%E3%83%93%E3%83%AB%28%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%BF%E3%83%AF%E3%83%BC%E3%80%81%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9%E3%80%81%E3%83%8A%E3%82%AB%E3%83%8E%E3%82%B5%E3%82%A6%E3%82%B9%E3%83%86%E3%83%A9%29.jpg/960px-%E4%B8%AD%E9%87%8E%E9%A7%85%E5%89%8D%E3%81%AE%E4%BD%8F%E5%8F%8B%E4%B8%8D%E5%8B%95%E7%94%A3%E9%AB%98%E5%B1%A4%E3%83%93%E3%83%AB%28%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%BF%E3%83%AF%E3%83%BC%E3%80%81%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9%E3%80%81%E3%83%8A%E3%82%AB%E3%83%8E%E3%82%B5%E3%82%A6%E3%82%B9%E3%83%86%E3%83%A9%29.jpg"
+    },
+    {
+      "id": 112,
+      "question": "1992年に公開された機動戦士ガンダム0083 STARDUST MEMORYで、主人公コウ・ウラキが搭乗するガンダムの開発コードは何でしょう？",
+      "answer": "GP01",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/GP01_SV_001.jpg/960px-GP01_SV_001.jpg"
+    },
+    {
+      "id": 113,
+      "question": "1994年に放送された機動武闘伝Gガンダムで、主人公ドモン・カッシュが使う必殺技は何でしょう？",
+      "answer": "石破天驚拳",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/HK_actor_Kenneth_Tsang%27s_autograph.png"
+    },
+    {
+      "id": 114,
+      "question": "1995年に放送された新機動戦記ガンダムWで、主人公ヒイロ・ユイの声を担当した声優は誰でしょう？",
+      "answer": "緑川光",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Japanese-voice-actor-hiroshi-kamiya-attends-the-red-carpet-event-during-the-japan-premiere-for-netflix-movie-rebel-moon-part-one-a-child-of-fire-in-tokyo-japan-on-december-11-2023-credit-afloalamy-live-news-2W030XP.jpg"
+    },
+    {
+      "id": 115,
+      "question": "1996年に公開されたマクロスプラスで、AI歌手シャロン・アップルのバーチャルコンサートで使われた楽曲を手がけた音楽家は誰でしょう？",
+      "answer": "菅野よう子",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Ax10macross31_%28cropped%29.jpg"
+    },
+    {
+      "id": 116,
+      "question": "1997年に放送された少女革命ウテナで、音楽を担当し、「絶対運命黙示録」などの楽曲を手がけた音楽家は誰でしょう？",
+      "answer": "J.A.シーザー",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Revolutionary_Girl_Utena_logo_20170127.svg/960px-Revolutionary_Girl_Utena_logo_20170127.svg.png"
+    },
+    {
+      "id": 117,
+      "question": "1998年に公開された劇場版カウボーイビバップ 天国の扉で、スパイクたちが立ち向かう敵の名前は何でしょう？",
+      "answer": "ヴィンセント・ボラージュ",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Daran_Norris_2023.jpg/960px-Daran_Norris_2023.jpg"
+    },
+    {
+      "id": 118,
+      "question": "1999年に放送された無限のリヴァイアスで、主人公相葉昴治の声を担当した声優は誰でしょう？",
+      "answer": "名塚佳織",
+      "difficulty": 3,
+      "points": 30,
+      "image": null
+    },
+    {
+      "id": 119,
+      "question": "1971年に放送されたルパン三世(第1シリーズ)で、ルパンの声を担当し、後のシリーズでも長く演じ続けた声優は誰でしょう？",
+      "answer": "山田康雄",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Yasuo_Fukuda_200709.jpg"
+    },
+    {
+      "id": 120,
+      "question": "1967年に放送された日本初のカラーテレビアニメで、ジャングル大帝の主人公ライオンの名前は何でしょう？",
+      "answer": "レオ",
+      "difficulty": 3,
+      "points": 30,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Raffaello%2C_ritratto_di_papa_leone_X_tra_i_cardinali_luigi_de%27_rossi_e_giulio_de%27_medici%2C_1518%2C_03.jpg/960px-Raffaello%2C_ritratto_di_papa_leone_X_tra_i_cardinali_luigi_de%27_rossi_e_giulio_de%27_medici%2C_1518%2C_03.jpg"
+    }
   ],
   "silhouette": [],
   "intro": [
-    {"id": 1, "anime_title": "ドラゴンボールZ", "song_title": "CHA-LA HEAD-CHA-LA", "artist": "影山ヒロノブ", "hint": "1989年放送の伝説的バトルアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=Xr3KVXaKGjo", "youtube_start": 0, "youtube_end": 30},
-    {"id": 2, "anime_title": "美少女戦士セーラームーン", "song_title": "ムーンライト伝説", "artist": "DALI", "hint": "1992年放送の変身ヒロインアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=6KYk5a93OC8", "youtube_start": 0, "youtube_end": 30},
-    {"id": 3, "anime_title": "SLAM DUNK", "song_title": "君が好きだと叫びたい", "artist": "BAAD", "hint": "1993年放送のバスケットボールアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=JzurtO4yHrM", "youtube_start": 0, "youtube_end": 30},
-    {"id": 4, "anime_title": "るろうに剣心", "song_title": "そばかす", "artist": "JUDY AND MARY", "hint": "1996年放送の幕末剣客アニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=ewphY7jULL0", "youtube_start": 0, "youtube_end": 30},
-    {"id": 5, "anime_title": "幽☆遊☆白書", "song_title": "微笑みの爆弾", "artist": "馬渡松子", "hint": "1992年放送の霊界探偵バトルアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=TlENd4mP9Gs", "youtube_start": 0, "youtube_end": 30},
-    {"id": 6, "anime_title": "シティーハンター", "song_title": "Get Wild", "artist": "TM NETWORK", "hint": "1987年放送の新宿のスイーパーアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=r107W1YXrSM", "youtube_start": 0, "youtube_end": 30},
-    {"id": 7, "anime_title": "聖闘士星矢", "song_title": "ペガサス幻想", "artist": "MAKE-UP", "hint": "1986年放送の聖衣を纏う少年バトルアニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=Bu533OKYHyc", "youtube_start": 0, "youtube_end": 30},
-    {"id": 8, "anime_title": "ポケットモンスター", "song_title": "めざせポケモンマスター", "artist": "松本梨香", "hint": "1997年放送のモンスター収集冒険アニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=E_BsL8_cFnE", "youtube_start": 0, "youtube_end": 30},
-    {"id": 9, "anime_title": "ONE PIECE", "song_title": "ウィーアー!", "artist": "きただにひろし", "hint": "1999年放送の海賊冒険アニメ", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=r7n-L5B0bBw", "youtube_start": 0, "youtube_end": 30},
-    {"id": 10, "anime_title": "SLAM DUNK", "song_title": "世界が終るまでは…", "artist": "WANDS", "hint": "1993年放送のバスケアニメのED", "difficulty": 1, "points": 10, "youtube_url": "https://www.youtube.com/watch?v=1Bk9YpwWEsg", "youtube_start": 0, "youtube_end": 30},
-    {"id": 11, "anime_title": "ドラゴンボールGT", "song_title": "DAN DAN 心魅かれてく", "artist": "FIELD OF VIEW", "hint": "1996年放送のドラゴンボール続編", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=f7Z3b_vSjS8", "youtube_start": 0, "youtube_end": 30},
-    {"id": 12, "anime_title": "デジモンアドベンチャー", "song_title": "Butter-Fly", "artist": "和田光司", "hint": "1999年放送のデジタルモンスター冒険アニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=PeSVLxLFjwA", "youtube_start": 0, "youtube_end": 30},
-    {"id": 13, "anime_title": "新世紀エヴァンゲリオン", "song_title": "残酷な天使のテーゼ", "artist": "高橋洋子", "hint": "1995年放送の社会現象ロボットアニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=o6wtDPVkKqI", "youtube_start": 0, "youtube_end": 30},
-    {"id": 14, "anime_title": "カウボーイビバップ", "song_title": "Tank!", "artist": "シートベルツ", "hint": "1998年放送の宇宙賞金稼ぎアニメ", "difficulty": 2, "points": 20, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 15, "anime_title": "名探偵コナン", "song_title": "胸がドキドキ", "artist": "ザ・ハイロウズ", "hint": "1996年放送の推理アニメ初代OP", "difficulty": 2, "points": 20, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 16, "anime_title": "北斗の拳", "song_title": "愛をとりもどせ!!", "artist": "クリスタルキング", "hint": "1984年放送の世紀末格闘アニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=HHAR5o_M8PA", "youtube_start": 0, "youtube_end": 30},
-    {"id": 17, "anime_title": "機動戦士ガンダム", "song_title": "翔べ! ガンダム", "artist": "池田鴻", "hint": "1979年放送のリアルロボットアニメの原点", "difficulty": 2, "points": 20, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 18, "anime_title": "うる星やつら", "song_title": "ラムのラブソング", "artist": "松谷祐子", "hint": "1981年放送の高橋留美子ラブコメアニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=MBEgw_kfhzc", "youtube_start": 0, "youtube_end": 30},
-    {"id": 19, "anime_title": "タッチ", "song_title": "タッチ", "artist": "岩崎良美", "hint": "1985年放送のあだち充野球恋愛アニメ", "difficulty": 2, "points": 20, "youtube_url": "https://www.youtube.com/watch?v=WW6OgFqTNfg", "youtube_start": 0, "youtube_end": 30},
-    {"id": 20, "anime_title": "キャプテン翼", "song_title": "燃えてヒーロー", "artist": "竹本孝之", "hint": "1983年放送のサッカー少年アニメ", "difficulty": 2, "points": 20, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 21, "anime_title": "宇宙戦艦ヤマト", "song_title": "宇宙戦艦ヤマト", "artist": "ささきいさお", "hint": "1974年放送の宇宙SFアニメの金字塔", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 22, "anime_title": "銀河鉄道999", "song_title": "銀河鉄道999", "artist": "ゴダイゴ", "hint": "1978年放送の松本零士宇宙旅行アニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 23, "anime_title": "ルパン三世", "song_title": "ルパン三世のテーマ", "artist": "大野雄二", "hint": "1977年放送の怪盗アクションアニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 24, "anime_title": "鉄腕アトム", "song_title": "鉄腕アトム", "artist": "上高田少年合唱団", "hint": "1963年放送の日本初のTVアニメシリーズ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 25, "anime_title": "マジンガーZ", "song_title": "マジンガーZ", "artist": "水木一郎", "hint": "1972年放送のスーパーロボットアニメの元祖", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 26, "anime_title": "あしたのジョー", "song_title": "あしたのジョー", "artist": "尾藤イサオ", "hint": "1970年放送のボクシングアニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 27, "anime_title": "めぞん一刻", "song_title": "悲しみよこんにちは", "artist": "斉藤由貴", "hint": "1986年放送の高橋留美子ラブコメアニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 28, "anime_title": "超時空要塞マクロス", "song_title": "愛・おぼえていますか", "artist": "飯島真理", "hint": "1982年放送の歌と戦闘機ロボットアニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 29, "anime_title": "機動警察パトレイバー", "song_title": "そのままの君でいて", "artist": "仁藤優子", "hint": "1989年放送のリアルロボット警察アニメ", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30},
-    {"id": 30, "anime_title": "天空の城ラピュタ", "song_title": "君をのせて", "artist": "井上あずみ", "hint": "1986年公開のスタジオジブリ冒険映画", "difficulty": 3, "points": 30, "youtube_url": "", "youtube_start": 0, "youtube_end": 30}
+    {
+      "id": 1,
+      "anime_title": "ドラゴンボールZ",
+      "song_title": "CHA-LA HEAD-CHA-LA",
+      "artist": "影山ヒロノブ",
+      "hint": "1989年放送の伝説的バトルアニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=Xr3KVXaKGjo",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 2,
+      "anime_title": "美少女戦士セーラームーン",
+      "song_title": "ムーンライト伝説",
+      "artist": "DALI",
+      "hint": "1992年放送の変身ヒロインアニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=6KYk5a93OC8",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 3,
+      "anime_title": "SLAM DUNK",
+      "song_title": "君が好きだと叫びたい",
+      "artist": "BAAD",
+      "hint": "1993年放送のバスケットボールアニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=JzurtO4yHrM",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 4,
+      "anime_title": "るろうに剣心",
+      "song_title": "そばかす",
+      "artist": "JUDY AND MARY",
+      "hint": "1996年放送の幕末剣客アニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=ewphY7jULL0",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 5,
+      "anime_title": "幽☆遊☆白書",
+      "song_title": "微笑みの爆弾",
+      "artist": "馬渡松子",
+      "hint": "1992年放送の霊界探偵バトルアニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=TlENd4mP9Gs",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 6,
+      "anime_title": "シティーハンター",
+      "song_title": "Get Wild",
+      "artist": "TM NETWORK",
+      "hint": "1987年放送の新宿のスイーパーアニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=r107W1YXrSM",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 7,
+      "anime_title": "聖闘士星矢",
+      "song_title": "ペガサス幻想",
+      "artist": "MAKE-UP",
+      "hint": "1986年放送の聖衣を纏う少年バトルアニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=Bu533OKYHyc",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 8,
+      "anime_title": "ポケットモンスター",
+      "song_title": "めざせポケモンマスター",
+      "artist": "松本梨香",
+      "hint": "1997年放送のモンスター収集冒険アニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=E_BsL8_cFnE",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 9,
+      "anime_title": "ONE PIECE",
+      "song_title": "ウィーアー!",
+      "artist": "きただにひろし",
+      "hint": "1999年放送の海賊冒険アニメ",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=r7n-L5B0bBw",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 10,
+      "anime_title": "SLAM DUNK",
+      "song_title": "世界が終るまでは…",
+      "artist": "WANDS",
+      "hint": "1993年放送のバスケアニメのED",
+      "difficulty": 1,
+      "points": 10,
+      "youtube_url": "https://www.youtube.com/watch?v=1Bk9YpwWEsg",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 11,
+      "anime_title": "ドラゴンボールGT",
+      "song_title": "DAN DAN 心魅かれてく",
+      "artist": "FIELD OF VIEW",
+      "hint": "1996年放送のドラゴンボール続編",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "https://www.youtube.com/watch?v=f7Z3b_vSjS8",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 12,
+      "anime_title": "デジモンアドベンチャー",
+      "song_title": "Butter-Fly",
+      "artist": "和田光司",
+      "hint": "1999年放送のデジタルモンスター冒険アニメ",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "https://www.youtube.com/watch?v=PeSVLxLFjwA",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 13,
+      "anime_title": "新世紀エヴァンゲリオン",
+      "song_title": "残酷な天使のテーゼ",
+      "artist": "高橋洋子",
+      "hint": "1995年放送の社会現象ロボットアニメ",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "https://www.youtube.com/watch?v=o6wtDPVkKqI",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 14,
+      "anime_title": "カウボーイビバップ",
+      "song_title": "Tank!",
+      "artist": "シートベルツ",
+      "hint": "1998年放送の宇宙賞金稼ぎアニメ",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 15,
+      "anime_title": "名探偵コナン",
+      "song_title": "胸がドキドキ",
+      "artist": "ザ・ハイロウズ",
+      "hint": "1996年放送の推理アニメ初代OP",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 16,
+      "anime_title": "北斗の拳",
+      "song_title": "愛をとりもどせ!!",
+      "artist": "クリスタルキング",
+      "hint": "1984年放送の世紀末格闘アニメ",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "https://www.youtube.com/watch?v=HHAR5o_M8PA",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 17,
+      "anime_title": "機動戦士ガンダム",
+      "song_title": "翔べ! ガンダム",
+      "artist": "池田鴻",
+      "hint": "1979年放送のリアルロボットアニメの原点",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 18,
+      "anime_title": "うる星やつら",
+      "song_title": "ラムのラブソング",
+      "artist": "松谷祐子",
+      "hint": "1981年放送の高橋留美子ラブコメアニメ",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "https://www.youtube.com/watch?v=MBEgw_kfhzc",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 19,
+      "anime_title": "タッチ",
+      "song_title": "タッチ",
+      "artist": "岩崎良美",
+      "hint": "1985年放送のあだち充野球恋愛アニメ",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "https://www.youtube.com/watch?v=WW6OgFqTNfg",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 20,
+      "anime_title": "キャプテン翼",
+      "song_title": "燃えてヒーロー",
+      "artist": "竹本孝之",
+      "hint": "1983年放送のサッカー少年アニメ",
+      "difficulty": 2,
+      "points": 20,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 21,
+      "anime_title": "宇宙戦艦ヤマト",
+      "song_title": "宇宙戦艦ヤマト",
+      "artist": "ささきいさお",
+      "hint": "1974年放送の宇宙SFアニメの金字塔",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 22,
+      "anime_title": "銀河鉄道999",
+      "song_title": "銀河鉄道999",
+      "artist": "ゴダイゴ",
+      "hint": "1978年放送の松本零士宇宙旅行アニメ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 23,
+      "anime_title": "ルパン三世",
+      "song_title": "ルパン三世のテーマ",
+      "artist": "大野雄二",
+      "hint": "1977年放送の怪盗アクションアニメ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 24,
+      "anime_title": "鉄腕アトム",
+      "song_title": "鉄腕アトム",
+      "artist": "上高田少年合唱団",
+      "hint": "1963年放送の日本初のTVアニメシリーズ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 25,
+      "anime_title": "マジンガーZ",
+      "song_title": "マジンガーZ",
+      "artist": "水木一郎",
+      "hint": "1972年放送のスーパーロボットアニメの元祖",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 26,
+      "anime_title": "あしたのジョー",
+      "song_title": "あしたのジョー",
+      "artist": "尾藤イサオ",
+      "hint": "1970年放送のボクシングアニメ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 27,
+      "anime_title": "めぞん一刻",
+      "song_title": "悲しみよこんにちは",
+      "artist": "斉藤由貴",
+      "hint": "1986年放送の高橋留美子ラブコメアニメ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 28,
+      "anime_title": "超時空要塞マクロス",
+      "song_title": "愛・おぼえていますか",
+      "artist": "飯島真理",
+      "hint": "1982年放送の歌と戦闘機ロボットアニメ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 29,
+      "anime_title": "機動警察パトレイバー",
+      "song_title": "そのままの君でいて",
+      "artist": "仁藤優子",
+      "hint": "1989年放送のリアルロボット警察アニメ",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    },
+    {
+      "id": 30,
+      "anime_title": "天空の城ラピュタ",
+      "song_title": "君をのせて",
+      "artist": "井上あずみ",
+      "hint": "1986年公開のスタジオジブリ冒険映画",
+      "difficulty": 3,
+      "points": 30,
+      "youtube_url": "",
+      "youtube_start": 0,
+      "youtube_end": 30
+    }
   ]
 }
