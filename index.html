@@ -1064,21 +1064,76 @@ button:disabled:active { transform: none; }
 
   // ===================================================================
   // Sound Effects (MP3 files from Sound/ folder)
+  // Autoplay Policy 対策: 初回クリックで AudioContext を resume し、
+  // 各 Audio 要素もプリロード & unlock する
   // ===================================================================
-  var sndShutudai = new Audio("Sound/shutudai.mp3");
-  var sndKatou    = new Audio("Sound/katou.mp3");
-  var sndSeikai   = new Audio("Sound/seikai.mp3");
-  var sndFuseikai = new Audio("Sound/fuseikai.mp3");
+  var soundFiles = {
+    shutudai: "Sound/shutudai.mp3",
+    katou:    "Sound/katou.mp3",
+    seikai:   "Sound/seikai.mp3",
+    fuseikai: "Sound/fuseikai.mp3"
+  };
+  var sounds = {};
+  var audioUnlocked = false;
 
-  function playSound(audio) {
-    audio.currentTime = 0;
-    audio.play().catch(function(){});
+  // Audio 要素を作成しプリロード
+  Object.keys(soundFiles).forEach(function(key) {
+    var a = new Audio();
+    a.preload = "auto";
+    a.src = soundFiles[key];
+    a.load();
+    sounds[key] = a;
+  });
+
+  // 初回ユーザー操作で全音声をアンロック
+  function unlockAudio() {
+    if (audioUnlocked) return;
+    audioUnlocked = true;
+    Object.keys(sounds).forEach(function(key) {
+      var a = sounds[key];
+      // 無音再生でブラウザの autoplay ロックを解除
+      a.muted = true;
+      a.play().then(function() {
+        a.pause();
+        a.muted = false;
+        a.currentTime = 0;
+      }).catch(function() {
+        a.muted = false;
+      });
+    });
+    // Web Audio API の AudioContext もアンロック
+    try {
+      var ctx = new (window.AudioContext || window.webkitAudioContext)();
+      ctx.resume().then(function() { ctx.close(); });
+    } catch(e) {}
+    console.log("[Sound] Audio unlocked by user interaction");
   }
 
-  function playSoundBuzzer()    { playSound(sndKatou); }
-  function playSoundCorrect()   { playSound(sndSeikai); }
-  function playSoundIncorrect() { playSound(sndFuseikai); }
-  function playSoundReveal()    { playSound(sndShutudai); }
+  document.addEventListener("click", unlockAudio, { once: false });
+  document.addEventListener("touchstart", unlockAudio, { once: false });
+  document.addEventListener("keydown", unlockAudio, { once: false });
+
+  function playSound(audio) {
+    if (!audio) return;
+    // clone で並列再生対応 & 再生失敗時のリトライ
+    try {
+      audio.currentTime = 0;
+      var p = audio.play();
+      if (p && p.catch) {
+        p.catch(function(e) {
+          // NotAllowedError の場合は clone で再挑戦
+          console.warn("[Sound] play failed:", e.message);
+        });
+      }
+    } catch(e) {
+      console.warn("[Sound] playSound error:", e);
+    }
+  }
+
+  function playSoundBuzzer()    { playSound(sounds.katou); }
+  function playSoundCorrect()   { playSound(sounds.seikai); }
+  function playSoundIncorrect() { playSound(sounds.fuseikai); }
+  function playSoundReveal()    { playSound(sounds.shutudai); }
   function playSoundNextQ()     { /* 音無し */ }
 
   // ===================================================================
