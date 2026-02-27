@@ -1,158 +1,845 @@
 {
-  "title": "インターネットミームクイズ大会",
+  "title": "チキチキ ロボスタディオン 日本のネットミームクイズ大会!!",
   "hayaoshi": [
-    {"id": 1, "question": "虹色の軌跡を残しながら宇宙を飛ぶ、ポップタルトの体を持つ猫のキャラクターは何？", "answer": "Nyan Cat", "difficulty": 1, "points": 10},
-    {"id": 2, "question": "Rick Astleyの「Never Gonna Give You Up」のMVに誘導する悪戯は何と呼ばれる？", "answer": "Rickroll", "difficulty": 1, "points": 10},
-    {"id": 3, "question": "「Such wow」「Much amaze」などの破壊的な英文法で知られる、柴犬の画像ミームは何？", "answer": "Doge", "difficulty": 1, "points": 10},
-    {"id": 4, "question": "彼氏が他の女性を振り返って見ている写真で有名な、ストックフォトから生まれたミームは何？", "answer": "Distracted Boyfriend", "difficulty": 1, "points": 10},
-    {"id": 5, "question": "炎に囲まれた部屋でコーヒーを飲む犬が「This is fine」と言うミームの犬の名前は？", "answer": "This is fine dog", "difficulty": 1, "points": 10},
-    {"id": 6, "question": "笑顔を作ろうとして苦痛そうな表情になっているハンガリーの電気技師のミームは何？", "answer": "Hide the Pain Harold", "difficulty": 1, "points": 10},
-    {"id": 7, "question": "砂浜でガッツポーズをしている赤ちゃんの画像ミームは何？", "answer": "Success Kid", "difficulty": 1, "points": 10},
-    {"id": 8, "question": "異常に目を見開いてカメラを見つめる女性の画像で知られるミームは何？", "answer": "Overly Attached Girlfriend", "difficulty": 1, "points": 10},
-    {"id": 9, "question": "赤いベストを着た、運の悪い出来事で知られる高校生のミームは何？", "answer": "Bad Luck Brian", "difficulty": 1, "points": 10},
-    {"id": 10, "question": "斜めに被った帽子が特徴的な、悪い行動を取る人物を表すミームは何？", "answer": "Scumbag Steve", "difficulty": 1, "points": 10},
-    {"id": 11, "question": "「Y U NO」という文法的に間違った英語で有名な、怒った顔のキャラクターは何？", "answer": "Y U NO Guy", "difficulty": 1, "points": 10},
-    {"id": 12, "question": "手を広げて「I don't know」というポーズをする、ASCII artから生まれた顔文字は何？", "answer": "¯\\_(ツ)_/¯ (Shruggie)", "difficulty": 1, "points": 10},
-    {"id": 13, "question": "「One does not simply walk into Mordor」というセリフで有名な、ロード・オブ・ザ・リングのキャラクターは誰？", "answer": "Boromir", "difficulty": 1, "points": 10},
-    {"id": 14, "question": "「I Can Has Cheezburger?」という文法的に間違った英語で有名な猫の画像サイトは何？", "answer": "LOLcats", "difficulty": 1, "points": 10},
-    {"id": 15, "question": "「It's over 9000!」というセリフで有名なアニメは何？", "answer": "ドラゴンボール", "difficulty": 1, "points": 10},
-    {"id": 16, "question": "「All your base are belong to us」という誤訳で有名なゲームは何？", "answer": "Zero Wing", "difficulty": 1, "points": 10},
-    {"id": 17, "question": "「Do a barrel roll」という指示をGoogleに入力すると何が起こる？", "answer": "画面が回転する", "difficulty": 1, "points": 10},
-    {"id": 18, "question": "「Press F to pay respects」という慣習が生まれたゲームは何？", "answer": "Call of Duty: Advanced Warfare", "difficulty": 1, "points": 10},
-    {"id": 19, "question": "「Hello, is it me you're looking for?」というセリフで、暗闇から現れるライオネル・リッチーのミームの元ネタは何？", "answer": "Helloのミュージックビデオ", "difficulty": 1, "points": 10},
-    {"id": 20, "question": "「Ermahgerd」という発音で有名な、本を持った女性の画像ミームは何？", "answer": "Ermahgerd Girl", "difficulty": 1, "points": 10},
-    {"id": 21, "question": "「Ain't nobody got time for that」というセリフで有名な女性は誰？", "answer": "Sweet Brown", "difficulty": 1, "points": 10},
-    {"id": 22, "question": "「Why you always lying?」という歌で有名な、赤い服を着た男性のミームは何？", "answer": "Why You Always Lying", "difficulty": 1, "points": 10},
-    {"id": 23, "question": "「But that's none of my business」というキャプションと共に紅茶を飲むカエルのキャラクターは誰？", "answer": "Kermit the Frog", "difficulty": 1, "points": 10},
-    {"id": 24, "question": "「Salt Bae」として知られる、塩を振りかけるポーズで有名なトルコのシェフは誰？", "answer": "Nusret Gökçe", "difficulty": 1, "points": 10},
-    {"id": 25, "question": "「Damn Daniel」というフレーズで有名な、白いVansのスニーカーを履いた高校生のミームは何？", "answer": "Damn Daniel", "difficulty": 1, "points": 10},
-    {"id": 26, "question": "「What are those?」というフレーズで靴を指差すミームの元ネタは何？", "answer": "Vine動画", "difficulty": 1, "points": 10},
-    {"id": 27, "question": "「Deez Nuts」というジョークの典型的な返答は何？", "answer": "Got em!", "difficulty": 1, "points": 10},
-    {"id": 28, "question": "「Dramatic Chipmunk」として知られる、振り返るプレーリードッグの動画の元ネタは何？", "answer": "日本のテレビ番組", "difficulty": 1, "points": 10},
-    {"id": 29, "question": "「Double Rainbow」の動画で、虹を見て感動する男性の名前は何？", "answer": "Paul Vasquez (Yosemitebear)", "difficulty": 1, "points": 10},
-    {"id": 30, "question": "「Leave Britney Alone」と叫んだ、ブリトニー・スピアーズを擁護する動画で有名な人物は誰？", "answer": "Chris Crocker", "difficulty": 1, "points": 10},
-    {"id": 31, "question": "「Chocolate Rain」という曲を歌った、低音ボイスで有名なYouTuberは誰？", "answer": "Tay Zonday", "difficulty": 1, "points": 10},
-    {"id": 32, "question": "「Charlie bit my finger」という動画で、兄の指を噛んだ弟の名前は何？", "answer": "Charlie", "difficulty": 1, "points": 10},
-    {"id": 33, "question": "「Harlem Shake」というダンスミームの元となった曲のアーティストは誰？", "answer": "Baauer", "difficulty": 1, "points": 10},
-    {"id": 34, "question": "「Gangnam Style」を歌った韓国のアーティストは誰？", "answer": "PSY", "difficulty": 1, "points": 10},
-    {"id": 35, "question": "「What does the fox say?」という曲で有名なノルウェーのコメディデュオは何？", "answer": "Ylvis", "difficulty": 1, "points": 10},
-    {"id": 36, "question": "「Numa Numa」の動画で、O-Zoneの「Dragostea Din Tei」に合わせて踊った人物は誰？", "answer": "Gary Brolsma", "difficulty": 1, "points": 10},
-    {"id": 37, "question": "「Keyboard Cat」として知られる、キーボードを弾く猫の名前は何？", "answer": "Fatso", "difficulty": 1, "points": 10},
-    {"id": 38, "question": "「Grumpy Cat」として知られる、不機嫌そうな顔の猫の本名は何？", "answer": "Tardar Sauce", "difficulty": 1, "points": 10},
-    {"id": 39, "question": "「Longcat is long」というフレーズで有名な、非常に長い猫の名前は何？", "answer": "Nobiko", "difficulty": 1, "points": 10},
-    {"id": 40, "question": "「Ceiling Cat」というミームで、天井から覗いている猫の画像の元ネタはどこの国？", "answer": "アメリカ", "difficulty": 1, "points": 10},
-    {"id": 41, "question": "日本のインターネットスラングで、笑いを表す「w」は何の略？", "answer": "笑い", "difficulty": 2, "points": 20},
-    {"id": 42, "question": "「草」という笑いを表すスラングは、何から派生した？", "answer": "wwwwが草に見えることから", "difficulty": 2, "points": 20},
-    {"id": 43, "question": "「大草原」や「大草原不可避」は、どのような状況を表す？", "answer": "非常に面白い、大爆笑", "difficulty": 2, "points": 20},
-    {"id": 44, "question": "「それな」という同意を表すスラングは、何の略？", "answer": "それだよな", "difficulty": 2, "points": 20},
-    {"id": 45, "question": "「マ？」という疑問を表すスラングは、何の略？", "answer": "マジ？", "difficulty": 2, "points": 20},
-    {"id": 46, "question": "プロ野球で、阪神タイガースが横浜に「33-4」で負けた試合は何年？", "answer": "2005年", "difficulty": 2, "points": 20},
-    {"id": 47, "question": "2016年にシンシナティ動物園で射殺されたゴリラの名前は何？", "answer": "Harambe", "difficulty": 2, "points": 20},
-    {"id": 48, "question": "「Feels good man」というフレーズで有名な緑色のカエルのキャラクターは何？", "answer": "Pepe the Frog", "difficulty": 2, "points": 20},
-    {"id": 49, "question": "「I know that feel bro」というフレーズで知られる、シンプルな描写の人間キャラクターは何？", "answer": "Wojak", "difficulty": 2, "points": 20},
-    {"id": 50, "question": "株価が上昇している画像に「Stonks」というスペルミスが書かれたミームの元ネタは何？", "answer": "Meme Man", "difficulty": 2, "points": 20},
-    {"id": 51, "question": "「やったぜ。」という淫夢語録の元ネタとなった人物のキャラクター名は何？", "answer": "野獣先輩", "difficulty": 2, "points": 20},
-    {"id": 52, "question": "「あっそっかぁ」という淫夢語録の元ネタとなった人物は誰？", "answer": "遠野", "difficulty": 2, "points": 20},
-    {"id": 53, "question": "「ンゴ」という語尾は、プロ野球選手の誰に由来する？", "answer": "ドミンゴ・グスマン", "difficulty": 2, "points": 20},
-    {"id": 54, "question": "「〇〇ニキ」という呼び方は、何という言葉の変化形？", "answer": "兄貴", "difficulty": 2, "points": 20},
-    {"id": 55, "question": "「サンキューカッス」の「カッス」は誰のこと？", "answer": "カッスレの糞スレ", "difficulty": 2, "points": 20},
-    {"id": 56, "question": "「彡(゚)(゚)」という顔文字は、何を表している？", "answer": "やきう民、野球好きの人", "difficulty": 2, "points": 20},
-    {"id": 57, "question": "「ポジハメくん」は、どの球団のファンを表すキャラクター？", "answer": "横浜DeNAベイスターズ", "difficulty": 2, "points": 20},
-    {"id": 58, "question": "「なんでや！阪神関係ないやろ！」というフレーズが生まれた掲示板はどこ？", "answer": "なんでも実況J板 (なんJ)", "difficulty": 2, "points": 20},
-    {"id": 59, "question": "「ワイ」という一人称は、何という方言から来ている？", "answer": "関西弁", "difficulty": 2, "points": 20},
-    {"id": 60, "question": "「クレメンス」という語尾は、何を意味する？", "answer": "ください", "difficulty": 2, "points": 20},
-    {"id": 61, "question": "「Bernie Sanders' mittens」として知られる、2021年の大統領就任式でバーニー・サンダースが座っていた写真のミームは何？", "answer": "Bernie Sanders sitting", "difficulty": 2, "points": 20},
-    {"id": 62, "question": "「Woman Yelling at Cat」というミームで、猫の前に置かれている食べ物は何？", "answer": "サラダ", "difficulty": 2, "points": 20},
-    {"id": 63, "question": "「Blinking White Guy」として知られる、驚いた表情で瞬きする男性のGIFミームは誰？", "answer": "Drew Scanlon", "difficulty": 2, "points": 20},
-    {"id": 64, "question": "「Mocking SpongeBob」というミームで、スポンジボブはどのような姿勢をしている？", "answer": "チキンのように前かがみ", "difficulty": 2, "points": 20},
-    {"id": 65, "question": "「Ight Imma Head Out」というミームの元ネタは、スポンジボブの何というキャラクター？", "answer": "SpongeBob SquarePants", "difficulty": 2, "points": 20},
-    {"id": 66, "question": "「Surprised Pikachu」というミームは、ポケモンアニメの第何話から？", "answer": "第1話", "difficulty": 2, "points": 20},
-    {"id": 67, "question": "「Is this a pigeon?」というミームの元ネタのアニメは何？", "answer": "機動武闘伝Gガンダム", "difficulty": 2, "points": 20},
-    {"id": 68, "question": "「They did surgery on a grape」というミームで、実際に行われた手術は何？", "answer": "ダ・ヴィンチ手術システムのデモ", "difficulty": 2, "points": 20},
-    {"id": 69, "question": "「Big Chungus」というミームの元ネタは、何のキャラクター？", "answer": "バッグス・バニー", "difficulty": 2, "points": 20},
-    {"id": 70, "question": "「Ugandan Knuckles」というミームで、よく言われるフレーズは何？", "answer": "Do you know de wey?", "difficulty": 2, "points": 20},
-    {"id": 71, "question": "「E」というミームで、Eの画像はどのゲームから来ている？", "answer": "Markiplier (Lord Farquaad E)", "difficulty": 2, "points": 20},
-    {"id": 72, "question": "「We are Number One」という曲が流行った、アイスランドの子供番組は何？", "answer": "LazyTown", "difficulty": 2, "points": 20},
-    {"id": 73, "question": "「Shooting Stars」という曲と共に、空を飛ぶように編集されるミームは何と呼ばれる？", "answer": "Shooting Stars meme", "difficulty": 2, "points": 20},
-    {"id": 74, "question": "「Coffin Dance」または「Dancing Pallbearers」として知られるミームの元の国はどこ？", "answer": "ガーナ", "difficulty": 2, "points": 20},
-    {"id": 75, "question": "「Rickroll」の替え歌として使われることがある、別のミームソングは何？", "answer": "Darude - Sandstorm", "difficulty": 2, "points": 20},
-    {"id": 76, "question": "「Mike Wazowski with two eyes」というミームは、何の映画のキャラクター？", "answer": "モンスターズ・インク", "difficulty": 2, "points": 20},
-    {"id": 77, "question": "「No, this is Patrick」というセリフは、スポンジボブの何というキャラクター？", "answer": "Patrick Star", "difficulty": 2, "points": 20},
-    {"id": 78, "question": "「Ah shit, here we go again」というセリフは、何のゲームから？", "answer": "Grand Theft Auto: San Andreas", "difficulty": 2, "points": 20},
-    {"id": 79, "question": "「FBI Open Up」というミームの元ネタは、何という番組？", "answer": "World's Wildest Police Videos", "difficulty": 2, "points": 20},
-    {"id": 80, "question": "「Moth Lamp」というミームで、蛾が惹かれているものは何？", "answer": "ランプ (Lämp)", "difficulty": 2, "points": 20},
-    {"id": 81, "question": "「Rickroll」が最初に広まった掲示板はどこ？", "answer": "4chan", "difficulty": 3, "points": 30},
-    {"id": 82, "question": "「Doge」ミームの元となった柴犬の写真が最初に投稿されたのは何年？", "answer": "2010年", "difficulty": 3, "points": 30},
-    {"id": 83, "question": "「Pepe the Frog」を最初に描いた漫画家は誰？", "answer": "Matt Furie", "difficulty": 3, "points": 30},
-    {"id": 84, "question": "「Loss」というミームの元ネタとなったウェブコミックは何？", "answer": "Ctrl+Alt+Del", "difficulty": 3, "points": 30},
-    {"id": 85, "question": "「All your base are belong to us」が最初に広まった年は何年？", "answer": "2000年", "difficulty": 3, "points": 30},
-    {"id": 86, "question": "「Kilroy was here」という第二次世界大戦時代のミームで、キルロイはどんな姿で描かれる？", "answer": "壁から覗く長い鼻の男", "difficulty": 3, "points": 30},
-    {"id": 87, "question": "「Dancing Baby」または「Baby Cha-Cha」というミームが流行したのは何年代？", "answer": "1990年代", "difficulty": 3, "points": 30},
-    {"id": 88, "question": "「Hampster Dance」というウェブサイトが作られたのは何年？", "answer": "1998年", "difficulty": 3, "points": 30},
-    {"id": 89, "question": "「Badger Badger Badger」というFlashアニメーションを作ったのは誰？", "answer": "Jonti Picking (Weebl)", "difficulty": 3, "points": 30},
-    {"id": 90, "question": "「Leeroy Jenkins」というミームが生まれたゲームは何？", "answer": "World of Warcraft", "difficulty": 3, "points": 30},
-    {"id": 91, "question": "「Over 9000」というミームが最初に広まった4chanの板はどこ？", "answer": "/a/ (アニメ板)", "difficulty": 3, "points": 30},
-    {"id": 92, "question": "「Trollface」を最初に描いたのは誰？", "answer": "Carlos Ramirez", "difficulty": 3, "points": 30},
-    {"id": 93, "question": "「Rage Comics」が最初に作られたのはどこ？", "answer": "4chan", "difficulty": 3, "points": 30},
-    {"id": 94, "question": "「Advice Animals」というミームフォーマットが最初に広まった掲示板はどこ？", "answer": "Reddit", "difficulty": 3, "points": 30},
-    {"id": 95, "question": "「Dat Boi」というミームで、カエルが乗っているものは何？", "answer": "一輪車", "difficulty": 3, "points": 30},
-    {"id": 96, "question": "「Shrek is love, Shrek is life」という不穏なミームが最初に投稿されたのはどこ？", "answer": "4chan", "difficulty": 3, "points": 30},
-    {"id": 97, "question": "「やる夫」というAAキャラクターが最初に登場した掲示板はどこ？", "answer": "2ちゃんねる", "difficulty": 3, "points": 30},
-    {"id": 98, "question": "「モナー」という猫のAAキャラクターが生まれたのは何年？", "answer": "1999年", "difficulty": 3, "points": 30},
-    {"id": 99, "question": "「ぬこ」という表現は、何という言葉の変化形？", "answer": "猫", "difficulty": 3, "points": 30},
-    {"id": 100, "question": "「orz」というAAは何を表している？", "answer": "土下座、がっくり", "difficulty": 3, "points": 30},
-    {"id": 101, "question": "「うはwwwおkwww」という表現が流行した掲示板はどこ？", "answer": "2ちゃんねる (VIP)", "difficulty": 3, "points": 30},
-    {"id": 102, "question": "「ktkr」という略語は何を意味する？", "answer": "キタコレ", "difficulty": 3, "points": 30},
-    {"id": 103, "question": "「kwsk」という略語は何を意味する？", "answer": "詳しく", "difficulty": 3, "points": 30},
-    {"id": 104, "question": "「ggrks」という略語は何を意味する？", "answer": "ググれカス", "difficulty": 3, "points": 30},
-    {"id": 105, "question": "「vip先生」というキャラクターが生まれた掲示板はどこ？", "answer": "ニュー速VIP", "difficulty": 3, "points": 30},
-    {"id": 106, "question": "「淫夢」の元ネタとなった作品のジャンルは何？", "answer": "アダルトビデオ", "difficulty": 3, "points": 30},
-    {"id": 107, "question": "「クッキー☆」というシリーズの元ネタとなったゲームは何？", "answer": "東方Project", "difficulty": 3, "points": 30},
-    {"id": 108, "question": "「例のアレ」というカテゴリがあるのはどの動画サイト？", "answer": "ニコニコ動画", "difficulty": 3, "points": 30},
-    {"id": 109, "question": "「ふぁぼ」という言葉は、Twitterの何という機能の略？", "answer": "Favorite (お気に入り)", "difficulty": 3, "points": 30},
-    {"id": 110, "question": "「バルス」という言葉が一斉にツイートされる元ネタのアニメは何？", "answer": "天空の城ラピュタ", "difficulty": 3, "points": 30},
-    {"id": 111, "question": "「チャージマン研！」がネタにされるようになったきっかけは何？", "answer": "ニコニコ動画での再発見", "difficulty": 3, "points": 30},
-    {"id": 112, "question": "「ぐう○○」という表現の「ぐう」は何の略？", "answer": "ぐうの音も出ないほど", "difficulty": 3, "points": 30},
-    {"id": 113, "question": "「サンイチ」という言葉は何を意味する？", "answer": "サンキューイッチ (スレ立て感謝)", "difficulty": 3, "points": 30},
-    {"id": 114, "question": "「有能」「無能」という評価が頻繁に使われるようになった掲示板はどこ？", "answer": "なんJ", "difficulty": 3, "points": 30},
-    {"id": 115, "question": "「DQN」という言葉の元ネタとなったテレビ番組は何？", "answer": "目撃!ドキュン", "difficulty": 3, "points": 30},
-    {"id": 116, "question": "「テンプレ」という言葉は何の略？", "answer": "テンプレート", "difficulty": 3, "points": 30},
-    {"id": 117, "question": "「希望の花」という煽りAAが生まれた掲示板はどこ？", "answer": "2ちゃんねる", "difficulty": 3, "points": 30},
-    {"id": 118, "question": "「やらないか」というセリフの元ネタとなった作品は何？", "answer": "くそみそテクニック", "difficulty": 3, "points": 30},
-    {"id": 119, "question": "「アッー！」という表現が生まれたきっかけとなったスポーツ選手は誰？", "answer": "多田野数人", "difficulty": 3, "points": 30},
-    {"id": 120, "question": "「パンツマン」というキャラクターが登場する掲示板はどこ？", "answer": "ふたば☆ちゃんねる", "difficulty": 3, "points": 30}
-  ],
-  "silhouette": [],
-  "intro": [
-    {"id":1,"anime_title":"Nyan Cat","song_title":"Nyan Cat","artist":"daniwellP","hint":"虹を出しながら飛ぶネコのループ動画","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=QH2-TGUlwu4","youtube_start":0,"youtube_end":30},
-    {"id":2,"anime_title":"リックロール","song_title":"Never Gonna Give You Up","artist":"Rick Astley","hint":"URLを踏むと流れる究極のネタ曲","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=dQw4w9WgXcQ","youtube_start":0,"youtube_end":30},
-    {"id":3,"anime_title":"Gangnam Style","song_title":"江南スタイル","artist":"PSY","hint":"馬ダンスで世界を席巻した韓国の曲","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=9bZkp7q19f0","youtube_start":0,"youtube_end":30},
-    {"id":4,"anime_title":"PPAP","song_title":"Pen-Pineapple-Apple-Pen","artist":"ピコ太郎","hint":"ペンとパイナップルとアップルの曲","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=0E00Zuayv9Q","youtube_start":0,"youtube_end":30},
-    {"id":5,"anime_title":"Baby Shark","song_title":"Baby Shark","artist":"Pinkfong","hint":"世界で最も再生された子供向けの曲","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=XqZsoesa55w","youtube_start":0,"youtube_end":30},
-    {"id":6,"anime_title":"Numa Numa","song_title":"Dragostea Din Tei","artist":"O-Zone","hint":"モルドバ出身のグループによるユーロダンス曲","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=YnopHCL1Jk8","youtube_start":0,"youtube_end":30},
-    {"id":7,"anime_title":"Crazy Frog","song_title":"Axel F","artist":"Crazy Frog","hint":"青いカエルのキャラが踊るアニメーション","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=k85mRPqvMbE","youtube_start":0,"youtube_end":30},
-    {"id":8,"anime_title":"Tunak Tunak Tun","song_title":"Tunak Tunak Tun","artist":"Daler Mehndi","hint":"インドのミュージシャンが分身する有名MV","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=vTIIMJ9tUc8","youtube_start":0,"youtube_end":30},
-    {"id":9,"anime_title":"Take On Me","song_title":"Take On Me","artist":"a-ha","hint":"鉛筆画アニメーションのMVが有名なノルウェーの曲","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=djV11Xbc914","youtube_start":0,"youtube_end":30},
-    {"id":10,"anime_title":"All Star","song_title":"All Star","artist":"Smash Mouth","hint":"シュレックの冒頭で有名になった曲","difficulty":1,"points":10,"youtube_url":"https://www.youtube.com/watch?v=L_jWHffIx5E","youtube_start":0,"youtube_end":30},
-    {"id":11,"anime_title":"東方Project","song_title":"Bad Apple!! feat. nomico","artist":"Alstroemeria Records","hint":"影絵PVで大人気の東方アレンジ曲","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=FtutLA63Cp8","youtube_start":0,"youtube_end":30},
-    {"id":12,"anime_title":"千本桜","song_title":"千本桜","artist":"黒うさP feat. 初音ミク","hint":"ボカロ代表曲の一つ、和風ロック","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=K_xTet06SUo","youtube_start":0,"youtube_end":30},
-    {"id":13,"anime_title":"U.S.A.","song_title":"U.S.A.","artist":"DA PUMP","hint":"「いいねダンス」で2018年に大流行","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=sr--GVIoluU","youtube_start":0,"youtube_end":30},
-    {"id":14,"anime_title":"逃げるは恥だが役に立つ","song_title":"恋","artist":"星野源","hint":"恋ダンスで社会現象になったドラマ主題歌","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=jhOVibLEDhA","youtube_start":0,"youtube_end":30},
-    {"id":15,"anime_title":"Coffin Dance","song_title":"Astronomia","artist":"Vicetone & Tony Igy","hint":"ガーナの棺桶ダンスミームで使われた曲","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=iLBBRuVDOo4","youtube_start":0,"youtube_end":30},
-    {"id":16,"anime_title":"Shooting Stars","song_title":"Shooting Stars","artist":"Bag Raiders","hint":"人や物が宇宙に飛んでいくミームBGM","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=feA64wXhbjo","youtube_start":0,"youtube_end":30},
-    {"id":17,"anime_title":"We Are Number One","song_title":"We Are Number One","artist":"LazyTown","hint":"アイスランドの子供番組から生まれたミーム","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=PfYnvDL0Qcw","youtube_start":0,"youtube_end":30},
-    {"id":18,"anime_title":"Let It Go (アナと雪の女王)","song_title":"Let It Go","artist":"Idina Menzel","hint":"ディズニー映画から世界的ミームになった曲","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=L0MK7qz13bU","youtube_start":0,"youtube_end":30},
-    {"id":19,"anime_title":"Undertale","song_title":"MEGALOVANIA","artist":"Toby Fox","hint":"サンズ戦のBGMとして有名なゲーム音楽","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=wDgQdr8ZkTw","youtube_start":0,"youtube_end":30},
-    {"id":20,"anime_title":"Darude - Sandstorm","song_title":"Sandstorm","artist":"Darude","hint":"「曲名は？」→「Darude - Sandstorm」のミーム","difficulty":2,"points":20,"youtube_url":"https://www.youtube.com/watch?v=y6120QOlsfU","youtube_start":0,"youtube_end":30},
-    {"id":21,"anime_title":"けものフレンズ","song_title":"ようこそジャパリパークへ","artist":"どうぶつビスケッツ×PPP","hint":"「すごーい！」「たのしー！」で話題になったアニメOP","difficulty":2,"points":20,"youtube_url":"","youtube_start":0,"youtube_end":30},
-    {"id":22,"anime_title":"Caramelldansen","song_title":"Caramelldansen","artist":"Caramell","hint":"ぽっぴっぽダンスの元ネタ、スウェーデンの曲","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
-    {"id":23,"anime_title":"Ievan Polkka","song_title":"Ievan Polkka","artist":"Loituma","hint":"ネギ回しミームの元ネタ、フィンランドの民謡","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
-    {"id":24,"anime_title":"Running in the 90's","song_title":"Running in the 90's","artist":"Max Coveri","hint":"頭文字Dと共に流行ったユーロビート曲","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
-    {"id":25,"anime_title":"マツケンサンバ","song_title":"マツケンサンバII","artist":"松平健","hint":"時代劇俳優が金ピカ衣装で踊る曲","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
-    {"id":26,"anime_title":"おジャ魔女どれみ","song_title":"おジャ魔女カーニバル!!","artist":"MAHO堂","hint":"「ピーリカピリララ」の呪文で有名な魔女っ子アニメ","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
-    {"id":27,"anime_title":"初音ミク","song_title":"みくみくにしてあげる♪","artist":"ika","hint":"初音ミク初期の代表曲、ニコ動で大流行","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
-    {"id":28,"anime_title":"ニコニコ動画","song_title":"ニコニコ動画流星群","artist":"しも","hint":"100曲以上のメドレー、ニコ動文化の象徴","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
-    {"id":29,"anime_title":"レッツゴー!陰陽師","song_title":"レッツゴー!陰陽師","artist":"矢部野彦麿&琴姫","hint":"ニコニコ動画黎明期の伝説的動画","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30},
-    {"id":30,"anime_title":"ウマ娘 プリティーダービー","song_title":"うまぴょい伝説","artist":"ウマ娘","hint":"競走馬を擬人化したゲームの中毒ソング","difficulty":3,"points":30,"youtube_url":"","youtube_start":0,"youtube_end":30}
+    {
+      "id": 1,
+      "question": "2ちゃんねるで「ぬるぽ」と書き込むと、お約束の返しとして何と叩かれる？",
+      "answer": "ガッ",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 2,
+      "question": "ネット掲示板で良いニュースが来たときに使われるAA「キタ━━━━(゚∀゚)━━━━!!」。この顔文字の感情は？",
+      "answer": "喜び・興奮",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 3,
+      "question": "がっくりと膝をついて落ち込んでいる様子を表す3文字のネットスラングは？",
+      "answer": "orz",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 4,
+      "question": "ネット上で「草」や「www」は何を意味するスラング？",
+      "answer": "笑い",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 5,
+      "question": "2ちゃんねる発祥の猫のAAキャラクターで、「逝ってよし」の台詞で有名なキャラの名前は？",
+      "answer": "モナー",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 6,
+      "question": "2ちゃんねるで非常識な行動をする人を指す3文字のスラングで、元は「目撃ドキュン」に由来するものは？",
+      "answer": "DQN",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 7,
+      "question": "ニコニコ動画で、画面を覆い尽くすほど大量のコメントが流れる現象を何という？",
+      "answer": "弾幕",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 8,
+      "question": "2ちゃんねるで「奴」を意味する当て字スラング「香具師」は何と読む？",
+      "answer": "やし",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 9,
+      "question": "ニコニコ動画初期の大ヒット動画で、陰陽師のキャラクターが踊る動画のタイトルは「レッツゴー○○○」？",
+      "answer": "陰陽師",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 10,
+      "question": "ネット掲示板でスレッドの進行を速めるために使われる3文字のスラング「ksk」は何の略？",
+      "answer": "加速",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 11,
+      "question": "「wktk」というネットスラングは、何かを楽しみに待つ様子を表しますが、何の略？",
+      "answer": "ワクテカ",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 12,
+      "question": "2ちゃんねる発祥のAAキャラクターで、丸い顔に「内藤ホライゾン」という名前もある「（　＾ω＾）」のキャラは？",
+      "answer": "ブーン",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 13,
+      "question": "掲示板で「お疲れ様」を1文字で表すネットスラングは？",
+      "answer": "乙",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 14,
+      "question": "「ggrks」というネットスラングは「○○○○カス」の略。何をしろという意味？",
+      "answer": "ググれカス",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 15,
+      "question": "2ちゃんねるの電車内での恋愛実況スレッドから書籍化・映画化された作品のタイトルは？",
+      "answer": "電車男",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 16,
+      "question": "ニコニコ動画で、自分で歌った動画を投稿するジャンルを何という？",
+      "answer": "歌ってみた",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 17,
+      "question": "「kwsk」というネットスラングは何の略で、「もっと教えて」という意味？",
+      "answer": "詳しく",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 18,
+      "question": "Twitterなどで投稿が大量に拡散されることを、日本のネットスラングで何という？",
+      "answer": "バズる",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 19,
+      "question": "SNSでの不適切な投稿に批判が殺到することを、火事に例えて何という？",
+      "answer": "炎上",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 20,
+      "question": "初音ミクに代表される、ヤマハが開発した歌声合成ソフトウェアの総称は？",
+      "answer": "VOCALOID",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 21,
+      "question": "2ちゃんねる発祥のAAキャラクターで、「やる夫」の顔文字に使われる目の表現は「●」ですが、体型の特徴は？",
+      "answer": "太っている",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 22,
+      "question": "ニコニコ動画のコメント機能で「8888888」と打つのは何を意味する？",
+      "answer": "拍手",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 23,
+      "question": "Twitterでバイトテロなど不適切な投稿をして炎上する人を指す造語「○○ッター」とは？",
+      "answer": "バカッター",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 24,
+      "question": "ネットで「情弱」とは何の略で、情報に疎い人を指すスラング？",
+      "answer": "情報弱者",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 25,
+      "question": "ネット上で笑いを表す「w」を大量に並べた「wwwww」が草に見えることから生まれた表現は？",
+      "answer": "草",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 26,
+      "question": "ニコニコ動画で2007年に大流行した、ある曲の空耳動画「○○○○○でウッーウッーウマウマ(ﾟ∀ﾟ)」の元ネタは何という曲？",
+      "answer": "Caramelldansen",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 27,
+      "question": "2ちゃんねるのAA（アスキーアート）で使われる猫キャラ「ギコ猫」の鳴き声の特徴的な表記は？",
+      "answer": "ゴルァ",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 28,
+      "question": "ネットスラングで「リア充」とは何の略？",
+      "answer": "リアル充実",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 29,
+      "question": "ニコニコ動画発の文化で、既存の音楽に合わせて踊った動画を投稿するジャンルを何という？",
+      "answer": "踊ってみた",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 30,
+      "question": "「なんJ」は2ちゃんねる（5ちゃんねる）の掲示板の略称ですが、正式名称は「なんでも○○○○」？",
+      "answer": "実況J",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 31,
+      "question": "ネットスラングで「禿同」は何を意味する？",
+      "answer": "激しく同意",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 32,
+      "question": "2ちゃんねるの「VIP板」の正式名称は「ニュース速報（○○○）」？",
+      "answer": "VIP",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 33,
+      "question": "有名なコピペ「お前がそう思うんならそうなんだろう　お前ん中ではな」の元ネタとなった漫画は？",
+      "answer": "少女ファイト",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 34,
+      "question": "ネット上で「つべ」と略されるサイトは？",
+      "answer": "YouTube",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 35,
+      "question": "2016年にキズナアイが先駆けとなった、CGキャラクターがYouTubeなどで活動する存在を何という？",
+      "answer": "VTuber",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 36,
+      "question": "ネットスラングで「ステマ」とは何の略？",
+      "answer": "ステルスマーケティング",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 37,
+      "question": "なんJ語で「ンゴ」の由来となった、2010年の日本シリーズで打たれた外国人投手の名前は？",
+      "answer": "ドミンゴ",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 38,
+      "question": "ネット上で「沼」という表現は、ハマって抜け出せない状態を意味しますが、「○○沼」のように趣味にのめり込むことを何という？",
+      "answer": "沼にハマる",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 39,
+      "question": "2ちゃんねるで生まれたスラングで、「ワロタ」の最上級表現として使われる「腹筋が○○」とは？",
+      "answer": "崩壊",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 40,
+      "question": "ネットスラングで「鯖」とは何の略称？",
+      "answer": "サーバー",
+      "difficulty": 1,
+      "points": 10
+    },
+    {
+      "id": 41,
+      "question": "なんJ語で「ありがとう」を意味するスラングは何？",
+      "answer": "サンガツ",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 42,
+      "question": "ニコニコ動画で「御三家」と呼ばれる3つのジャンルは東方・ボカロとあと1つは何？",
+      "answer": "アイマス",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 43,
+      "question": "ボカロP「ハチ」が本名名義で活動しているアーティスト名は？",
+      "answer": "米津玄師",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 44,
+      "question": "2ちゃんねるで「嘘を嘘と見抜ける人でないと（掲示板を使うのは）難しい」という名言を残した管理人は誰？",
+      "answer": "ひろゆき",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 45,
+      "question": "なんJで阪神タイガースの2005年日本シリーズのスコアに由来する有名な数字の羅列は？",
+      "answer": "33-4",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 46,
+      "question": "ニコニコ動画発祥で、「w」を大量に並べる笑いの表現が転じて生まれたネットスラングは何？",
+      "answer": "草",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 47,
+      "question": "P2Pファイル共有ソフト「Winny」を開発し、著作権法違反幇助で逮捕された東大助手は誰？",
+      "answer": "金子勇",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 48,
+      "question": "2ちゃんねるの電車男スレで、スレ住民たちが電車男を応援する際に使った決まり文句「○○しる！」の○○は？",
+      "answer": "ガンガレ",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 49,
+      "question": "なんJ民を表すAA（アスキーアート）の顔文字「彡(゚)(゚)」は何と呼ばれている？",
+      "answer": "やきう民",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 50,
+      "question": "ニコニコ動画で初音ミクの代表曲「メルト」を作曲したボカロPは誰？",
+      "answer": "ryo",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 51,
+      "question": "2ちゃんねるで生まれたネットスラング「ステマ」は何の略？",
+      "answer": "ステルスマーケティング",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 52,
+      "question": "Flash動画全盛期に人気を博した「ペリー来航」のFlashで、ペリーが開国を迫る際の名セリフ「○○○○してくださいよ〜」の○○○○は？",
+      "answer": "開国",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 53,
+      "question": "なんJ語で語尾につける「ンゴ」の由来となった、2008年に楽天で打たれた外国人投手の名前は？",
+      "answer": "ドミンゴ・グスマン",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 54,
+      "question": "ニコニコ動画で「歌ってみた」カテゴリの先駆者的存在で、後にメジャーデビューした歌い手「ガゼル」の別名義は？",
+      "answer": "やなぎなぎ",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 55,
+      "question": "2012年に発生した「PC遠隔操作事件」で、真犯人が手がかりを仕込んだ動物は何？",
+      "answer": "猫",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 56,
+      "question": "2ちゃんねるで生まれた「能登かわいいよ能登」というフレーズの「能登」とは誰のこと？",
+      "answer": "能登麻美子",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 57,
+      "question": "ネット上で批判が殺到して大騒ぎになることを指す「炎上」という表現が定着したきっかけの一つとされる、2005年のブログ炎上事件で有名になった女性タレントは？",
+      "answer": "眞鍋かをり",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 58,
+      "question": "淫夢語録の基本フレーズで、何かを肯定する時に使われる「○○○○、はっきりわかんだね」。○○○○に入る言葉は？",
+      "answer": "あぁ～いいっすねぇ",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 59,
+      "question": "2ちゃんねるのVIP板発祥で、「ブーン」のAAで知られるキャラクターの正式名称は？",
+      "answer": "内藤ホライゾン",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 60,
+      "question": "DECO*27の代表的なボカロ曲で、2020年に投稿され6000万再生を超えた曲のタイトルは？",
+      "answer": "ヴァンパイア",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 61,
+      "question": "なんJ語で先輩や年上の人を指すスラングは何？",
+      "answer": "ニキ",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 62,
+      "question": "ニコニコ動画の音MAD文化で、素材として非常に多く使われた「レスリングシリーズ」の主役である元レスラーの通称は？",
+      "answer": "兄貴",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 63,
+      "question": "Twitterで2013年に「バイトテロ」として大炎上した、冷蔵庫に入った写真が拡散されたステーキチェーン店はどこ？",
+      "answer": "ブロンコビリー",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 64,
+      "question": "2ちゃんねるの有名なコピペ「ブロント語」の元ネタとなったオンラインゲームは何？",
+      "answer": "FF11",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 65,
+      "question": "ニコニコ動画で2007年に投稿され、初音ミク初期の代表曲となった「みくみくにしてあげる♪」の作曲者は？",
+      "answer": "ika",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 66,
+      "question": "「ハセカラ」騒動の発端となった弁護士の名前は？",
+      "answer": "唐澤貴洋",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 67,
+      "question": "まとめサイト「はちま起稿」が2012年に大炎上した際、管理人の父親が関与していたとされた企業はどこ？",
+      "answer": "KND",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 68,
+      "question": "ニコニコ動画で「踊ってみた」カテゴリの代表的な踊り手で、「ハレ晴レユカイ」を踊る動画で有名になった人物は？",
+      "answer": "愛川こずえ",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 69,
+      "question": "東方Projectの二次創作で、影絵PVが大きな話題となった楽曲「Bad Apple!! feat. nomico」を制作したサークルは？",
+      "answer": "Alstroemeria Records",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 70,
+      "question": "Flash動画「魔理沙は大変なものを盗んでいきました」が属するジャンルで、東方Projectの楽曲をアレンジした動画の総称は？",
+      "answer": "東方アレンジ",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 71,
+      "question": "なんJで使われる「草生える」をさらに強調した表現で、「大草原不可避」の上位にあたるネットスラングは？",
+      "answer": "草も生えない",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 72,
+      "question": "ネット実況文化で、2ちゃんねるの実況板が最もサーバーに負荷をかけるイベントとして知られた年末の番組は？",
+      "answer": "紅白歌合戦",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 73,
+      "question": "2ちゃんねるで「ぬるぽ」と書き込むと返ってくるお約束のレスは何？",
+      "answer": "ガッ",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 74,
+      "question": "ニコニコ動画の生放送サービスの名称は「ニコニコ○○」。○○に入る言葉は？",
+      "answer": "生放送",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 75,
+      "question": "2ちゃんねるの「なんでも実況J」板の「J」は何の略？",
+      "answer": "Jupiter",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 76,
+      "question": "ボカロ曲「千本桜」を作曲したボカロPの名前は？",
+      "answer": "黒うさP",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 77,
+      "question": "Twitterで「バルス祭り」として毎回世界記録を更新するツイート数を記録した、この呪文が唱えられるジブリ映画は？",
+      "answer": "天空の城ラピュタ",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 78,
+      "question": "2ちゃんねるで「逝ってよし」「オマエモナー」などのスラングが流行した時代に最も人気だった、「( ´∀｀)」で表されるAAキャラの名前は？",
+      "answer": "モナー",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 79,
+      "question": "ニコニコ動画のコメント機能で、動画の特定タイミングに大量のコメントが集中して画面を覆い尽くす現象を何と呼ぶ？",
+      "answer": "弾幕",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 80,
+      "question": "ネットスラング「バズる」の語源となった英語の単語は何？",
+      "answer": "buzz",
+      "difficulty": 2,
+      "points": 20
+    },
+    {
+      "id": 81,
+      "question": "2ちゃんねるが開設されたのは西暦何年？",
+      "answer": "1999年",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 82,
+      "question": "2ちゃんねるの前身となった掲示板「あめぞう」の正式名称は？",
+      "answer": "あめぞうリンク",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 83,
+      "question": "ニコニコ動画のサービス開始時の名称「ニコニコ動画（仮）」が始まったのは西暦何年？",
+      "answer": "2006年",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 84,
+      "question": "NTTが1995年から提供した、23時から翌朝8時まで市内通話が定額になるサービスの名称は？",
+      "answer": "テレホーダイ",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 85,
+      "question": "2ちゃんねるの創設者・西村博之の生年月日は1976年何月何日？",
+      "answer": "11月16日",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 86,
+      "question": "Flash動画「ゴノレゴ」で使用されたBUMP OF CHICKENの楽曲名は？",
+      "answer": "ダンデライオン",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 87,
+      "question": "テキストサイト「侍魂」の管理人のハンドルネームは？",
+      "answer": "健",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 88,
+      "question": "2001年に中国が開発した二足歩行ロボットが日本のネットで大きく話題になりました。このロボットの名前は？",
+      "answer": "先行者",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 89,
+      "question": "Winnyを開発し、著作権法違反幇助で逮捕された元東大助手の名前は？",
+      "answer": "金子勇",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 90,
+      "question": "2000年に起きた西鉄バスジャック事件の犯人が2ちゃんねるで使用していたハンドルネームは？",
+      "answer": "ネオむぎ茶",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 91,
+      "question": "「のまネコ」騒動で、元になったとされるFlashのAAキャラクターの名前は？",
+      "answer": "モナー",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 92,
+      "question": "初音ミクが発売されたのは2007年何月何日？",
+      "answer": "8月31日",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 93,
+      "question": "ボーカロイド楽曲「メルト」の作曲者のハンドルネームは？",
+      "answer": "ryo",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 94,
+      "question": "初音ミクの公式キャラクターデザインを担当したイラストレーターは？",
+      "answer": "KEI",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 95,
+      "question": "2ちゃんねるのAA「内藤ホライゾン」の口癖として知られるフレーズは？",
+      "answer": "ブーン",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 96,
+      "question": "2ちゃんねるのスラング「DQN」の語源となった、目撃情報を集めるサイトの名前は？",
+      "answer": "目撃ドキュン",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 97,
+      "question": "キズナアイがYouTubeで活動を開始したのは西暦何年？",
+      "answer": "2016年",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 98,
+      "question": "ネットスラング「厨房」は何の略語が変化したもの？",
+      "answer": "中坊",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 99,
+      "question": "2ちゃんねる発祥の「電車男」が書籍化された際の出版社は？",
+      "answer": "新潮社",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 100,
+      "question": "パソコン通信サービス「NIFTY-Serve」がサービスを終了したのは西暦何年？",
+      "answer": "2006年",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 101,
+      "question": "ニコニコ動画で「弾幕」という文化が生まれましたが、ニコニコ動画（仮）の次のバージョン名は？",
+      "answer": "ニコニコ動画（β）",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 102,
+      "question": "2ちゃんねるで「祭り」と呼ばれる現象が初めて大規模に起きたとされる2001年の事件で、田代まさしをTIME誌のPerson of the Yearに選ぼうとした運動を何と呼ぶ？",
+      "answer": "田代祭り",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 103,
+      "question": "ふたば☆ちゃんねるで匿名投稿者のデフォルト名として使われている名前は？",
+      "answer": "としあき",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 104,
+      "question": "AA（アスキーアート）キャラクター「やる夫」から派生した、目が細いキャラクターの名前は？",
+      "answer": "やらない夫",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 105,
+      "question": "2ちゃんねるの実質的な管理権を西村博之から引き継いだアメリカ人の名前は？",
+      "answer": "ジム・ワトキンス",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 106,
+      "question": "にじさんじを運営している企業の現在の名前は？",
+      "answer": "ANYCOLOR",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 107,
+      "question": "ホロライブプロダクションを運営する企業の名前は？",
+      "answer": "カバー",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 108,
+      "question": "ニコニコ超会議が初めて開催されたのは西暦何年？",
+      "answer": "2012年",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 109,
+      "question": "2004年頃に流行したFlash動画「ドラサイト」の正式なタイトルに含まれるドラえもんの道具は？",
+      "answer": "どこでもドア",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 110,
+      "question": "テキストサイト「ちゆ12歳」の管理人が設定上名乗っていた年齢は？",
+      "answer": "12歳",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 111,
+      "question": "mixiが招待制を廃止してオープン登録になったのは西暦何年？",
+      "answer": "2010年",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 112,
+      "question": "2ちゃんねるVIP板で生まれた「ブーン系小説」の主人公「内藤ホライゾン」のAA顔文字の特徴的な顔の表記は？",
+      "answer": "（　^ω^）",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 113,
+      "question": "ニコニコ動画の「歌ってみた」カテゴリから生まれ、supercellのボーカルとしてメジャーデビューした歌い手は？",
+      "answer": "nagi（やなぎなぎ）",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 114,
+      "question": "2ちゃんねるのVIP板で生まれたネットスラング「安価」の読み方は？",
+      "answer": "あんか",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 115,
+      "question": "ニコニコ動画で「ランキング1位を取った最初の動画」として知られる、レスリングシリーズの元になった人物のニックネームは？",
+      "answer": "兄貴",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 116,
+      "question": "2ちゃんねるで使われる「草」（笑いの意味）の由来となった表現「w」は元々何のゲームのチャットで使われ始めたとされる？",
+      "answer": "Ultima Online",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 117,
+      "question": "ニコニコ動画初期に投稿され社会現象となった「真っ赤な誓い」のMAD動画で使用されたアニメ作品は？",
+      "answer": "武装錬金",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 118,
+      "question": "淫夢語録で「はっきりわかんだね」が生まれたとされるシリーズの章番号は第何章？",
+      "answer": "第4章",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 119,
+      "question": "2ちゃんねるの「鬼女板」の正式な板名は？",
+      "answer": "既婚女性",
+      "difficulty": 3,
+      "points": 30
+    },
+    {
+      "id": 120,
+      "question": "2005年に2ちゃんねるで起きた「のまネコ問題」で批判の対象となった企業は？",
+      "answer": "エイベックス",
+      "difficulty": 3,
+      "points": 30
+    }
   ]
 }
